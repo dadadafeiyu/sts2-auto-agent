@@ -1,0 +1,77 @@
+{
+  "id": "sts2-decider",
+  "name": "StS2 决策器",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "category": "utility",
+  "description": "给《杀戮尖塔 2》做决策：本地起一个 HTTP 端口，游戏内模组把当前局面 POST 过来，插件直接调用核心模型（不带人设、不带聊天历史、不挂工具）给出选择，再把答案返回给模组执行。决策由模型做，模组只负责动作。",
+  "enabledByDefault": true,
+  "capabilities": [
+    "sts2.status"
+  ],
+  "permissions": [],
+  "settings": {
+    "enabled": true,
+    "port": 18731,
+    "timeoutMs": 120000,
+    "temperature": 0.2,
+    "maxTokens": 3000,
+    "useCheats": false,
+    "overlayEnabled": true
+  },
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "label": "启用决策服务",
+      "description": "关闭后不再监听端口，游戏里的模组将收不到决策（对局会暂停等待）。",
+      "default": true
+    },
+    "port": {
+      "type": "number",
+      "label": "监听端口",
+      "description": "只监听 127.0.0.1。改完需要让模组指向同一端口。",
+      "default": 18731
+    },
+    "timeoutMs": {
+      "type": "number",
+      "label": "单次决策超时（毫秒）",
+      "description": "模型超过这个时间没回，本次决策判失败，模组会重试或暂停。",
+      "default": 120000
+    },
+    "temperature": {
+      "type": "number",
+      "label": "采样温度",
+      "description": "决策要稳定，建议 0~0.3。",
+      "default": 0.2
+    },
+    "maxTokens": {
+      "type": "number",
+      "label": "单次输出上限（token）",
+      "description": "只回一个 JSON，不需要很长。",
+      "default": 3000
+    },
+    "decisionsPanel": {
+      "type": "action",
+      "panel": "panel/decisions.html",
+      "label": "对局决策记录",
+      "button": "查看她每一步的选择",
+      "description": "实时显示她在对局里的关键决策（选路/选牌/火堆/商店/事件），含当时的分数与理由。"
+    },
+    "overlayEnabled": {
+      "type": "boolean",
+      "label": "显示肥鱼气泡浮窗",
+      "description": "对局时在游戏窗口右下角显示决策气泡（白色泡泡 + 小肥鱼）。关掉后不再启动浮窗进程。",
+      "default": true
+    },
+    "useCheats": {
+      "type": "boolean",
+      "label": "允许 AutoSlay 作弊",
+      "description": "开启后保留原版作弊：战斗开始 999 层护甲+回复、第 3 回合起 +200 力量、事件房 +100。关闭则每次战斗开打时把这些作弊效果清零，用真实强度游玩。",
+      "default": false
+    }
+  },
+  "hooks": [
+    "onMessage",
+    "before-llm-messages"
+  ]
+}

@@ -1,0 +1,8 @@
+﻿type	base	note
+Monster	60	普通怪：前三次收益高
+Elite	50	精英：收益高但风险大（血厚才值得）
+Event	55	事件：收益方差大
+RestSite	65	火堆：收益稳定
+Shop	60	商店
+Treasure	70	宝箱
+Unknown	58	未知

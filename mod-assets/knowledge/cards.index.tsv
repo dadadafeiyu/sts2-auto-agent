@@ -1,0 +1,597 @@
+id	title	pool	cost	rarity	dmg	hits	blk	eff	effUp	aoe	needsEnergy	desc	descUp
+CARD.AGGRESSION	好勇斗狠	ironclad	1	Rare						0	1	在你的回合开始时，将你弃牌堆的一张随机攻击牌放入你的手牌并将其升级。	在你的回合开始时，将你弃牌堆的一张随机攻击牌放入你的手牌并将其升级。
+CARD.ANGER	愤怒	ironclad	0	Common	6	1	0			0	0	造成6点伤害。 将一张此牌的复制品加入你的弃牌堆。	造成6点伤害。 将一张此牌的复制品加入你的弃牌堆。
+CARD.ARMAMENTS	武装	ironclad	1	Common	0	1	5	6	6	0	0	获得5点格挡。 升级你手牌中的一张牌。	获得5点格挡。 升级你手牌中的所有牌。
+CARD.ASHEN_STRIKE	灰烬打击	ironclad	1	Uncommon						0	1	造成6点伤害。 你的消耗牌堆中每有一张牌，伤害增加3。	造成6点伤害。 你的消耗牌堆中每有一张牌，伤害增加3。
+CARD.BARRICADE	壁垒	ironclad	3	Rare						0	1	格挡不再在你的回合开始时消失。	格挡不再在你的回合开始时消失。
+CARD.BASH	痛击	ironclad	2	Basic	8	1	0	4	5	0	1	造成8点伤害。 给予{VulnerablePower:diff()}层易伤。	造成8点伤害。 给予{VulnerablePower:diff()}层易伤。
+CARD.BATTLE_TRANCE	战斗专注	ironclad		Uncommon						0	1	抽3张牌。 你在本回合内不能再抽任何牌。	抽3张牌。 你在本回合内不能再抽任何牌。
+CARD.BLAZE	炽焰	ironclad	2	Uncommon						0	1	给予另一名玩家{StrengthPower:diff()}点力量。	给予另一名玩家{StrengthPower:diff()}点力量。
+CARD.BLOOD_WALL	血墙	ironclad	2	Common	0	1	16	9.6	12	0	1	失去2点生命。 获得16点格挡。	失去2点生命。 获得16点格挡。
+CARD.BLOODLETTING	放血	ironclad		Uncommon						0	1	失去3点生命。 获得{Energy:energyIcons()}。	失去3点生命。 获得{Energy:energyIcons()}。
+CARD.BLUDGEON	重锤	ironclad	3	Uncommon	32	1	0	10.67	14	0	1	造成32点伤害。	造成32点伤害。
+CARD.BODY_SLAM	全身撞击	ironclad	1	Common						0	1	造成你当前格挡值的伤害。{InCombat: （造成0点伤害）|}	造成你当前格挡值的伤害。{InCombat: （造成0点伤害）|}
+CARD.BRAND	烙印	ironclad		Rare						0	1	失去1点生命。 消耗1张牌。 获得{StrengthPower:diff()}点力量。	失去1点生命。 消耗1张牌。 获得{StrengthPower:diff()}点力量。
+CARD.BREAK	破击	ironclad	1	Ancient	20	1	0	20	30	0	0	造成20点伤害。 给予{VulnerablePower:diff()}层易伤。	造成20点伤害。 给予{VulnerablePower:diff()}层易伤。
+CARD.BREAKTHROUGH	突破	ironclad	1	Common	9	1	0	9	13	1	0	失去1点生命。 对所有敌人造成9点伤害。	失去1点生命。 对所有敌人造成9点伤害。
+CARD.BULLY	欺凌	ironclad		Uncommon						0	1	造成4点伤害。 该敌人身上每有一层易伤就额外造成2点伤害。	造成4点伤害。 该敌人身上每有一层易伤就额外造成2点伤害。
+CARD.BURNING_PACT	燃烧契约	ironclad	1	Uncommon						0	1	消耗1张牌。 抽2张牌。	消耗1张牌。 抽2张牌。
+CARD.CASCADE	倾泻	ironclad	-1	Rare						0	1	打出你抽牌堆顶部的X{IfUpgraded:show:+1}张牌。	打出你抽牌堆顶部的X{IfUpgraded:show:+1}张牌。
+CARD.CINDER	余烬	ironclad	2	Common	18	1	0	9	12	0	1	造成18点伤害。 随机消耗1张牌。	造成18点伤害。 随机消耗1张牌。
+CARD.COLOSSUS	巨像	ironclad	1	Uncommon	0	1	4	4.8	8.4	0	0	获得4点格挡。 在本回合中，有易伤状态的敌人对你造成的伤害降低50%。	获得4点格挡。 在本回合中，有易伤状态的敌人对你造成的伤害降低50%。
+CARD.CONFLAGRATION	焚烧	ironclad	1	Rare	2	1	0	2	2	1	0	对所有敌人造成2点伤害4次。	对所有敌人造成2点伤害4次。
+CARD.CORRUPTION	腐化	ironclad	3	Ancient						0	1	技能牌消耗变为0{energyPrefix:energyIcons(1)}。 每当你打出一张技能牌时，将其消耗。	技能牌消耗变为0{energyPrefix:energyIcons(1)}。 每当你打出一张技能牌时，将其消耗。
+CARD.CRIMSON_MANTLE	绯红披风	ironclad	1	Rare						0	1	在你的回合开始时，失去1点生命并获得{CrimsonMantlePower:diff()}点格挡。	在你的回合开始时，失去1点生命并获得{CrimsonMantlePower:diff()}点格挡。
+CARD.CRUELTY	残酷	ironclad	1	Uncommon						0	1	有易伤状态的敌人额外受到{CrueltyPower:diff()}%的伤害。	有易伤状态的敌人额外受到{CrueltyPower:diff()}%的伤害。
+CARD.DARK_EMBRACE	黑暗之拥	ironclad	2	Rare						0	1	每当有一张牌被消耗时， 抽1张牌。	每当有一张牌被消耗时， 抽1张牌。
+CARD.DEFEND_IRONCLAD	防御	ironclad	1	Basic	0	1	5	6	9.6	0	0	获得5点格挡。	获得5点格挡。
+CARD.DEMON_FORM	恶魔形态	ironclad	3	Rare						0	1	在你的回合开始时，获得{StrengthPower:diff()}点力量。	在你的回合开始时，获得{StrengthPower:diff()}点力量。
+CARD.DEMONIC_SHIELD	恶魔护盾	ironclad		Uncommon						0	1	失去1点生命。 给予另一位玩家你当前格挡值的格挡。{InCombat: （给予0点格挡）|}	失去1点生命。 给予另一位玩家你当前格挡值的格挡。{InCombat: （给予0点格挡）|}
+CARD.DISMANTLE	拆卸	ironclad	1	Uncommon	8	2	0	16	20	0	0	造成8点伤害。 如果该敌人有易伤状态，则攻击两次。	造成8点伤害。 如果该敌人有易伤状态，则攻击两次。
+CARD.DOMINATE	主宰	ironclad	1	Rare						0	1	给予{VulnerablePower:diff()}层易伤。 敌人身上每有一层易伤，就获得{StrengthPerVulnerable:diff()}点力量。	给予{VulnerablePower:diff()}层易伤。 敌人身上每有一层易伤，就获得{StrengthPerVulnerable:diff()}点力量。
+CARD.DRUM_OF_BATTLE	战鼓	ironclad	1	Uncommon						0	1	抽2张牌。 这张牌被消耗时，获得{Energy:energyIcons()}。	抽2张牌。 这张牌被消耗时，获得{Energy:energyIcons()}。
+CARD.EVIL_EYE	邪眼	ironclad	1	Uncommon	0	1	8	9.6	13.2	0	0	获得8点格挡。 如果你在本回合消耗过卡牌，则额外获得8点格挡。	获得8点格挡。 如果你在本回合消耗过卡牌，则额外获得8点格挡。
+CARD.EXPECT_A_FIGHT	跃跃欲试	ironclad	3	Uncommon						0	1	获得15点格挡。 你每拥有一点力量，这张牌就额外获得5点格挡。	获得15点格挡。 你每拥有一点力量，这张牌就额外获得5点格挡。
+CARD.FEED	狂宴	ironclad	1	Rare	10	1	0	10	12	0	0	造成10点伤害。 斩杀时，永久获得3点最大生命值。	造成10点伤害。 斩杀时，永久获得3点最大生命值。
+CARD.FEEL_NO_PAIN	无惧疼痛	ironclad	1	Uncommon						0	1	每当有一张牌被消耗时，获得{Power:diff()}点格挡。	每当有一张牌被消耗时，获得{Power:diff()}点格挡。
+CARD.FIEND_FIRE	恶魔之焰	ironclad	2	Rare	7	1	0	3.5	5	0	1	消耗所有手牌。 每张被消耗的牌造成7点伤害。	消耗所有手牌。 每张被消耗的牌造成7点伤害。
+CARD.FIGHT_ME	与我一战！	ironclad	2	Uncommon	5	2	0	5	6	0	1	造成5点伤害两次。 获得{StrengthPower:diff()}点力量。 该敌人获得{EnemyStrength:diff()}点力量。	造成5点伤害两次。 获得{StrengthPower:diff()}点力量。 该敌人获得{EnemyStrength:diff()}点力量。
+CARD.FLAME_BARRIER	火焰屏障	ironclad	2	Uncommon	0	1	12	7.2	9.6	0	1	获得12点格挡。 你在这个回合每受到一次攻击，都会对攻击者造成{DamageBack:diff()}点伤害。	获得12点格挡。 你在这个回合每受到一次攻击，都会对攻击者造成{DamageBack:diff()}点伤害。
+CARD.FORGOTTEN_RITUAL	被遗忘的仪式	ironclad	1	Uncommon						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.HAVOC	破灭	ironclad	1	Common						0	1	打出抽牌堆顶部的牌并将其消耗。	打出抽牌堆顶部的牌并将其消耗。
+CARD.HEADBUTT	头槌	ironclad	1	Common	9	1	0	9	12	0	0	造成9点伤害。 将你弃牌堆中的一张牌放到抽牌堆顶部。	造成9点伤害。 将你弃牌堆中的一张牌放到抽牌堆顶部。
+CARD.HELLRAISER	地狱狂徒	ironclad	2	Rare						0	1	每当你抽到名字中有“打击”的牌时，对一名随机敌人打出这张牌。	每当你抽到名字中有“打击”的牌时，对一名随机敌人打出这张牌。
+CARD.HEMOKINESIS	御血术	ironclad	1	Uncommon	15	1	0	15	20	0	0	失去2点生命。 造成15点伤害。	失去2点生命。 造成15点伤害。
+CARD.HOWL_FROM_BEYOND	彼岸咆哮	ironclad	3	Uncommon	18	1	0	6	8	1	1	对所有敌人造成18点伤害。 在你的回合结束时，如果这张牌在你的消耗牌堆中，则将其打出。	对所有敌人造成18点伤害。 在你的回合结束时，如果这张牌在你的消耗牌堆中，则将其打出。
+CARD.IMPERVIOUS	岿然不动	ironclad	2	Rare	0	1	30	18	24	0	1	获得30点格挡。	获得30点格挡。
+CARD.INFERNAL_BLADE	地狱之刃	ironclad	1	Uncommon						0	1	将一张随机攻击牌加入你的手牌。那张牌在本回合内可以免费打出。	将一张随机攻击牌加入你的手牌。那张牌在本回合内可以免费打出。
+CARD.INFERNO	狱火	ironclad	1	Uncommon						0	1	在你的回合开始时，失去1点生命。 每当你在你的回合内失去生命时，对所有敌人造成{InfernoPower:diff()}点伤害。	在你的回合开始时，失去1点生命。 每当你在你的回合内失去生命时，对所有敌人造成{InfernoPower:diff()}点伤害。
+CARD.INFLAME	燃烧	ironclad	1	Uncommon						0	1	获得{StrengthPower:diff()}点力量。	获得{StrengthPower:diff()}点力量。
+CARD.IRON_WAVE	铁斩波	ironclad	1	Common	5	1	5	5.5	7.7	0	0	获得5点格挡。 造成5点伤害。	获得5点格挡。 造成5点伤害。
+CARD.JUGGERNAUT	势不可当	ironclad	2	Rare						0	1	每当你获得格挡时，对随机敌人造成{JuggernautPower:diff()}点伤害。	每当你获得格挡时，对随机敌人造成{JuggernautPower:diff()}点伤害。
+CARD.JUGGLING	杂耍	ironclad	1	Uncommon						0	1	将你在每回合打出的第三张攻击牌的复制品加入你的手牌。	将你在每回合打出的第三张攻击牌的复制品加入你的手牌。
+CARD.MANGLE	凌虐	ironclad	3	Rare	20	1	0	6.67	8.67	0	1	造成20点伤害。 敌人在本回合失去{StrengthLoss:diff()}点力量。	造成20点伤害。 敌人在本回合失去{StrengthLoss:diff()}点力量。
+CARD.MIDNIGHT	午夜	ironclad	12	Rare	60	1	0	5	6	0	1	造成60点伤害。 本场战斗，任何人每消耗过一张牌，这张牌的{energyPrefix:energyIcons(1)}费用减少1。	造成60点伤害。 本场战斗，任何人每消耗过一张牌，这张牌的{energyPrefix:energyIcons(1)}费用减少1。
+CARD.MOLTEN_FIST	熔融之拳	ironclad	1	Common	10	1	0	10	14	0	0	造成10点伤害。 将该敌人身上的易伤层数翻倍。	造成10点伤害。 将该敌人身上的易伤层数翻倍。
+CARD.NOT_YET	时候未到	ironclad	2	Rare						0	1	回复10点生命。	回复10点生命。
+CARD.OFFERING	祭品	ironclad		Rare						0	1	失去6点生命。 获得{Energy:energyIcons()}。 抽3张牌。	失去6点生命。 获得{Energy:energyIcons()}。 抽3张牌。
+CARD.ONE_TWO_PUNCH	连环拳	ironclad	1	Rare						0	1	在这个回合，你打出的下{Attacks:diff()}张攻击牌会被额外打出一次。	在这个回合，你打出的下{Attacks:diff()}张攻击牌会被额外打出一次。
+CARD.OUTRAGE	群情激愤	ironclad	0	Uncommon	9	1	0			0	0	造成9点伤害。 在所有人的弃牌堆中加入一张此牌的复制品。	造成9点伤害。 在所有人的弃牌堆中加入一张此牌的复制品。
+CARD.PACTS_END	契约终结	ironclad	0	Rare	18	1	0			1	0	如果你的消耗牌堆拥有大于等于3张{Cards:plural:牌|牌}， 则对所有敌人造成18点伤害。	如果你的消耗牌堆拥有大于等于3张{Cards:plural:牌|牌}， 则对所有敌人造成18点伤害。
+CARD.PERFECTED_STRIKE	完美打击	ironclad	2	Common						0	1	造成6点伤害。 你每有一张名字中含有“打击”的牌，伤害+2。	造成6点伤害。 你每有一张名字中含有“打击”的牌，伤害+2。
+CARD.PILLAGE	劫掠	ironclad	1	Uncommon	6	1	0	6	9	0	0	造成6点伤害。 抽牌直到你抽到一张非攻击牌。	造成6点伤害。 抽牌直到你抽到一张非攻击牌。
+CARD.POMMEL_STRIKE	剑柄打击	ironclad	1	Common	9	1	0	9	10	0	0	造成9点伤害。 抽1张牌。	造成9点伤害。 抽1张牌。
+CARD.PRIMAL_FORCE	原始力量	ironclad		Rare						0	1	将手牌中的所有攻击牌变化为巨石。	将手牌中的所有攻击牌变化为巨石+。
+CARD.PYRE	薪火之源	ironclad	2	Rare						0	1	在回合开始时，获得{Energy:energyIcons()}。	在回合开始时，获得{Energy:energyIcons()}。
+CARD.RAGE	狂怒	ironclad		Uncommon						0	1	打出此牌后，你在这个回合内每打出一张攻击牌，获得{Power:diff()}点格挡。	打出此牌后，你在这个回合内每打出一张攻击牌，获得{Power:diff()}点格挡。
+CARD.RAMPAGE	暴走	ironclad	1	Uncommon	10	1	0	10	10	0	0	造成10点伤害。 将这张牌在本场战斗中的伤害增加{Increase:diff()}。	造成10点伤害。 将这张牌在本场战斗中的伤害增加{Increase:diff()}。
+CARD.RUPTURE	撕裂	ironclad	1	Uncommon						0	1	每当你在你的回合失去生命值时, 获得{StrengthPower:diff()}点力量。	每当你在你的回合失去生命值时, 获得{StrengthPower:diff()}点力量。
+CARD.SECOND_WIND	重振精神	ironclad	1	Uncommon	0	1	5	6	8.4	0	0	消耗手牌中所有非攻击牌，每张获得5点格挡。	消耗手牌中所有非攻击牌，每张获得5点格挡。
+CARD.SETUP_STRIKE	预备打击	ironclad	1	Common	7	1	0	7	9	0	0	造成7点伤害。 在本回合内获得{StrengthPower:diff()}点力量。	造成7点伤害。 在本回合内获得{StrengthPower:diff()}点力量。
+CARD.SHRUG_IT_OFF	耸肩无视	ironclad	1	Common	0	1	8	9.6	13.2	0	0	获得8点格挡。 抽1张牌。	获得8点格挡。 抽1张牌。
+CARD.SPITE	怨恨	ironclad	0	Uncommon	5	1	0			0	0	造成5点伤害。 如果你在本回合失去过生命值， 则攻击2次。	造成5点伤害。 如果你在本回合失去过生命值， 则攻击2次。
+CARD.STAMPEDE	惊逃	ironclad	2	Uncommon						0	1	在你的回合结束时，随机打出你手牌中的{Power:diff()}张攻击牌攻击随机敌人。	在你的回合结束时，随机打出你手牌中的{Power:diff()}张攻击牌攻击随机敌人。
+CARD.STOKE	添柴	ironclad	1	Rare						0	1	消耗所有手牌。 每消耗一张牌，将1张随机牌加入你的手牌。	消耗所有手牌。 每消耗一张牌，将1张随机已升级的牌加入你的手牌。
+CARD.STOMP	踩踏	ironclad	3	Uncommon	12	1	0	4	5	1	1	对所有敌人造成12点伤害。 你在本回合中每打出过一张攻击牌，其耗能减少1{energyPrefix:energyIcons(1)}。	对所有敌人造成12点伤害。 你在本回合中每打出过一张攻击牌，其耗能减少1{energyPrefix:energyIcons(1)}。
+CARD.STONE_ARMOR	岩石铠甲	ironclad	1	Uncommon						0	1	获得{PlatingPower:diff()}层覆甲。	获得{PlatingPower:diff()}层覆甲。
+CARD.STRIKE_IRONCLAD	打击	ironclad	1	Basic	6	1	0	6	9	0	0	造成6点伤害。	造成6点伤害。
+CARD.SWORD_BOOMERANG	飞剑回旋镖	ironclad	1	Common	3	1	0	3	3	0	0	随机对敌人造成3点伤害3次。	随机对敌人造成3点伤害3次。
+CARD.TANK	肉盾	ironclad	1	Rare						0	1	受到敌人的伤害增加{DamageIncrease:percentMore()}%。 盟友受到敌人的伤害减少{DamageDecrease:percentLess()}%。	受到敌人的伤害增加{DamageIncrease:percentMore()}%。 盟友受到敌人的伤害减少{DamageDecrease:percentLess()}%。
+CARD.TAUNT	挑衅	ironclad	1	Common	0	1	6	7.2	8.4	0	0	获得6点格挡。 给予{VulnerablePower:diff()}层易伤。	获得6点格挡。 给予{VulnerablePower:diff()}层易伤。
+CARD.TEAR_ASUNDER	扯碎	ironclad	2	Rare	5	1	0	2.5	3.5	0	1	造成5点伤害。 在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害。{InCombat: （命中{CalculatedHits:diff()}次）|}	造成5点伤害。 在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.THRASH	痛殴	ironclad	1	Rare	4	2	0	8	12	0	0	造成4点伤害两次。 消耗你的手牌中随机一张攻击牌，并将它的伤害添加给这张牌。	造成4点伤害两次。 消耗你的手牌中随机一张攻击牌，并将它的伤害添加给这张牌。
+CARD.THUNDERCLAP	闪电霹雳	ironclad	1	Common	4	1	0	4	7	1	0	对所有敌人造成4点伤害，给予{VulnerablePower:diff()}层易伤。	对所有敌人造成4点伤害，给予{VulnerablePower:diff()}层易伤。
+CARD.TREMBLE	战栗	ironclad	1	Common						0	1	给予{VulnerablePower:diff()}层易伤。	给予{VulnerablePower:diff()}层易伤。
+CARD.TRUE_GRIT	坚毅	ironclad	1	Common	0	1	7	8.4	10.8	0	0	获得7点格挡。 随机消耗1张牌。	获得7点格挡。 消耗1张牌。
+CARD.TWIN_STRIKE	双重打击	ironclad	1	Common	5	2	0	10	14	0	0	造成5点伤害两次。	造成5点伤害两次。
+CARD.UNMOVABLE	坚定不移	ironclad	2	Rare						0	1	翻倍你每回合第一次从卡牌中获得的格挡。	翻倍你每回合第一次从卡牌中获得的格挡。
+CARD.UNRELENTING	无情猛攻	ironclad	2	Uncommon	14	1	0	7	10	0	1	造成14点伤害。 你打出的下一张攻击牌耗能变为0{energyPrefix:energyIcons(1)}。	造成14点伤害。 你打出的下一张攻击牌耗能变为0{energyPrefix:energyIcons(1)}。
+CARD.UPPERCUT	上勾拳	ironclad	2	Uncommon	13	1	0	6.5	6.5	0	1	造成13点伤害。 给予{Power:diff()}层虚弱。 给予{Power:diff()}层易伤。	造成13点伤害。 给予{Power:diff()}层虚弱。 给予{Power:diff()}层易伤。
+CARD.VICIOUS	凶恶	ironclad	1	Uncommon						0	1	每当你给予易伤时，抽1张牌。	每当你给予易伤时，抽1张牌。
+CARD.WHIRLWIND	旋风斩	ironclad	0	Uncommon	5	1	0	5		1	0	对所有敌人造成5点伤害X次。	对所有敌人造成5点伤害X次。
+CARD.ABRASIVE	磨蚀	silent	3	Rare						0	1	获得{DexterityPower:diff()}点敏捷。 获得{ThornsPower:diff()}点荆棘。	获得{DexterityPower:diff()}点敏捷。 获得{ThornsPower:diff()}点荆棘。
+CARD.ACCELERANT	触媒	silent	1	Uncommon						0	1	中毒会额外触发{Accelerant:diff()}次。	中毒会额外触发{Accelerant:diff()}次。
+CARD.ACCURACY	精准	silent	1	Uncommon						0	1	小刀额外造成{AccuracyPower:diff()}点伤害。	小刀额外造成{AccuracyPower:diff()}点伤害。
+CARD.ACROBATICS	杂技	silent	1	Uncommon						0	1	抽3张牌。 丢弃1张牌。	抽3张牌。 丢弃1张牌。
+CARD.ADRENALINE	肾上腺素	silent		Rare						0	1	获得{Energy:energyIcons()}。 抽2张牌。	获得{Energy:energyIcons()}。 抽2张牌。
+CARD.AFTERIMAGE	余像	silent	1	Rare						0	1	你每打出一张牌，都获得{AfterimagePower:diff()}点格挡。	你每打出一张牌，都获得{AfterimagePower:diff()}点格挡。
+CARD.ANTICIPATE	预判	silent		Common						0	1	在本回合获得{DexterityPower:diff()}点敏捷。	在本回合获得{DexterityPower:diff()}点敏捷。
+CARD.ASSASSINATE	刺杀	silent	0	Rare	10	1	0			0	0	造成10点伤害。 给予{VulnerablePower:diff()}层易伤。	造成10点伤害。 给予{VulnerablePower:diff()}层易伤。
+CARD.BACKFLIP	后空翻	silent	1	Common	0	1	5	6	9.6	0	0	获得5点格挡。 抽2张牌。	获得5点格挡。 抽2张牌。
+CARD.BACKSTAB	背刺	silent	0	Uncommon	11	1	0			0	0	造成11点伤害。	造成11点伤害。
+CARD.BLADE_OF_INK	墨之刃	silent	1	Rare						0	1	添加2张[purple]墨影[/purple]小刀到你的手牌。	添加2张[purple]墨影[/purple]小刀到你的手牌。
+CARD.BLADE_DANCE	刀刃之舞	silent	1	Common						0	1	添加3张小刀到你的手牌。	添加3张小刀到你的手牌。
+CARD.BLADE_SYMPHONY	刀刃交响曲	silent	2	Uncommon						0	1	将2张小刀加入所有玩家的手牌。	将2张小刀加入所有玩家的手牌。
+CARD.BLUR	残影	silent	1	Uncommon	0	1	5	6	9.6	0	0	获得5点格挡。 你的下一回合开始时格挡不会消失。	获得5点格挡。 你的下一回合开始时格挡不会消失。
+CARD.BOUNCING_FLASK	弹跳药瓶	silent	2	Uncommon						0	1	随机给予敌人{PoisonPower:diff()}层中毒3次。	随机给予敌人{PoisonPower:diff()}层中毒3次。
+CARD.BUBBLE_BUBBLE	咕嘟冒泡	silent	1	Uncommon						0	1	如果敌方拥有中毒，则给予{PoisonPower:diff()}层中毒。	如果敌方拥有中毒，则给予{PoisonPower:diff()}层中毒。
+CARD.BULLET_TIME	子弹时间	silent	3	Rare						0	1	你在本回合内不能再抽牌。你手牌中的所有牌在本回合免费打出。	你在本回合内不能再抽牌。你手牌中的所有牌在本回合免费打出。
+CARD.BURST	爆发	silent	1	Rare						0	1	在这个回合，你打出的下{Skills:choose(1):一|{:diff()}}张技能牌会被额外打出一次。	在这个回合，你打出的下{Skills:choose(1):一|{:diff()}}张技能牌会被额外打出一次。
+CARD.CALCULATED_GAMBLE	计算下注	silent		Uncommon						0	1	丢弃你的所有手牌, 然后抽相同数量的牌。	丢弃你的所有手牌, 然后抽相同数量的牌。
+CARD.CLOAK_AND_DAGGER	斗篷与匕首	silent	1	Common	0	1	6	7.2	7.2	0	0	获得6点格挡。 将1张小刀添加到你的手牌。	获得6点格挡。 将1张小刀添加到你的手牌。
+CARD.CORROSIVE_WAVE	腐蚀波	silent	1	Rare						0	1	打出此牌后，你在本回合每抽到一张牌，就给予所有敌人{CorrosiveWave:diff()}层中毒。	打出此牌后，你在本回合每抽到一张牌，就给予所有敌人{CorrosiveWave:diff()}层中毒。
+CARD.CONCOCT	调制	silent		Uncommon						0	1	选择另一名玩家，他在本回合内造成未被格挡的伤害时，给予{ConcoctPower:diff()}层中毒。	选择另一名玩家，他在本回合内造成未被格挡的伤害时，给予{ConcoctPower:diff()}层中毒。
+CARD.DAGGER_SPRAY	匕首雨	silent	1	Common	4	2	0	8	12	1	0	对所有敌人造成4点伤害两次。	对所有敌人造成4点伤害两次。
+CARD.DAGGER_THROW	投掷匕首	silent	1	Common	9	1	0	9	12	0	0	造成9点伤害。 抽1张牌。 丢弃1张牌。	造成9点伤害。 抽1张牌。 丢弃1张牌。
+CARD.DASH	冲刺	silent	2	Uncommon	10	1	10	5.5	7.15	0	1	获得10点格挡。 造成10点伤害。	获得10点格挡。 造成10点伤害。
+CARD.DEADLY_POISON	致命毒药	silent	1	Common						0	1	给予{PoisonPower:diff()}层中毒。	给予{PoisonPower:diff()}层中毒。
+CARD.DEFEND_SILENT	防御	silent	1	Basic	0	1	5	6	9.6	0	0	获得5点格挡。	获得5点格挡。
+CARD.DEFLECT	偏折	silent	0	Common	0	1	4			0	0	获得4点格挡。	获得4点格挡。
+CARD.DODGE_AND_ROLL	闪躲翻滚	silent	1	Common	0	1	4	4.8	7.2	0	0	获得4点格挡。 在下个回合，获得4点格挡。	获得4点格挡。 在下个回合，获得4点格挡。
+CARD.ECHOING_SLASH	回响斩击	silent	1	Uncommon	10	1	0	10	13	1	0	对所有敌人造成10点伤害。 每有一名敌人被击杀，就重复此效果。	对所有敌人造成10点伤害。 每有一名敌人被击杀，就重复此效果。
+CARD.ENVENOM	涂毒	silent	2	Rare						0	1	每有一次攻击造成未被格挡的伤害，就给予{EnvenomPower:diff()}层中毒。	每有一次攻击造成未被格挡的伤害，就给予{EnvenomPower:diff()}层中毒。
+CARD.ESCAPE_PLAN	逃脱计划	silent	0	Uncommon	0	1	3			0	0	抽1张牌。 如果抽到的是技能牌，则获得3点格挡。	抽1张牌。 如果抽到的是技能牌，则获得3点格挡。
+CARD.EXPERTISE	独门技术	silent	1	Uncommon						0	1	抽2张牌。 这些牌在本回合获得保留。	抽2张牌。 这些牌在本回合获得保留。
+CARD.EXPOSE	暴露	silent		Uncommon						0	1	去除敌人身上的所有格挡值和人工制品。 并给予{Power:diff()}层易伤。	去除敌人身上的所有格挡值和人工制品。 并给予{Power:diff()}层易伤。
+CARD.FADE	消影	silent		Uncommon						0	1	另一名玩家在本回合获得{DexterityPower:diff()}点敏捷。	另一名玩家在本回合获得{DexterityPower:diff()}点敏捷。
+CARD.FAN_OF_KNIVES	刀扇	silent	2	Rare						0	1	小刀现在会攻击所有敌人。 将{Shivs:diff()}张小刀添加到你的手牌。	小刀现在会攻击所有敌人。 将{Shivs:diff()}张小刀添加到你的手牌。
+CARD.FINISHER	终结技	silent	1	Uncommon	6	1	0	6	8	0	0	在这个回合内每打出过一张攻击牌，就造成6点伤害一次。{InCombat: （攻击{CalculatedHits:diff()}次）|}	在这个回合内每打出过一张攻击牌，就造成6点伤害一次。{InCombat: （攻击{CalculatedHits:diff()}次）|}
+CARD.FLANKING	夹击	silent	2	Rare						0	1	一名敌人在本回合受到的来自其他玩家的攻击伤害翻倍。	一名敌人在本回合受到的来自其他玩家的攻击伤害翻倍。
+CARD.FLECHETTES	飞镖	silent	1	Uncommon	5	1	0	5	7	0	0	手牌中每有一张技能牌，造成5点伤害。{InCombat: （攻击{CalculatedHits:diff()}次）|}	手牌中每有一张技能牌，造成5点伤害。{InCombat: （攻击{CalculatedHits:diff()}次）|}
+CARD.FLICK_FLACK	翻越撑击	silent	1	Common	7	1	0	7	9	1	0	对所有敌人造成7点伤害。	对所有敌人造成7点伤害。
+CARD.SIDESTEP	侧步	silent		Uncommon						0	1	下回合，获得{Energy:energyIcons()}。	下回合，获得{Energy:energyIcons()}。
+CARD.FOOTWORK	灵动步法	silent	1	Uncommon						0	1	获得{DexterityPower:diff()}点敏捷。	获得{DexterityPower:diff()}点敏捷。
+CARD.GRAND_FINALE	华丽收场	silent	0	Rare	60	1	0			1	0	只有当你的抽牌堆中没有牌时才能打出。对所有敌人造成60点伤害。	只有当你的抽牌堆中没有牌时才能打出。对所有敌人造成60点伤害。
+CARD.HAND_TRICK	手上技法	silent	1	Uncommon	0	1	7	8.4	12	0	0	获得7点格挡。 在本回合给你手牌中的一张技能牌添加奇巧。	获得7点格挡。 在本回合给你手牌中的一张技能牌添加奇巧。
+CARD.HAZE	迷雾	silent	2	Uncommon						0	1	给予所有敌人{PoisonPower:diff()}层中毒和{WeakPower:diff()}层虚弱。	给予所有敌人{PoisonPower:diff()}层中毒和{WeakPower:diff()}层虚弱。
+CARD.HIDDEN_DAGGERS	隐秘匕首	silent		Uncommon						0	1	丢弃2张牌。 将{Shivs:diff()}张小刀加入你的手牌。	丢弃2张牌。 将{Shivs:diff()}张小刀+加入你的手牌。
+CARD.INFINITE_BLADES	无尽刀刃	silent	1	Uncommon						0	1	在你的回合开始时，在你的手牌中加入1张小刀。	在你的回合开始时，在你的手牌中加入1张小刀。
+CARD.KNIFE_TRAP	刀刃陷阱	silent	2	Rare						0	1	将你消耗牌堆中的所有小刀对一名敌人打出。{InCombat: （打出{CalculatedShivs:diff()}张小刀）|}	将你消耗牌堆中的所有小刀升级然后对一名敌人打出。{InCombat: （打出{CalculatedShivs:diff()}张小刀）|}
+CARD.LEADING_STRIKE	先制打击	silent	1	Common	3	1	0	3	6	0	0	造成3点伤害。 将{Shivs:diff()}张小刀加入你的手牌。	造成3点伤害。 将{Shivs:diff()}张小刀加入你的手牌。
+CARD.LEG_SWEEP	扫腿	silent	2	Uncommon	0	1	11	6.6	8.4	0	1	给予{WeakPower:diff()}层虚弱。 获得11点格挡。	给予{WeakPower:diff()}层虚弱。 获得11点格挡。
+CARD.MALAISE	萎靡	silent		Rare						0	1	敌人失去X{IfUpgraded:show:+1}点力量。给予X{IfUpgraded:show:+1}层虚弱。	敌人失去X{IfUpgraded:show:+1}点力量。给予X{IfUpgraded:show:+1}层虚弱。
+CARD.MASTER_PLANNER	谋划专家	silent	2	Rare						0	1	当你打出技能牌时，该牌获得奇巧。	当你打出技能牌时，该牌获得奇巧。
+CARD.MEMENTO_MORI	铭记死亡	silent	1	Uncommon						0	1	造成9点伤害。 本回合每丢弃过一张牌，则增加4点额外伤害。	造成9点伤害。 本回合每丢弃过一张牌，则增加4点额外伤害。
+CARD.MIRAGE	蜃景	silent	1	Uncommon						0	1	获得等量于所有敌人中毒层数总和的格挡。{InCombat: （获得0点格挡）|}	获得等量于所有敌人中毒层数总和的格挡。{InCombat: （获得0点格挡）|}
+CARD.MURDER	谋杀	silent	3	Rare						0	1	造成1点伤害。 你在本场战斗中每抽过一张牌，此牌就额外造成1点伤害。	造成1点伤害。 你在本场战斗中每抽过一张牌，此牌就额外造成1点伤害。
+CARD.NEUTRALIZE	中和	silent	0	Basic	3	1	0			0	0	造成3点伤害。 给予{WeakPower:diff()}层虚弱。	造成3点伤害。 给予{WeakPower:diff()}层虚弱。
+CARD.NIGHTMARE	夜魇	silent	3	Rare						0	1	选择一张牌。 在下个回合将这张牌的3张复制品加入你的手牌。	选择一张牌。 在下个回合将这张牌的3张复制品加入你的手牌。
+CARD.NOXIOUS_FUMES	毒雾	silent	1	Uncommon						0	1	在你的回合开始时，给予所有敌人{PoisonPerTurn:diff()}层中毒。	在你的回合开始时，给予所有敌人{PoisonPerTurn:diff()}层中毒。
+CARD.OUTBREAK	毒性爆发	silent	3	Rare						0	1	给予所有敌人{PoisonPower:diff()}层中毒。 立即触发中毒。	给予所有敌人{PoisonPower:diff()}层中毒。 立即触发中毒。
+CARD.PHANTOM_BLADES	幻影之刃	silent	1	Uncommon						0	1	小刀获得保留。 你在每回合打出的第一张小刀额外造成{PhantomBladesPower:diff()}点伤害。	小刀获得保留。 你在每回合打出的第一张小刀额外造成{PhantomBladesPower:diff()}点伤害。
+CARD.PIERCING_WAIL	尖啸	silent	1	Common						0	1	所有敌人在本回合失去{StrengthLoss:diff()}点力量。	所有敌人在本回合失去{StrengthLoss:diff()}点力量。
+CARD.PINPOINT	精密瞄准	silent	3	Uncommon	15	1	0	5	6.33	0	1	造成15点伤害。 你在本回合中每打出过一张技能牌，其耗能减少1{energyPrefix:energyIcons(1)}。	造成15点伤害。 你在本回合中每打出过一张技能牌，其耗能减少1{energyPrefix:energyIcons(1)}。
+CARD.POISONED_STAB	带毒刺击	silent	1	Common	6	1	0	6	8	0	0	造成6点伤害。 给予{PoisonPower:diff()}层中毒。	造成6点伤害。 给予{PoisonPower:diff()}层中毒。
+CARD.POUNCE	猛扑	silent	2	Uncommon	14	1	0	7	10	0	1	造成14点伤害。 你的下一张技能牌耗能变为0{energyPrefix:energyIcons(1)}。	造成14点伤害。 你的下一张技能牌耗能变为0{energyPrefix:energyIcons(1)}。
+CARD.PRECISE_CUT	精确切击	silent		Uncommon						0	1	造成13点伤害。 你的手牌中每有一张牌，此牌的伤害就降低{ExtraDamage:inverseDiff()}点。	造成13点伤害。 你的手牌中每有一张牌，此牌的伤害就降低{ExtraDamage:inverseDiff()}点。
+CARD.PREDATOR	猎杀者	silent	2	Common	15	1	0	7.5	10	0	1	造成15点伤害。 在下个回合抽2张牌。	造成15点伤害。 在下个回合抽2张牌。
+CARD.PREPARED	早有准备	silent		Common						0	1	抽1张牌。 丢弃1张牌。	抽1张牌。 丢弃1张牌。
+CARD.REFLEX	本能反应	silent	3	Uncommon						0	1	抽2张牌。	抽2张牌。
+CARD.RICOCHET	连续反弹	silent	2	Common	3	1	0	1.5	1.5	0	1	随机对敌人造成3点伤害4次。	随机对敌人造成3点伤害4次。
+CARD.SERPENT_FORM	群蛇形态	silent	3	Rare						0	1	你每打出一张牌，就对随机一名敌人造成{SerpentFormPower:diff()}点伤害。	你每打出一张牌，就对随机一名敌人造成{SerpentFormPower:diff()}点伤害。
+CARD.SHADOW_STEP	暗影步	silent	1	Rare						0	1	丢弃所有手牌。 在下个回合，你所有的攻击伤害翻倍。	丢弃所有手牌。 在下个回合，你所有的攻击伤害翻倍。
+CARD.SHADOWMELD	融入暗影	silent	1	Rare						0	1	本回合你获得的格挡值翻倍。	本回合你获得的格挡值翻倍。
+CARD.SKEWER	串刺	silent	0	Uncommon	8	1	0	8		0	0	造成8点伤害X次。	造成8点伤害X次。
+CARD.SLICE	切割	silent	0	Common	6	1	0			0	0	造成6点伤害。	造成6点伤害。
+CARD.SNAKEBITE	蛇咬	silent	2	Common						0	1	给予{PoisonPower:diff()}层中毒。	给予{PoisonPower:diff()}层中毒。
+CARD.SNEAKY	鬼祟	silent	2	Rare						0	1	每当其他玩家攻击一名敌人时，获得{SneakyPower:diff()}点格挡。	每当其他玩家攻击一名敌人时，获得{SneakyPower:diff()}点格挡。
+CARD.SPEEDSTER	速行者	silent	2	Uncommon						0	1	每当你在回合进行中抽到一张牌时，对所有敌人造成{SpeedsterPower:diff()}点伤害。	每当你在回合进行中抽到一张牌时，对所有敌人造成{SpeedsterPower:diff()}点伤害。
+CARD.STORM_OF_STEEL	钢铁风暴	silent	1	Rare						0	1	丢弃所有手牌。 每丢弃一张牌，就将一张小刀添加至你的手牌。	丢弃所有手牌。 每丢弃一张牌，就将一张小刀+添加至你的手牌。
+CARD.STRANGLE	紧勒	silent	1	Uncommon	8	1	0	8	10	0	0	造成8点伤害。 你在这个回合内每出一张牌，该名敌人都会失去{StranglePower:diff()}点生命。	造成8点伤害。 你在这个回合内每出一张牌，该名敌人都会失去{StranglePower:diff()}点生命。
+CARD.STRIKE_SILENT	打击	silent	1	Basic	6	1	0	6	9	0	0	造成6点伤害。	造成6点伤害。
+CARD.SUCKER_PUNCH	突然一拳	silent	1	Common	8	1	0	8	10	0	0	造成8点伤害。 给予{WeakPower:diff()}层虚弱。	造成8点伤害。 给予{WeakPower:diff()}层虚弱。
+CARD.SUPPRESS	压制	silent	0	Ancient	11	1	0			0	0	造成11点伤害。 给予{WeakPower:diff()}层虚弱。	造成11点伤害。 给予{WeakPower:diff()}层虚弱。
+CARD.SURVIVOR	生存者	silent	1	Basic	0	1	8	9.6	13.2	0	0	获得8点格挡。 丢弃1张牌。	获得8点格挡。 丢弃1张牌。
+CARD.TACTICIAN	战术大师	silent	3	Uncommon						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.THE_HUNT	狩猎	silent	1	Rare	10	1	0	10	15	0	0	造成10点伤害。 斩杀时，额外获得一次卡牌奖励。	造成10点伤害。 斩杀时，额外获得一次卡牌奖励。
+CARD.TOOLS_OF_THE_TRADE	必备工具	silent	1	Rare						0	1	在你的回合开始时，抽1张牌，丢弃1张牌。	在你的回合开始时，抽1张牌，丢弃1张牌。
+CARD.TRACKING	跟踪	silent	2	Rare						0	1	处于虚弱状态的敌人受到的攻击伤害增加50%。	处于虚弱状态的敌人受到的攻击伤害增加50%。
+CARD.UNTOUCHABLE	触不可及	silent	2	Common	0	1	6	3.6	5.4	0	1	获得6点格挡。	获得6点格挡。
+CARD.UP_MY_SLEEVE	袖里乾坤	silent	2	Uncommon						0	1	将3张小刀加入你的手牌。 这张牌的耗能减少1。	将3张小刀加入你的手牌。 这张牌的耗能减少1。
+CARD.WELL_LAID_PLANS	计划妥当	silent	2	Rare						0	1	在你的回合结束时，你不再丢弃你的手牌。	在你的回合结束时，你不再丢弃你的手牌。
+CARD.WRAITH_FORM	幽魂形态	silent	3	Ancient						0	1	获得{IntangiblePower:diff()}无实体。 在你的回合开始时，失去{WraithFormPower:diff()}点敏捷。	获得{IntangiblePower:diff()}无实体。 在你的回合开始时，失去{WraithFormPower:diff()}点敏捷。
+CARD.ALIGNMENT	星位序列	regent		Uncommon						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.ARSENAL	武器库	regent	1	Rare						0	1	每当你生成一张牌，就获得{ArsenalPower:diff()}点力量。	每当你生成一张牌，就获得{ArsenalPower:diff()}点力量。
+CARD.ASTRAL_PULSE	星界脉冲	regent	0	Common	6	2	0			1	0	对所有敌人造成6点伤害两次。	对所有敌人造成6点伤害两次。
+CARD.BEAT_INTO_SHAPE	锻打成型	regent	1	Rare	5	1	0	5	7	0	0	造成5点伤害。 铸造{CalculatedForge:diff()}。 本回合内，你此前每击中过该敌人一次，这张牌就额外铸造5点。	造成5点伤害。 铸造{CalculatedForge:diff()}。 本回合内，你此前每击中过该敌人一次，这张牌就额外铸造5点。
+CARD.BEGONE	下去！	regent	1	Common						0	1	选择你手牌中的一张牌，将其变化为仆从打击。	选择你手牌中的一张牌，将其变化为仆从打击+。
+CARD.BIG_BANG	大爆炸	regent		Rare						0	1	抽1张牌。 获得{Energy:energyIcons()}。 获得{Stars:starIcons()}。 铸造5。	抽1张牌。 获得{Energy:energyIcons()}。 获得{Stars:starIcons()}。 铸造5。
+CARD.BLACK_HOLE	黑洞	regent	1	Uncommon						0	1	每当你花费或获得{singleStarIcon}时，对所有敌人造成{BlackHolePower:diff()}点伤害。	每当你花费或获得{singleStarIcon}时，对所有敌人造成{BlackHolePower:diff()}点伤害。
+CARD.BOMBARDMENT	轰击	regent	3	Rare	18	1	0	6	8	0	1	造成18点伤害。 你的回合开始时，如果这张牌在你的消耗牌堆中，则将其打出。	造成18点伤害。 你的回合开始时，如果这张牌在你的消耗牌堆中，则将其打出。
+CARD.BULWARK	铸墙	regent	2	Uncommon	0	1	12	7.2	9	0	1	获得12点格挡。 铸造10。	获得12点格挡。 铸造10。
+CARD.BUNDLE_OF_JOY	新生之喜	regent	1	Rare						0	1	将3张随机无色牌添加到你的手牌。	将3张随机无色牌添加到你的手牌。
+CARD.CELESTIAL_MIGHT	天穹之力	regent	2	Common	6	1	0	3	3	0	1	造成6点伤害3次。	造成6点伤害3次。
+CARD.CHARGE	冲锋！！	regent	1	Uncommon						0	1	选择你抽牌堆中的2张牌，将其变化为 仆从俯冲。	选择你抽牌堆中的2张牌，将其变化为 仆从俯冲+。
+CARD.CHILD_OF_THE_STARS	群星之子	regent	1	Uncommon						0	1	每当你花费{singleStarIcon}时，每花费一点{singleStarIcon}，获得{BlockForStars:diff()}点格挡。	每当你花费{singleStarIcon}时，每花费一点{singleStarIcon}，获得{BlockForStars:diff()}点格挡。
+CARD.CLOAK_OF_STARS	群星斗篷	regent	0	Common	0	1	7			0	0	获得7点格挡。	获得7点格挡。
+CARD.COLLISION_COURSE	碰撞轨迹	regent	0	Common	10	1	0			0	0	造成10点伤害。 将一张碎屑添加至你的手牌。	造成10点伤害。 将一张碎屑添加至你的手牌。
+CARD.COMET	彗星	regent	0	Rare	33	1	0			0	0	造成33点伤害。 给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。	造成33点伤害。 给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。
+CARD.CONQUEROR	征服者	regent	1	Uncommon						0	1	铸造3。 君王之剑在本回合对敌人造成双倍伤害。	铸造3。 君王之剑在本回合对敌人造成双倍伤害。
+CARD.CONSTELLATION	群星荟萃	regent	0	Uncommon	0	1	9			0	0	使另一名玩家抽1张牌，获得{Energy:energyIcons()}，并获得9 点格挡	使另一名玩家抽1张牌，获得{Energy:energyIcons()}，并获得9 点格挡
+CARD.CONVERGENCE	汇流	regent	1	Uncommon						0	1	在本回合保留你的手牌。 在下个回合， 获得{Energy:energyIcons()}与{Stars:starIcons()}。	在本回合保留你的手牌。 在下个回合， 获得{Energy:energyIcons()}与{Stars:starIcons()}。
+CARD.COSMIC_INDIFFERENCE	宇宙冷漠	regent	1	Common	0	1	6	7.2	10.8	0	0	获得6点格挡。 将弃牌堆中的一张牌放到你的抽牌堆的顶部。	获得6点格挡。 将弃牌堆中的一张牌放到你的抽牌堆的顶部。
+CARD.CRASH_LANDING	迫降	regent	1	Rare	21	1	0	21	26	1	0	对所有敌人造成21点伤害。 用碎屑填满你的手牌。	对所有敌人造成21点伤害。 用碎屑填满你的手牌。
+CARD.CRESCENT_SPEAR	新月长矛	regent	1	Common						0	1	造成8点伤害。 你每有一张拥有{singleStarIcon}耗能的卡牌，这张牌就额外造成2点伤害。	造成8点伤害。 你每有一张拥有{singleStarIcon}耗能的卡牌，这张牌就额外造成2点伤害。
+CARD.CRUSH_UNDER	下砸	regent	1	Common	8	1	0	8	9	1	0	对所有敌人造成8点伤害。所有敌人在本回合失去{StrengthLoss:diff()}点力量。	对所有敌人造成8点伤害。所有敌人在本回合失去{StrengthLoss:diff()}点力量。
+CARD.DECISIONS_DECISIONS	抉择，抉择	regent		Rare						0	1	抽3张牌。 选择你手牌中的一张技能牌，并将其打出3次。	抽3张牌。 选择你手牌中的一张技能牌，并将其打出3次。
+CARD.DEFEND_REGENT	防御	regent	1	Basic	0	1	5	6	9.6	0	0	获得5点格挡。	获得5点格挡。
+CARD.DEVASTATE	葬送	regent	1	Uncommon	35	1	0	35	45	0	0	造成35点伤害。	造成35点伤害。
+CARD.DYING_STAR	星灭	regent	1	Rare	9	1	0	9	11	1	0	对所有敌人造成9点伤害。所有敌人在本回合中失去{StrengthLoss:diff()}点力量。	对所有敌人造成9点伤害。所有敌人在本回合中失去{StrengthLoss:diff()}点力量。
+CARD.FALLING_STAR	陨星	regent	0	Basic	8	1	0			0	0	造成8点伤害。 给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。	造成8点伤害。 给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。
+CARD.FOREGONE_CONCLUSION	既定事项	regent	1	Rare						0	1	在下个回合，从你的抽牌堆中选择2张牌放入你的手牌。	在下个回合，从你的抽牌堆中选择2张牌放入你的手牌。
+CARD.FURNACE	熔炉	regent	1	Uncommon						0	1	在你的回合开始时，铸造5。	在你的回合开始时，铸造5。
+CARD.GAMMA_BLAST	伽马爆破	regent	0	Uncommon	13	1	0			0	0	造成13点伤害。 给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。	造成13点伤害。 给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。
+CARD.GATHER_LIGHT	收集光辉	regent	1	Common	0	1	8	9.6	13.2	0	0	获得8点格挡。 获得{Stars:starIcons()}。	获得8点格挡。 获得{Stars:starIcons()}。
+CARD.GENESIS	创世纪	regent	2	Rare						0	1	在你的回合开始时，获得{StarsPerTurn:starIcons()}。	在你的回合开始时，获得{StarsPerTurn:starIcons()}。
+CARD.GLIMMER	微光	regent	1	Uncommon						0	1	抽3张牌。 将你手牌中的{PutBack:diff()}张牌放到抽牌堆顶部。	抽3张牌。 将你手牌中的{PutBack:diff()}张牌放到抽牌堆顶部。
+CARD.GLITTERSTREAM	流光溢彩	regent	2	Common	0	1	11	6.6	7.8	0	1	获得11点格挡。 在下一回合获得{BlockNextTurn:diff()}点格挡。	获得11点格挡。 在下一回合获得{BlockNextTurn:diff()}点格挡。
+CARD.GLOW	辉光	regent	1	Common						0	1	获得{Stars:starIcons()}。 抽1张牌。 下一回合抽1张牌{Cards:plural:|}。	获得{Stars:starIcons()}。 抽1张牌。 下一回合抽1张牌{Cards:plural:|}。
+CARD.GUARDS	护驾！！！	regent	2	Rare						0	1	将你手牌中的任意张牌变化为仆从捐躯。	将你手牌中的任意张牌变化为仆从捐躯+。
+CARD.GUIDING_STAR	引导之星	regent	1	Common	12	1	0	12	13	0	0	造成12点伤害。 在下个回合抽2张牌。	造成12点伤害。 在下个回合抽2张牌。
+CARD.HAMMER_TIME	锤子时间	regent	2	Rare						0	1	每当你铸造时，所有盟友也都铸造相同的数值。	每当你铸造时，所有盟友也都铸造相同的数值。
+CARD.HEAVENLY_DRILL	天际钻头	regent	0	Rare	8	1	0	8		0	0	造成8点伤害X次。 如果X的最终数值为4或以上，则将X的数值翻倍。	造成8点伤害X次。 如果X的最终数值为4或以上，则将X的数值翻倍。
+CARD.HEGEMONY	霸权	regent	2	Uncommon	15	1	0	7.5	9	0	1	造成15点伤害。 在下个回合获得{Energy:energyIcons()}。	造成15点伤害。 在下个回合获得{Energy:energyIcons()}。
+CARD.HEIRLOOM_HAMMER	传承之锤	regent	2	Rare	20	1	0	10	12.5	0	1	造成20点伤害。 选择你手牌中的一张无色牌。将这张牌的一张复制品放入你的手牌。	造成20点伤害。 选择你手牌中的一张无色牌。将这张牌的一张复制品放入你的手牌。
+CARD.HIDDEN_CACHE	隐秘藏品	regent	1	Common						0	1	获得{Stars:starIcons()}。 在下个回合获得{StarNextTurnPower:starIcons()}。	获得{Stars:starIcons()}。 在下个回合获得{StarNextTurnPower:starIcons()}。
+CARD.I_AM_INVINCIBLE	所向无敌	regent	1	Rare	0	1	10	12	15.6	0	0	获得10点格挡。 在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出。	获得10点格挡。 在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出。
+CARD.KINGLY_KICK	王者之踢	regent	4	Uncommon	27	1	0	6.75	8.75	0	1	造成27点伤害。 每当你抽到这张牌时，这张牌的耗能减少1。	造成27点伤害。 每当你抽到这张牌时，这张牌的耗能减少1。
+CARD.KINGLY_PUNCH	王者之拳	regent	1	Uncommon	8	1	0	8	10	0	0	造成8点伤害。 每当你抽到这张牌时，在这场战斗中其伤害增加{Increase:diff()}。	造成8点伤害。 每当你抽到这张牌时，在这场战斗中其伤害增加{Increase:diff()}。
+CARD.KNOCKOUT_BLOW	决胜一击	regent	3	Uncommon	30	1	0	10	12.67	0	1	造成30点伤害。 如果此牌击杀了敌人，获得{Stars:starIcons()}。	造成30点伤害。 如果此牌击杀了敌人，获得{Stars:starIcons()}。
+CARD.KNOW_THY_PLACE	何人僭越	regent		Common						0	1	给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。	给予{WeakPower:diff()}层虚弱。 给予{VulnerablePower:diff()}层易伤。
+CARD.LARGESSE	慷慨捐助	regent		Uncommon						0	1	将一张随机的{IfUpgraded:show:升级过的}无色牌添加至一位其他玩家的手牌中。	将一张随机的{IfUpgraded:show:升级过的}无色牌添加至一位其他玩家的手牌中。
+CARD.LUNAR_BLAST	月面射击	regent	0	Uncommon	4	1	0			0	0	本回合中每打出过一张技能牌，此牌额外造成4点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}	本回合中每打出过一张技能牌，此牌额外造成4点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.MAKE_IT_SO	如此甚好	regent	0	Rare	6	1	0			0	0	造成6点伤害。 你每在一回合内打出3张技能牌，就将这张牌放入你的手牌。	造成6点伤害。 你每在一回合内打出3张技能牌，就将这张牌放入你的手牌。
+CARD.MANIFEST_AUTHORITY	君权自授	regent	1	Uncommon	0	1	7	8.4	9.6	0	0	获得7点格挡。 将一张随机{IfUpgraded:show:升级过的}无色牌加入你的手牌。	获得7点格挡。 将一张随机{IfUpgraded:show:升级过的}无色牌加入你的手牌。
+CARD.METEOR_SHOWER	流星雨	regent	0	Ancient	14	1	0			1	0	对所有敌人造成14点伤害。 给予所有敌人{WeakPower:diff()}层虚弱和易伤。	对所有敌人造成14点伤害。 给予所有敌人{WeakPower:diff()}层虚弱和易伤。
+CARD.MONARCHS_GAZE	王之凝视	regent	2	Rare						0	1	每当你攻击敌人的时候，这名敌人在本回合失去{StrengthLoss:diff()}点力量。	每当你攻击敌人的时候，这名敌人在本回合失去{StrengthLoss:diff()}点力量。
+CARD.MONOLOGUE	独白	regent		Uncommon						0	1	每当你在本回合打出卡牌时，在本回合获得{Power:diff()}点力量。	每当你在本回合打出卡牌时，在本回合获得{Power:diff()}点力量。
+CARD.NEUTRON_AEGIS	中子护盾	regent	1	Rare						0	1	获得{PlatingPower:diff()}层覆甲。	获得{PlatingPower:diff()}层覆甲。
+CARD.ORBIT	环绕轨道	regent	2	Uncommon						0	1	你每花费{energyPrefix:energyIcons(4)}， 就获得{Energy:energyIcons()}。	你每花费{energyPrefix:energyIcons(4)}， 就获得{Energy:energyIcons()}。
+CARD.PALE_BLUE_DOT	暗淡蓝点	regent	1	Uncommon						0	1	如果你在一回合内打出了大于等于{CardPlay}张牌，在下个回合开始时抽1张牌。	如果你在一回合内打出了大于等于{CardPlay}张牌，在下个回合开始时抽1张牌。
+CARD.PARRY	招架	regent	1	Uncommon						0	1	君王之剑现在能让你获得{ParryPower:diff()}点格挡。	君王之剑现在能让你获得{ParryPower:diff()}点格挡。
+CARD.PARTICLE_WALL	粒子墙	regent	0	Uncommon	0	1	9			0	0	获得9点格挡。 将此牌返回你的手牌。	获得9点格挡。 将此牌返回你的手牌。
+CARD.PATTER	星星点点	regent	1	Common	0	1	8	9.6	12	0	0	获得8点格挡。 获得{VigorPower:diff()}点活力。	获得8点格挡。 获得{VigorPower:diff()}点活力。
+CARD.PHOTON_CUT	光子切割	regent	1	Common	10	1	0	10	13	0	0	造成10点伤害。 抽1张牌。 将手牌中的一张牌放到抽牌堆顶部。	造成10点伤害。 抽1张牌。 将手牌中的一张牌放到抽牌堆顶部。
+CARD.PLOT	筹划	regent	1	Uncommon						0	1	下一回合，所有玩家抽{Cards}张牌。	下一回合，所有玩家抽{Cards}张牌。
+CARD.PILLAR_OF_CREATION	创世之柱	regent	1	Uncommon	0	1	2	2.4	3.6	0	0	你每次生成卡牌时，获得2点格挡。	你每次生成卡牌时，获得2点格挡。
+CARD.PROPHESIZE	预言	regent	2	Uncommon						0	1	抽6张牌。	抽6张牌。
+CARD.QUASAR	类星体	regent		Uncommon						0	1	从3张随机无色牌中选择1张加入你的手牌。	从3张随机升级过的无色牌中选择1张加入你的手牌。
+CARD.RADIATE	辐射	regent	0	Uncommon	3	1	0			1	0	你在本回合每获得一点{Stars:starIcons()}，此牌就对所有敌人造成3点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}	你在本回合每获得一点{Stars:starIcons()}，此牌就对所有敌人造成3点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.REFINE_BLADE	淬炼刀刃	regent	1	Common						0	1	铸造8。 在下个回合获得{Energy:energyIcons()}。	铸造8。 在下个回合获得{Energy:energyIcons()}。
+CARD.REFLECT	倒映	regent	1	Uncommon	0	1	15	18	24	0	0	获得15点格挡。 在本回合将你格挡掉的攻击伤害反弹给攻击者。	获得15点格挡。 在本回合将你格挡掉的攻击伤害反弹给攻击者。
+CARD.RESONANCE	共鸣	regent	1	Uncommon						0	1	获得{StrengthPower:diff()}点力量。所有敌人失去1点力量。	获得{StrengthPower:diff()}点力量。所有敌人失去1点力量。
+CARD.ROYAL_GAMBLE	胜券在王	regent		Uncommon						0	1	获得9{singleStarIcon}。	获得9{singleStarIcon}。
+CARD.ROYALTIES	王国资产	regent	1	Rare						0	1	在战斗结束时，获得30金币。	在战斗结束时，获得30金币。
+CARD.SEEKING_EDGE	追踪之刃	regent	1	Rare						0	1	铸造7。 君王之剑现在会对所有敌人造成伤害。	铸造7。 君王之剑现在会对所有敌人造成伤害。
+CARD.SEVEN_STARS	七星	regent	2	Rare	7	1	0	3.5	3.5	1	1	对所有敌人造成7点伤害7次。	对所有敌人造成7点伤害7次。
+CARD.SHINING_STRIKE	明耀打击	regent	1	Uncommon	8	1	0	8	11	0	0	造成8点伤害。 获得{Stars:starIcons()}。 将这张牌放置于你的抽牌堆顶部。	造成8点伤害。 获得{Stars:starIcons()}。 将这张牌放置于你的抽牌堆顶部。
+CARD.SOLAR_STRIKE	太阳打击	regent	1	Common	9	1	0	9	10	0	0	造成9点伤害。 获得{Stars:starIcons()}。	造成9点伤害。 获得{Stars:starIcons()}。
+CARD.SPECTRUM_SHIFT	光谱偏移	regent	2	Uncommon						0	1	在你的回合开始时，将1张随机无色牌添加到你的手牌中。	在你的回合开始时，将1张随机无色牌添加到你的手牌中。
+CARD.SPOILS_OF_BATTLE	战利品	regent	1	Common						0	1	铸造6。 抽2张牌。	铸造6。 抽2张牌。
+CARD.STARDUST	星尘	regent	0	Uncommon	5	1	0			0	0	随机对敌人造成5点伤害X次。	随机对敌人造成5点伤害X次。
+CARD.STRIKE_REGENT	打击	regent	1	Basic	6	1	0	6	9	0	0	造成6点伤害。	造成6点伤害。
+CARD.SUMMON_FORTH	征召上前	regent	1	Uncommon						0	1	不论何处，将君王之剑放入你的手牌。 铸造8。	不论何处，将君王之剑放入你的手牌。 铸造8。
+CARD.SUPERMASSIVE	超质量体	regent	1	Uncommon						0	1	造成5点伤害。 你在本场战斗中每生成过一张牌，这张牌就额外造成3点伤害。	造成5点伤害。 你在本场战斗中每生成过一张牌，这张牌就额外造成3点伤害。
+CARD.SWORD_SAGE	剑圣	regent	2	Rare						0	1	君王之剑获得重放{SwordSagePower:diff()}。	君王之剑获得重放{SwordSagePower:diff()}。
+CARD.TERRAFORMING	地形改造	regent	1	Uncommon						0	1	获得{VigorPower:diff()}点活力。	获得{VigorPower:diff()}点活力。
+CARD.THE_SEALED_THRONE	封印王座	regent	1	Ancient						0	1	你每打出一张牌，获得{singleStarIcon}。	你每打出一张牌，获得{singleStarIcon}。
+CARD.THE_SMITH	铸剑者	regent	1	Rare						0	1	铸造30。	铸造30。
+CARD.TUTOR	指导	regent	1	Rare						0	1	另一名玩家选择其抽牌堆中的一张牌放入其手牌。	另一名玩家选择其抽牌堆中的一张牌放入其手牌。
+CARD.TYRANNY	暴政	regent	1	Rare						0	1	在你的回合开始时，抽一张牌，并从你的手牌中消耗1张牌。	在你的回合开始时，抽一张牌，并从你的手牌中消耗1张牌。
+CARD.VENERATE	崇拜	regent	1	Basic						0	1	获得{Stars:starIcons()}。	获得{Stars:starIcons()}。
+CARD.VOID_FORM	虚空形态	regent	3	Rare						0	1	结束你的回合。 你可以免费打出每回合的前{VoidFormPower:diff()}张牌。	结束你的回合。 你可以免费打出每回合的前{VoidFormPower:diff()}张牌。
+CARD.WROUGHT_IN_WAR	战火铸就	regent	1	Common	7	1	0	7	9	0	0	造成7点伤害。 铸造7。	造成7点伤害。 铸造7。
+CARD.AFTERLIFE	来生	necrobinder	1	Common						0	1	召唤6。	召唤6。
+CARD.BANSHEES_CRY	女妖之嚎	necrobinder	9	Rare	33	1	0	3.67	3.67	1	1	对所有敌人造成33点伤害。 本场战斗中每打出过一张虚无牌，此牌的耗能就减少{Energy:energyIcons()}。	对所有敌人造成33点伤害。 本场战斗中每打出过一张虚无牌，此牌的耗能就减少{Energy:energyIcons()}。
+CARD.BLIGHT_STRIKE	荒疫打击	necrobinder	1	Common	8	1	0	8	10	0	0	造成8点伤害。 给予等量于所造成伤害的灾厄。	造成8点伤害。 给予等量于所造成伤害的灾厄。
+CARD.BODYGUARD	护卫	necrobinder	1	Basic						0	1	召唤5。	召唤5。
+CARD.BONE_SHARDS	碎骨	necrobinder	1	Uncommon	0	1	9	10.8	14.4	1	0	如果奥斯提存活，则他对所有敌人造成9点伤害并且你获得9点格挡。 然后奥斯提死去。	如果奥斯提存活，则他对所有敌人造成9点伤害并且你获得9点格挡。 然后奥斯提死去。
+CARD.BORROWED_TIME	预借时间	necrobinder	1	Uncommon						0	1	获得{Energy:energyIcons()}。 所有卡牌在本回合耗能增加{ExtraCost:energyIcons()}。	获得{Energy:energyIcons()}。 所有卡牌在本回合耗能增加{ExtraCost:energyIcons()}。
+CARD.BURY	埋葬	necrobinder	4	Uncommon	52	1	0	13	15.75	0	1	造成52点伤害。	造成52点伤害。
+CARD.CACOPHONY	不谐合曲	necrobinder	2	Rare	66	1	0	33	49.5	0	1	所有玩家每抽33张牌，就对随机一名敌人造成66点伤害。	所有玩家每抽33张牌，就对随机一名敌人造成66点伤害。
+CARD.CALCIFY	钙化	necrobinder	1	Uncommon						0	1	奥斯提的攻击额外造成{CalcifyPower:diff()}点伤害。	奥斯提的攻击额外造成{CalcifyPower:diff()}点伤害。
+CARD.CALL_OF_THE_VOID	虚空之唤	necrobinder	1	Rare						0	1	在你的回合开始时，将1张随机牌添加到你的手牌中。添加的牌会获得虚无。	在你的回合开始时，将1张随机牌添加到你的手牌中。添加的牌会获得虚无。
+CARD.CAPTURE_SPIRIT	捕捉灵魂	necrobinder	1	Uncommon	3	1	0	3	4	0	0	敌人失去3点生命。 将3张灵魂加入你的抽牌堆。	敌人失去3点生命。 将3张灵魂加入你的抽牌堆。
+CARD.CLEANSE	洁净	necrobinder	1	Uncommon						0	1	召唤3。 从你的抽牌堆中选择一张牌将其消耗。	召唤3。 从你的抽牌堆中选择一张牌将其消耗。
+CARD.COUNTDOWN	倒数计时	necrobinder	1	Uncommon						0	1	在你的回合开始时，给予随机敌人{CountdownPower:diff()}层灾厄。	在你的回合开始时，给予随机敌人{CountdownPower:diff()}层灾厄。
+CARD.DANSE_MACABRE	死亡之舞	necrobinder	1	Uncommon						0	1	每当你打出一张耗能大于等于{Energy:energyIcons()}的牌时，获得{DanseMacabrePower:diff()}点格挡。	每当你打出一张耗能大于等于{Energy:energyIcons()}的牌时，获得{DanseMacabrePower:diff()}点格挡。
+CARD.DEATH_MARCH	死亡行军	necrobinder	1	Uncommon						0	1	造成8点伤害。 你在回合进行中每抽到一张牌，都会使其额外造成4点伤害。	造成8点伤害。 你在回合进行中每抽到一张牌，都会使其额外造成4点伤害。
+CARD.DEATHBRINGER	死亡使者	necrobinder	2	Uncommon						0	1	给予所有敌人{DoomPower:diff()}层灾厄和{WeakPower:diff()}层虚弱。	给予所有敌人{DoomPower:diff()}层灾厄和{WeakPower:diff()}层虚弱。
+CARD.DEATHS_DOOR	死亡之门	necrobinder	1	Uncommon	0	1	6	7.2	8.4	0	0	获得6点格挡。 如果你在本回合中曾给予过灾厄，则额外获得2次格挡。	获得6点格挡。 如果你在本回合中曾给予过灾厄，则额外获得2次格挡。
+CARD.DEBILITATE	摧残	necrobinder	1	Uncommon	10	1	0	10	12	0	0	造成10点伤害。 在接下来的{DebilitatePower:diff()}回合内，该敌人身上的易伤与虚弱效果翻倍。	造成10点伤害。 在接下来的{DebilitatePower:diff()}回合内，该敌人身上的易伤与虚弱效果翻倍。
+CARD.DEFEND_NECROBINDER	防御	necrobinder	1	Basic	0	1	5	6	9.6	0	0	获得5点格挡。	获得5点格挡。
+CARD.DEFILE	玷污	necrobinder	1	Common	13	1	0	13	17	0	0	造成13点伤害。	造成13点伤害。
+CARD.DEFY	违逆	necrobinder	1	Common	0	1	6	7.2	10.8	0	0	获得6点格挡。 给予{WeakPower:diff()}层虚弱。	获得6点格挡。 给予{WeakPower:diff()}层虚弱。
+CARD.DELAY	拖延	necrobinder	2	Uncommon	0	1	11	6.6	7.8	0	1	获得11点格挡。 在下个回合， 获得{Energy:energyIcons()}。	获得11点格挡。 在下个回合， 获得{Energy:energyIcons()}。
+CARD.DEMESNE	领域	necrobinder	3	Rare						0	1	在你的回合开始时，获得{Energy:energyIcons()}并额外多抽1张牌。	在你的回合开始时，获得{Energy:energyIcons()}并额外多抽1张牌。
+CARD.DEVOUR_LIFE	吞噬生命	necrobinder	1	Rare						0	1	每当你打出一张灵魂时，召唤{DevourLifePower:diff()}。	每当你打出一张灵魂时，召唤{DevourLifePower:diff()}。
+CARD.DIRGE	挽歌	necrobinder		Uncommon						0	1	召唤3X次。 将X张灵魂添加到你的抽牌堆中。	召唤3X次。 将X张灵魂+添加到你的抽牌堆中。
+CARD.DRAIN_POWER	能量汲取	necrobinder	1	Common	10	1	0	10	12	0	0	造成10点伤害。 随机升级你弃牌堆中的2张牌。	造成10点伤害。 随机升级你弃牌堆中的2张牌。
+CARD.DREDGE	清淤	necrobinder	1	Uncommon						0	1	将3张牌从弃牌堆加入你的手牌。	将3张牌从弃牌堆加入你的手牌。
+CARD.EIDOLON	幻景	necrobinder	2	Rare						0	1	打出你消耗牌堆中的所有虚无牌。	打出你消耗牌堆中的所有虚无牌。
+CARD.END_OF_DAYS	末日降临	necrobinder	3	Rare						0	1	给予所有敌人{DoomPower:diff()}层灾厄。 杀死所有灾厄大于等于当前生命值的敌人。	给予所有敌人{DoomPower:diff()}层灾厄。 杀死所有灾厄大于等于当前生命值的敌人。
+CARD.ENFEEBLING_TOUCH	弱化之触	necrobinder	1	Uncommon						0	1	让一名敌人在本回合内失去{StrengthLoss:diff()}点力量。	让一名敌人在本回合内失去{StrengthLoss:diff()}点力量。
+CARD.ERADICATE	根除	necrobinder	0	Rare	11	1	0	11		0	0	造成11点伤害X次。	造成11点伤害X次。
+CARD.FEAR	恐惧	necrobinder	1	Common	7	1	0	7	8	0	0	造成7点伤害。 给予{VulnerablePower:diff()}层易伤。	造成7点伤害。 给予{VulnerablePower:diff()}层易伤。
+CARD.FETCH	取回	necrobinder		Uncommon						0	1	奥斯提造成3点伤害。 如果这是这张牌第一次在本回合被打出，则抽1张牌。	奥斯提造成3点伤害。 如果这是这张牌第一次在本回合被打出，则抽1张牌。
+CARD.FLATTEN	重压	necrobinder	2	Common						0	1	奥斯提造成12点伤害。 如果奥斯提本回合攻击过，则这张牌的耗能变为0{energyPrefix:energyIcons(1)}。	奥斯提造成12点伤害。 如果奥斯提本回合攻击过，则这张牌的耗能变为0{energyPrefix:energyIcons(1)}。
+CARD.FORBIDDEN_GRIMOIRE	禁忌魔典	necrobinder	2	Ancient						0	1	在战斗结束时，你可以从你的牌组中选一张牌移除。	在战斗结束时，你可以从你的牌组中选一张牌移除。
+CARD.FRIENDSHIP	友谊	necrobinder	1	Uncommon						0	1	失去{StrengthPower:inverseDiff()}点力量。 在每个回合开始时获得{Energy:energyIcons()}。	失去{StrengthPower:inverseDiff()}点力量。 在每个回合开始时获得{Energy:energyIcons()}。
+CARD.GLIMPSE_BEYOND	彼岸一瞥	necrobinder	1	Rare						0	1	在所有玩家的抽牌堆中加入3张灵魂。	在所有玩家的抽牌堆中加入3张灵魂。
+CARD.GRAVE_WARDEN	守墓人	necrobinder	1	Common	0	1	8	9.6	13.2	0	0	获得8点格挡。 将一张灵魂放入你的抽牌堆中。	获得8点格挡。 将一张灵魂放入你的抽牌堆中。
+CARD.GRAVEBLAST	坟冢爆射	necrobinder	1	Common	4	1	0	4	6	0	0	造成4点伤害。 将弃牌堆中的一张牌放入你的手牌。	造成4点伤害。 将弃牌堆中的一张牌放入你的手牌。
+CARD.HANG	吊杀	necrobinder	1	Rare	10	1	0	10	13	0	0	造成10点伤害。 让所有“吊杀”牌对这名敌人造成的伤害翻倍。	造成10点伤害。 让所有“吊杀”牌对这名敌人造成的伤害翻倍。
+CARD.HAUNT	纠缠	necrobinder	1	Uncommon						0	1	每当你打出一张灵魂时，随机一名敌人失去7点生命。	每当你打出一张灵魂时，随机一名敌人失去7点生命。
+CARD.HIGH_FIVE	击掌	necrobinder	2	Uncommon						0	1	奥斯提对所有敌人 造成11点伤害并给予它们 {VulnerablePower:diff()}层易伤。	奥斯提对所有敌人 造成11点伤害并给予它们 {VulnerablePower:diff()}层易伤。
+CARD.INVOKE	唤起	necrobinder	1	Common						0	1	在下个回合召唤2并获得{Energy:energyIcons()}。	在下个回合召唤2并获得{Energy:energyIcons()}。
+CARD.LEGION_OF_BONE	骸骨军团	necrobinder	2	Uncommon						0	1	所有玩家召唤6。	所有玩家召唤6。
+CARD.LETHALITY	致死性	necrobinder	1	Uncommon						0	1	每回合的第一张攻击牌会造成{LethalityPower:diff()}%额外伤害。	每回合的第一张攻击牌会造成{LethalityPower:diff()}%额外伤害。
+CARD.MELANCHOLY	忧郁	necrobinder	3	Uncommon	0	1	13	5.2	6.8	0	1	获得13点格挡。 每当有任何生物死亡时，这张牌的耗能减少{Energy:energyIcons()}。	获得13点格挡。 每当有任何生物死亡时，这张牌的耗能减少{Energy:energyIcons()}。
+CARD.MISERY	苦难	necrobinder	0	Rare	7	1	0			0	0	造成7点伤害。 给予其他敌人该名敌人身上的所有负面效果。	造成7点伤害。 给予其他敌人该名敌人身上的所有负面效果。
+CARD.NECRO_MASTERY	亡灵精通	necrobinder	2	Rare						0	1	召唤5。 每当奥斯提失去生命值时， 所有敌人失去等量生命值。	召唤5。 每当奥斯提失去生命值时， 所有敌人失去等量生命值。
+CARD.NEGATIVE_PULSE	负能量脉冲	necrobinder	1	Common	0	1	5	6	7.2	1	0	获得5点格挡。 给予所有敌人{DoomPower:diff()}层灾厄。	获得5点格挡。 给予所有敌人{DoomPower:diff()}层灾厄。
+CARD.NEUROSURGE	精神过载	necrobinder		Rare						0	1	获得{Energy:energyIcons()}。 抽2张牌。 在你的回合开始时，给予自身{NeurosurgePower:diff()}层灾厄。	获得{Energy:energyIcons()}。 抽2张牌。 在你的回合开始时，给予自身{NeurosurgePower:diff()}层灾厄。
+CARD.NO_ESCAPE	无处可逃	necrobinder	1	Uncommon						0	1	给予10层灾厄，敌人身上每有{DoomThreshold:diff()}层灾厄，则额外给予这名敌人5层灾厄。{IsTargeting: （给予{CalculatedDoom:diff()}层灾厄）|}	给予10层灾厄，敌人身上每有{DoomThreshold:diff()}层灾厄，则额外给予这名敌人5层灾厄。{IsTargeting: （给予{CalculatedDoom:diff()}层灾厄）|}
+CARD.OBLIVION	湮灭	necrobinder		Rare						0	1	打出此牌后，你在本回合内每打出一张牌，就给予该敌人{DoomPower:diff()}层灾厄。	打出此牌后，你在本回合内每打出一张牌，就给予该敌人{DoomPower:diff()}层灾厄。
+CARD.PAGESTORM	书页风暴	necrobinder	1	Uncommon						0	1	每当你抽到一张虚无牌时, 抽1张牌。	每当你抽到一张虚无牌时, 抽1张牌。
+CARD.PARSE	领会	necrobinder	1	Uncommon						0	1	抽3张牌。	抽3张牌。
+CARD.POKE	戳击	necrobinder		Common						0	1	奥斯提造成6点伤害。	奥斯提造成6点伤害。
+CARD.PROTECTOR	守护者	necrobinder	1	Ancient						0	1	奥斯提造成10点伤害。 额外造成等量于奥斯提最大生命值的伤害。	奥斯提造成10点伤害。 额外造成等量于奥斯提最大生命值的伤害。
+CARD.PULL_AGGRO	吸引仇恨	necrobinder	2	Common	0	1	7	4.2	5.4	0	1	召唤4。 获得7点格挡。	召唤4。 获得7点格挡。
+CARD.PULL_FROM_BELOW	亡魂牵引	necrobinder	1	Uncommon	5	1	0	5	7	0	0	本场战斗中每打出过一张虚无牌，此牌就造成5点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}	本场战斗中每打出过一张虚无牌，此牌就造成5点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.PUTREFY	腐败	necrobinder	1	Uncommon						0	1	给予{Power:diff()}层虚弱。 给予{Power:diff()}层易伤。	给予{Power:diff()}层虚弱。 给予{Power:diff()}层易伤。
+CARD.RATTLE	猛晃	necrobinder	1	Uncommon						0	1	奥斯提造成7点伤害。 本回合每使用过一次奥斯提攻击牌，此牌就额外造成一次伤害。{InCombat: （命中{CalculatedHits:diff()}次）|}	奥斯提造成7点伤害。 本回合每使用过一次奥斯提攻击牌，此牌就额外造成一次伤害。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.REANIMATE	死者苏生	necrobinder	3	Rare						0	1	召唤20。	召唤20。
+CARD.REAP	收割	necrobinder	3	Common	27	1	0	9	11	0	1	造成27点伤害。	造成27点伤害。
+CARD.REAPER_FORM	死神形态	necrobinder	3	Rare						0	1	每当你的攻击造成伤害时，同时给予等量的灾厄。	每当你的攻击造成伤害时，同时给予等量的灾厄。
+CARD.REAVE	剥夺	necrobinder	1	Common	10	1	0	10	13	0	0	造成10点伤害。 将一张灵魂加入你的抽牌堆。	造成10点伤害。 将一张灵魂+加入你的抽牌堆。
+CARD.RIGHT_HAND_HAND	得力助手	necrobinder		Uncommon						0	1	奥斯提造成4点伤害。 每当你打出耗能为{Energy:energyIcons()}或以上的牌，将此牌从弃牌堆放回你的手牌。	奥斯提造成4点伤害。 每当你打出耗能为{Energy:energyIcons()}或以上的牌，将此牌从弃牌堆放回你的手牌。
+CARD.SACRIFICE	牺牲	necrobinder	1	Rare						0	1	如果奥斯提存活，则他死去，然后你获得等量于其最大生命值三倍的格挡。{InCombat: （获得{IsOstyAlive:0|0}点格挡）|}	如果奥斯提存活，则他死去，然后你获得等量于其最大生命值三倍的格挡。{InCombat: （获得{IsOstyAlive:0|0}点格挡）|}
+CARD.SCOURGE	鞭打	necrobinder	1	Common						0	1	给予{DoomPower:diff()}层灾厄。 抽1张牌。	给予{DoomPower:diff()}层灾厄。 抽1张牌。
+CARD.SCULPTING_STRIKE	雕琢打击	necrobinder	1	Common	9	1	0	9	12	0	0	造成9点伤害。 为一张手牌添加虚无。	造成9点伤害。 为一张手牌添加虚无。
+CARD.SEANCE	降灵	necrobinder	1	Rare						0	1	将你抽牌堆中的一张牌变化为灵魂。	将你抽牌堆中的一张牌变化为灵魂。
+CARD.SENTRY_MODE	哨卫模式	necrobinder	2	Rare						0	1	在你的回合开始时，将{SentryModePower:diff()}张扫荡凝视加入你的手牌。	在你的回合开始时，将{SentryModePower:diff()}张扫荡凝视加入你的手牌。
+CARD.SEVERANCE	切断	necrobinder	2	Uncommon	13	1	0	6.5	9	0	1	造成13点伤害。 将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中。	造成13点伤害。 将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中。
+CARD.SHARED_FATE	命运同担	necrobinder		Rare						0	1	失去{PlayerStrengthLoss:diff()}点力量。 敌人失去{EnemyStrengthLoss:diff()}点力量。	失去{PlayerStrengthLoss:diff()}点力量。 敌人失去{EnemyStrengthLoss:diff()}点力量。
+CARD.SHROUD	厄运之衣	necrobinder	1	Uncommon	0	1	3	3.6	4.8	0	0	每当你给予灾厄时，获得3点格挡。	每当你给予灾厄时，获得3点格挡。
+CARD.SIC_EM	紧追不放	necrobinder	1	Uncommon						0	1	奥斯提造成5点伤害。 在本回合内，每当奥斯提攻击这名敌人时，召唤{SicEmPower:diff()}。	奥斯提造成5点伤害。 在本回合内，每当奥斯提攻击这名敌人时，召唤{SicEmPower:diff()}。
+CARD.SLEIGHT_OF_FLESH	血肉戏法	necrobinder	2	Uncommon						0	1	每当你给予一个敌人负面状态时，使其受到{SleightOfFleshPower:diff()}点伤害。	每当你给予一个敌人负面状态时，使其受到{SleightOfFleshPower:diff()}点伤害。
+CARD.SNAP	响指	necrobinder	1	Common						0	1	奥斯提造成7点伤害。 给手牌中的一张牌添加保留。	奥斯提造成7点伤害。 给手牌中的一张牌添加保留。
+CARD.SOUL_STORM	灵魂风暴	necrobinder	1	Rare						0	1	造成9点伤害。 你的消耗牌堆中每有一张灵魂，伤害增加4。	造成9点伤害。 你的消耗牌堆中每有一张灵魂，伤害增加4。
+CARD.SOULBOUND	灵魂绑定	necrobinder	1	Uncommon						0	1	选择一名盟友。 每当你生成一张灵魂时，将一张灵魂，添加至他的抽牌堆。	选择一名盟友。 每当你生成一张灵魂时，将一张灵魂，添加至他的抽牌堆。
+CARD.SOW	播种	necrobinder	1	Common	8	1	0	8	11	1	0	对所有敌人造成8点伤害。	对所有敌人造成8点伤害。
+CARD.SPIRIT_OF_ASH	灰烬之灵	necrobinder	1	Rare						0	1	每当你打出一张虚无牌时，获得{BlockOnExhaust:diff()}点格挡。	每当你打出一张虚无牌时，获得{BlockOnExhaust:diff()}点格挡。
+CARD.SPUR	增生	necrobinder	1	Uncommon						0	1	召唤3。 奥斯提回复5点生命。	召唤3。 奥斯提回复5点生命。
+CARD.SQUEEZE	榨取	necrobinder	3	Rare						0	1	奥斯提造成25点伤害。 你每有一张奥斯提的攻击牌，这张牌就额外造成5点伤害。	奥斯提造成25点伤害。 你每有一张奥斯提的攻击牌，这张牌就额外造成5点伤害。
+CARD.STRIKE_NECROBINDER	打击	necrobinder	1	Basic	6	1	0	6	9	0	0	造成6点伤害。	造成6点伤害。
+CARD.THE_SCYTHE	巨镰	necrobinder	2	Rare	13	1	0	6.5	6.5	0	1	造成13点伤害。 这张牌在本局游戏中的伤害永久性增加{Increase:diff()}。	造成13点伤害。 这张牌在本局游戏中的伤害永久性增加{Increase:diff()}。
+CARD.TIMES_UP	大限已至	necrobinder	2	Rare						0	1	造成等量于该敌人身上的灾厄层数的伤害。{IsTargeting: （造成0点伤害）|}	造成等量于该敌人身上的灾厄层数的伤害。{IsTargeting: （造成0点伤害）|}
+CARD.TRANSFIGURE	重构	necrobinder	1	Rare						0	1	给一张手牌添加重放。 其耗能增加1{Energy:energyIcons()}。	给一张手牌添加重放。 其耗能增加1{Energy:energyIcons()}。
+CARD.UNDEATH	不死	necrobinder	0	Rare	0	1	7			0	0	获得7点格挡。 在弃牌堆放入一张此牌的复制品。	获得7点格挡。 在弃牌堆放入一张此牌的复制品。
+CARD.UNDERWORLD	幽冥之界	necrobinder	2	Uncommon						0	1	每当其他玩家在本回合造成攻击伤害时，给予敌人相等的灾厄。	每当其他玩家在本回合造成攻击伤害时，给予敌人相等的灾厄。
+CARD.UNLEASH	出击	necrobinder	1	Basic						0	1	奥斯提造成6点伤害。 这张牌额外造成等量于奥斯提当前生命值的伤害。	奥斯提造成6点伤害。 这张牌额外造成等量于奥斯提当前生命值的伤害。
+CARD.VEILPIERCER	刺破帷幕	necrobinder	1	Uncommon	10	1	0	10	13	0	0	造成10点伤害。 你打出的下一张虚无牌耗能变为0{energyPrefix:energyIcons(1)}。	造成10点伤害。 你打出的下一张虚无牌耗能变为0{energyPrefix:energyIcons(1)}。
+CARD.WISP	鬼火	necrobinder		Common						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.ADAPTIVE_STRIKE	适应打击	defect	2	Rare	18	1	0	9	11.5	0	1	造成18点伤害。 将这张牌的一张0{energyPrefix:energyIcons(1)}复制品添加到你的弃牌堆。	造成18点伤害。 将这张牌的一张0{energyPrefix:energyIcons(1)}复制品添加到你的弃牌堆。
+CARD.ALL_FOR_ONE	万物一心	defect	2	Rare	10	1	0	5	7	0	1	造成10点伤害。 将你弃牌堆中的所有0{energyPrefix:energyIcons(1)}牌放入你的手牌。	造成10点伤害。 将你弃牌堆中的所有0{energyPrefix:energyIcons(1)}牌放入你的手牌。
+CARD.BALL_LIGHTNING	球状闪电	defect	1	Common	7	1	0	7	10	0	0	造成7点伤害。 生成1个闪电充能球。	造成7点伤害。 生成1个闪电充能球。
+CARD.BARRAGE	弹幕齐射	defect	1	Common	5	1	0	5	7	0	0	当前每有一个充能球，造成5点伤害。{InCombat: （命中{CalculatedHits:diff()}次）|}	当前每有一个充能球，造成5点伤害。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.BEAM_CELL	光束射线	defect	0	Common	3	1	0			0	0	造成3点伤害。 给予{VulnerablePower:diff()}层易伤。	造成3点伤害。 给予{VulnerablePower:diff()}层易伤。
+CARD.BIASED_COGNITION	偏差认知	defect	1	Ancient						0	1	获得{FocusPower:diff()}点集中。 在你的回合开始时，失去{BiasedCognitionPower:diff()}点集中。	获得{FocusPower:diff()}点集中。 在你的回合开始时，失去{BiasedCognitionPower:diff()}点集中。
+CARD.BOOST_AWAY	高速脱离	defect	0	Common	0	1	6			0	0	获得6点格挡。 将一张晕眩添加到你的弃牌堆中。	获得6点格挡。 将一张晕眩添加到你的弃牌堆中。
+CARD.BOOT_SEQUENCE	启动流程	defect	0	Uncommon	0	1	10			0	0	获得10点格挡。	获得10点格挡。
+CARD.BUFFER	缓冲	defect	2	Rare						0	1	阻止下{BufferPower:diff()}次你受到的生命值损伤。	阻止下{BufferPower:diff()}次你受到的生命值损伤。
+CARD.BULK_UP	暴涨	defect	2	Uncommon						0	1	失去{OrbSlots:diff()}个充能球栏位。 获得{StrengthPower:diff()}点力量。 获得{DexterityPower:diff()}点敏捷。	失去{OrbSlots:diff()}个充能球栏位。 获得{StrengthPower:diff()}点力量。 获得{DexterityPower:diff()}点敏捷。
+CARD.CAPACITOR	扩容	defect	1	Uncommon						0	1	获得2个充能球栏位。	获得2个充能球栏位。
+CARD.CHAOS	混沌	defect	1	Uncommon						0	1	生成1个随机充能球。	生成1个随机充能球。
+CARD.CHARGE_BATTERY	充电	defect	1	Common	0	1	7	8.4	12	0	0	获得7点格挡。 在下个回合获得{Energy:energyIcons()}。	获得7点格挡。 在下个回合获得{Energy:energyIcons()}。
+CARD.CHILL	冰寒	defect		Uncommon						0	1	当前每有一名敌人，就生成1个冰霜充能球。	当前每有一名敌人，就生成1个冰霜充能球。
+CARD.CLAW	爪击	defect	0	Common	3	1	0			0	0	造成3点伤害。 本场战斗中所有爪击卡牌的伤害增加{Increase:diff()}点。	造成3点伤害。 本场战斗中所有爪击卡牌的伤害增加{Increase:diff()}点。
+CARD.COLD_SNAP	寒流	defect	1	Common	6	1	0	6	9	0	0	造成6点伤害。 生成1个冰霜充能球。	造成6点伤害。 生成1个冰霜充能球。
+CARD.COMPACT	压缩	defect	1	Uncommon	0	1	6	7.2	8.4	0	0	获得6点格挡。 将你手牌中的全部状态牌变化为燃料。	获得6点格挡。 将你手牌中的全部状态牌变化为燃料+。
+CARD.COMPILE_DRIVER	编译冲击	defect	1	Common	7	1	0	7	10	0	0	造成7点伤害。 你每有一种不同的充能球，就抽一张牌。{InCombat: （抽{CalculatedCards:diff()}张牌）}	造成7点伤害。 你每有一种不同的充能球，就抽一张牌。{InCombat: （抽{CalculatedCards:diff()}张牌）}
+CARD.CONSUMING_SHADOW	吞噬暗影	defect	2	Rare						0	1	生成2个黑暗充能球。 在你的回合结束时，激发你最左侧的充能球。	生成2个黑暗充能球。 在你的回合结束时，激发你最左侧的充能球。
+CARD.COOLANT	冷却剂	defect	1	Rare						0	1	在你的回合开始时，你每有一种不同的充能球，就获得{CoolantPower:diff()}点格挡。	在你的回合开始时，你每有一种不同的充能球，就获得{CoolantPower:diff()}点格挡。
+CARD.COOLHEADED	冷静头脑	defect	1	Common						0	1	生成1个冰霜充能球。 抽1张牌。	生成1个冰霜充能球。 抽1张牌。
+CARD.CREATIVE_AI	创造性AI	defect	3	Rare						0	1	在你的回合开始时，将一张随机能力牌加入你的手牌。	在你的回合开始时，将一张随机能力牌加入你的手牌。
+CARD.DARKNESS	漆黑	defect	1	Uncommon						0	1	生成1个黑暗充能球。 触发所有黑暗充能球的被动。	生成1个黑暗充能球。 触发所有黑暗充能球的被动两次。
+CARD.DEFEND_DEFECT	防御	defect	1	Basic	0	1	5	6	9.6	0	0	获得5点格挡。	获得5点格挡。
+CARD.DEFRAGMENT	碎片整理	defect	1	Rare						0	1	获得{FocusPower:diff()}点集中。	获得{FocusPower:diff()}点集中。
+CARD.DOUBLE_ENERGY	双倍能量	defect	1	Uncommon						0	1	将你的能量翻倍。	将你的能量翻倍。
+CARD.DUALCAST	双重释放	defect	1	Basic						0	1	激发你最右侧的充能球两次。	激发你最右侧的充能球两次。
+CARD.ECHO_FORM	回响形态	defect	3	Rare						0	1	你每回合打出的第一张牌会被打出两次。	你每回合打出的第一张牌会被打出两次。
+CARD.ENERGY_SURGE	能量涌动	defect	1	Uncommon						0	1	所有玩家获得{Energy:energyIcons()}。	所有玩家获得{Energy:energyIcons()}。
+CARD.FERAL	野性	defect	2	Uncommon						0	1	你每回合打出的{FeralPower:choose(1):第一张|前{FeralPower:diff()}张} 耗能为0{energyPrefix:energyIcons(1)}的攻击牌， 会放回你的手牌。	你每回合打出的{FeralPower:choose(1):第一张|前{FeralPower:diff()}张} 耗能为0{energyPrefix:energyIcons(1)}的攻击牌， 会放回你的手牌。
+CARD.FIGHT_THROUGH	强撑	defect	1	Uncommon	0	1	13	15.6	20.4	0	0	获得13点格挡。 将2张伤口加入你的弃牌堆。	获得13点格挡。 将2张伤口加入你的弃牌堆。
+CARD.FLAK_CANNON	散射炮	defect	2	Rare	8	1	0	4	5.5	0	1	消耗你所有的状态牌。 每有一张被消耗的牌，就随机对敌人造成8点伤害。{InCombat: （攻击{CalculatedHits:diff()}次）|}	消耗你所有的状态牌。 每有一张被消耗的牌，就随机对敌人造成8点伤害。{InCombat: （攻击{CalculatedHits:diff()}次）|}
+CARD.FOCUSED_STRIKE	集中打击	defect	1	Common	9	1	0	9	11	0	0	造成9点伤害。 在本回合获得{FocusPower:diff()}点集中。	造成9点伤害。 在本回合获得{FocusPower:diff()}点集中。
+CARD.FTL	超越光速	defect	0	Uncommon	5	1	0			0	0	造成5点伤害。 如果你在这回合打出的牌数小于{PlayMax:diff()}张，抽1张牌。	造成5点伤害。 如果你在这回合打出的牌数小于{PlayMax:diff()}张，抽1张牌。
+CARD.FUSION	聚变	defect	1	Uncommon						0	1	生成1个等离子充能球。	生成1个等离子充能球。
+CARD.GENETIC_ALGORITHM	遗传算法	defect	1	Rare	0	1	1	1.2	1.2	0	0	获得1点格挡。 每打出一次，这张牌在本局游戏中的格挡值永久增加{Increase:diff()}点。	获得1点格挡。 每打出一次，这张牌在本局游戏中的格挡值永久增加{Increase:diff()}点。
+CARD.GLACIER	冰川	defect	2	Uncommon	0	1	6	3.6	5.4	0	1	获得6点格挡。 生成2个冰霜充能球。	获得6点格挡。 生成2个冰霜充能球。
+CARD.GLASSWORK	玻璃工艺	defect	1	Uncommon	0	1	5	6	9.6	0	0	获得5点格挡。 生成1个玻璃充能球。	获得5点格挡。 生成1个玻璃充能球。
+CARD.GO_FOR_THE_EYES	眼部攻击	defect	0	Common	3	1	0			0	0	造成3点伤害。 如果敌人的意图是攻击，则给予{WeakPower:diff()}层虚弱。	造成3点伤害。 如果敌人的意图是攻击，则给予{WeakPower:diff()}层虚弱。
+CARD.GUNK_UP	污秽攻击	defect	1	Common	4	1	0	4	5	0	0	造成4点伤害3次。 在你的弃牌堆中加入一张黏液。	造成4点伤害3次。 在你的弃牌堆中加入一张黏液。
+CARD.HAILSTORM	冰雹风暴	defect	1	Uncommon						0	1	在你的回合结束时，如果你有冰霜充能球，则对所有敌人造成{HailstormPower:diff()}点伤害。	在你的回合结束时，如果你有冰霜充能球，则对所有敌人造成{HailstormPower:diff()}点伤害。
+CARD.HELIX_DRILL	螺旋钻击	defect	0	Rare	3	1	0			0	0	在本回合中，这张牌以外使用的每个{energyPrefix:energyIcons(1)}，都会使此牌造成3点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}	在本回合中，这张牌以外使用的每个{energyPrefix:energyIcons(1)}，都会使此牌造成3点伤害一次。{InCombat: （命中{CalculatedHits:diff()}次）|}
+CARD.HIBERNATE	休眠	defect	2	Uncommon						0	1	在本回合，你的冰霜充能球会给予所有玩家格挡。 生成2个冰霜充能球	在本回合，你的冰霜充能球会给予所有玩家格挡。 生成2个冰霜充能球
+CARD.HOLOGRAM	全息影像	defect	1	Common	0	1	3	3.6	6	0	0	获得3点格挡。 将弃牌堆中的一张牌放入你的手牌。	获得3点格挡。 将弃牌堆中的一张牌放入你的手牌。
+CARD.HOTFIX	热修复	defect		Common						0	1	在本回合获得{FocusPower:diff()}点集中。	在本回合获得{FocusPower:diff()}点集中。
+CARD.HYPERBEAM	超能光束	defect	2	Rare	24	1	0	12	15	1	1	对所有敌人造成24点伤害。 在本回合失去{FocusPower:diff()}点集中。	对所有敌人造成24点伤害。 在本回合失去{FocusPower:diff()}点集中。
+CARD.ICE_LANCE	冰之长枪	defect	3	Rare	19	1	0	6.33	8	0	1	造成19点伤害。 生成3个冰霜充能球。	造成19点伤害。 生成3个冰霜充能球。
+CARD.IGNITION	引火	defect	1	Uncommon						0	1	使另一名玩家生成等离子充能球。	使另一名玩家生成等离子充能球。
+CARD.IMITATION_LEARNING	模仿学习	defect	1	Rare						0	1	选择另一名玩家。 该玩家下{ImitationLearningPower:diff()}次打出能力牌时，你打出一张该牌的复制品。	选择另一名玩家。 该玩家下{ImitationLearningPower:diff()}次打出能力牌时，你打出一张该牌的复制品。
+CARD.ITERATION	迭代	defect	1	Uncommon						0	1	每回合你第一次抽到状态牌时，抽{IterationPower:diff()}张牌。	每回合你第一次抽到状态牌时，抽{IterationPower:diff()}张牌。
+CARD.LEAP	飞跃	defect	1	Common	0	1	9	10.8	14.4	0	0	获得9点格挡。	获得9点格挡。
+CARD.LIGHTNING_ROD	引雷针	defect	1	Common	0	1	4	4.8	8.4	0	0	获得4点格挡。 在下{LightningRodPower:diff()}个回合开始时,生成1个闪电充能球。	获得4点格挡。 在下{LightningRodPower:diff()}个回合开始时,生成1个闪电充能球。
+CARD.LOOP	循环	defect	1	Uncommon						0	1	在你的回合开始时，触发你最右侧的一个充能球的被动能力{IfUpgraded:show:2次}。	在你的回合开始时，触发你最右侧的一个充能球的被动能力{IfUpgraded:show:2次}。
+CARD.MACHINE_LEARNING	机器学习	defect	1	Rare						0	1	在你的回合开始时，额外抽1张牌。	在你的回合开始时，额外抽1张牌。
+CARD.METEOR_STRIKE	陨石打击	defect	5	Rare	24	1	0	4.8	6	0	1	造成24点伤害。 生成3个等离子充能球。	造成24点伤害。 生成3个等离子充能球。
+CARD.MODDED	模组改造	defect		Rare						0	1	获得1个充能球栏位。 抽1张牌。这张牌的耗能加1。	获得1个充能球栏位。 抽1张牌。这张牌的耗能加1。
+CARD.MOMENTUM_STRIKE	趁势打击	defect	1	Common	11	1	0	11	15	0	0	造成11点伤害。 这张牌的耗能降为0{energyPrefix:energyIcons(1)}。	造成11点伤害。 这张牌的耗能降为0{energyPrefix:energyIcons(1)}。
+CARD.MULTI_CAST	多重释放	defect		Rare						0	1	激发你最右侧的充能球X次。	激发你最右侧的充能球X+1次。
+CARD.NULL	空值	defect	2	Uncommon	10	1	0	5	6.5	0	1	造成10点伤害。 给予{WeakPower:diff()}层虚弱。 生成1个黑暗充能球。	造成10点伤害。 给予{WeakPower:diff()}层虚弱。 生成1个黑暗充能球。
+CARD.ONE_FOR_ALL	一心化万	defect	1	Rare						0	1	所有人的0{energyPrefix:energyIcons(1)}费攻击牌额外造成{OneForAllPower:diff()}点伤害。	所有人的0{energyPrefix:energyIcons(1)}费攻击牌额外造成{OneForAllPower:diff()}点伤害。
+CARD.OVERCLOCK	超频	defect		Uncommon						0	1	抽2张牌。 将一张灼伤加入你的弃牌堆。	抽2张牌。 将一张灼伤加入你的弃牌堆。
+CARD.QUADCAST	四重释放	defect	1	Ancient						0	1	激发你最右侧的充能球4次。	激发你最右侧的充能球4次。
+CARD.RAINBOW	彩虹	defect	2	Rare						0	1	生成1个闪电充能球。 生成1个冰霜充能球。 生成1个黑暗充能球。	生成1个闪电充能球。 生成1个冰霜充能球。 生成1个黑暗充能球。
+CARD.REBOOT	重启	defect		Rare						0	1	将你的所有未消耗的卡牌重新洗牌放入抽牌堆。 抽4张牌。	将你的所有未消耗的卡牌重新洗牌放入抽牌堆。 抽4张牌。
+CARD.REFRACT	折射	defect	3	Uncommon	10	2	0	6.67	8.67	0	1	造成10点伤害两次。 生成2个玻璃充能球。	造成10点伤害两次。 生成2个玻璃充能球。
+CARD.ROCKET_PUNCH	火箭飞拳	defect	2	Uncommon	13	1	0	6.5	7	0	1	造成13点伤害。 抽1张牌。 每当你生成状态牌时，此牌的耗能将在下一次打出前减少1{energyPrefix:energyIcons(1)}。	造成13点伤害。 抽1张牌。 每当你生成状态牌时，此牌的耗能将在下一次打出前减少1{energyPrefix:energyIcons(1)}。
+CARD.SCAVENGE	内存清理	defect	1	Uncommon						0	1	消耗一张牌。 在下个回合获得{Energy:energyIcons()}。	消耗一张牌。 在下个回合获得{Energy:energyIcons()}。
+CARD.SCRAPE	刮削	defect	1	Uncommon	7	1	0	7	10	0	0	造成7点伤害。 抽4张牌。 丢弃抽到的牌中耗能不为0{energyPrefix:energyIcons(1)}的牌。	造成7点伤害。 抽4张牌。 丢弃抽到的牌中耗能不为0{energyPrefix:energyIcons(1)}的牌。
+CARD.SHADOW_SHIELD	暗影之盾	defect	2	Uncommon	0	1	11	6.6	9	0	1	获得11点格挡。 生成1个黑暗充能球。	获得11点格挡。 生成1个黑暗充能球。
+CARD.SHATTER	打碎	defect	1	Rare	7	2	0	14	22	1	0	对所有敌人造成7点伤害。 激发你的所有充能球两次。	对所有敌人造成7点伤害。 激发你的所有充能球两次。
+CARD.SIGNAL_BOOST	信号增强	defect	1	Rare						0	1	你的下一张能力牌会额外打出一次。	你的下一张能力牌会额外打出一次。
+CARD.SKIM	快速检索	defect	1	Uncommon						0	1	抽3张牌。	抽3张牌。
+CARD.SMOKESTACK	烟囱	defect	1	Uncommon						0	1	每当你生成一张状态牌时，对所有敌人造成{SmokestackPower:diff()}点伤害。	每当你生成一张状态牌时，对所有敌人造成{SmokestackPower:diff()}点伤害。
+CARD.SPINNER	旋转工艺	defect	1	Rare						0	1	在你的回合开始时，生成1个玻璃充能球。	生成1个玻璃充能球。 在你的回合开始时，生成1个玻璃充能球。
+CARD.STORM	雷暴	defect	1	Uncommon						0	1	每当你打出一张能力牌时，生成{StormPower:diff()}个闪电充能球。	每当你打出一张能力牌时，生成{StormPower:diff()}个闪电充能球。
+CARD.STRIKE_DEFECT	打击	defect	1	Basic	6	1	0	6	9	0	0	造成6点伤害。	造成6点伤害。
+CARD.SUBROUTINE	子程序	defect	1	Uncommon						0	1	当你打出一张能力牌时，获得{energyPrefix:energyIcons(1)}。	当你打出一张能力牌时，获得{energyPrefix:energyIcons(1)}。
+CARD.SUNDER	分离	defect	3	Uncommon	26	1	0	8.67	11.33	0	1	造成26点伤害。 如果这张牌击杀了敌人，则获得{Energy:energyIcons()}。	造成26点伤害。 如果这张牌击杀了敌人，则获得{Energy:energyIcons()}。
+CARD.SUPERCRITICAL	超临界态	defect		Rare						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.SWEEPING_BEAM	扫荡射线	defect	1	Common	6	1	0	6	9	1	0	对所有敌人造成6点伤害。 抽1张牌。	对所有敌人造成6点伤害。 抽1张牌。
+CARD.SYNCHRONIZE	同步	defect	1	Uncommon						0	1	你每有一种不同的充能球，就在本回合获得1点集中。{InCombat: （获得{CalculatedFocus:diff()}点集中）|}	你每有一种不同的充能球，就在本回合获得1点集中。{InCombat: （获得{CalculatedFocus:diff()}点集中）|}
+CARD.SYNTHESIS	人工合成	defect	2	Uncommon	14	1	0	7	10	0	1	造成14点伤害。 你打出的下一张能力牌耗能变为0{energyPrefix:energyIcons(1)}。	造成14点伤害。 你打出的下一张能力牌耗能变为0{energyPrefix:energyIcons(1)}。
+CARD.TEMPEST	暴风雨	defect		Uncommon						0	1	生成X个闪电充能球。	生成X+1个闪电充能球。
+CARD.TESLA_COIL	特斯拉线圈	defect	0	Uncommon	3	2	0			0	0	造成3点伤害。 对该敌人触发你的所有闪电充能球的被动。	造成3点伤害。 对该敌人触发你的所有闪电充能球的被动两次。
+CARD.THUNDER	雷霆	defect	1	Uncommon						0	1	每当你激发闪电充能球时，对被命中的敌人造成{ThunderPower:diff()}点伤害。	每当你激发闪电充能球时，对被命中的敌人造成{ThunderPower:diff()}点伤害。
+CARD.TRASH_TO_TREASURE	化废为宝	defect	1	Rare						0	1	每当你生成状态牌的时候，随机生成一个充能球。	每当你生成状态牌的时候，随机生成一个充能球。
+CARD.TURBO	内核加速	defect		Common						0	1	获得{Energy:energyIcons()}。 将一张虚空加入你的弃牌堆。	获得{Energy:energyIcons()}。 将一张虚空加入你的弃牌堆。
+CARD.UPROAR	骚动	defect	2	Common	6	2	0	6	8	0	1	造成6点伤害两次。 随机打出你的抽牌堆中的1张攻击牌。	造成6点伤害两次。 随机打出你的抽牌堆中的1张攻击牌。
+CARD.VOLTAIC	电流相生	defect	3	Rare						0	1	生成等量于你在这场战斗中生成过的闪电充能球数量的闪电充能球。{InCombat: （生成{CalculatedChannels:diff()}个闪电充能球）|}	生成等量于你在这场战斗中生成过的闪电充能球数量的闪电充能球。{InCombat: （生成{CalculatedChannels:diff()}个闪电充能球）|}
+CARD.WHITE_NOISE	白噪声	defect	1	Uncommon						0	1	将一张随机能力牌加入你的手牌。这张牌在本回合内免费打出。	将一张随机能力牌加入你的手牌。这张牌在本回合内免费打出。
+CARD.ZAP	电击	defect	1	Basic						0	1	生成1个闪电充能球。	生成1个闪电充能球。
+CARD.ALCHEMIZE	炼制药水	colorless	1	Rare						0	1	获得一瓶随机药水。	获得一瓶随机药水。
+CARD.ANOINTED	天选	colorless	1	Rare						0	1	将你抽牌堆中的所有稀有牌放入你的手牌。	将你抽牌堆中的所有稀有牌放入你的手牌。
+CARD.AUTOMATION	自动化	colorless	1	Uncommon						0	1	你每抽10张牌，获得{Energy:energyIcons()}。	你每抽10张牌，获得{Energy:energyIcons()}。
+CARD.BEACON_OF_HOPE	希望灯塔	colorless	2	Rare						0	1	每当你在你的回合获得格挡时，其他玩家获得相应一半的格挡。	每当你在你的回合获得格挡时，其他玩家获得相应一半的格挡。
+CARD.BEAT_DOWN	狠揍	colorless	3	Rare						0	1	打出你弃牌堆中的3张随机攻击牌。	打出你弃牌堆中的3张随机攻击牌。
+CARD.BELIEVE_IN_YOU	相信着你	colorless		Uncommon						0	1	另一名玩家获得{Energy:energyIcons()}。	另一名玩家获得{Energy:energyIcons()}。
+CARD.BOLAS	流星锤	colorless	0	Rare	3	1	0			0	0	造成3点伤害。 在你的下个回合开始时，将此卡返回你的手牌。	造成3点伤害。 在你的下个回合开始时，将此卡返回你的手牌。
+CARD.CALAMITY	劫难	colorless	3	Rare						0	1	每当你打出一张攻击牌时，将一张随机攻击牌添加到你的手牌。	每当你打出一张攻击牌时，将一张随机攻击牌添加到你的手牌。
+CARD.CATASTROPHE	横祸	colorless	2	Uncommon						0	1	从你的抽牌堆中随机打出2张牌。	从你的抽牌堆中随机打出2张牌。
+CARD.COORDINATE	协同配合	colorless	1	Uncommon						0	1	在本回合给予其他玩家{StrengthPower:diff()}点力量。	在本回合给予其他玩家{StrengthPower:diff()}点力量。
+CARD.DARK_SHACKLES	黑暗镣铐	colorless		Uncommon						0	1	使一名敌人在本回合失去{StrengthLoss:diff()}点力量。	使一名敌人在本回合失去{StrengthLoss:diff()}点力量。
+CARD.DISCOVERY	发现	colorless	1	Uncommon						0	1	从3张随机牌中选择1张加入你的手牌。这张牌在本回合可以免费打出。	从3张随机牌中选择1张加入你的手牌。这张牌在本回合可以免费打出。
+CARD.DRAMATIC_ENTRANCE	闪亮登场	colorless	0	Uncommon	11	1	0			1	0	对所有敌人造成11点伤害。	对所有敌人造成11点伤害。
+CARD.ENTROPY	熵	colorless	1	Rare						0	1	在你的回合开始时，变化你手牌中的1张牌。	在你的回合开始时，变化你手牌中的1张牌。
+CARD.EQUILIBRIUM	均衡	colorless	2	Uncommon	0	1	13	7.8	9.6	0	1	获得13点格挡。 在本回合保留你的手牌。	获得13点格挡。 在本回合保留你的手牌。
+CARD.ETERNAL_ARMOR	永恒铠甲	colorless	3	Rare						0	1	获得{PlatingPower:diff()}层覆甲。	获得{PlatingPower:diff()}层覆甲。
+CARD.FASTEN	勒紧	colorless	1	Uncommon						0	1	从“防御”牌中额外获得{ExtraBlock:diff()}点格挡。	从“防御”牌中额外获得{ExtraBlock:diff()}点格挡。
+CARD.FINESSE	妙计	colorless	0	Uncommon	0	1	4			0	0	获得4点格挡。 抽1张牌。	获得4点格挡。 抽1张牌。
+CARD.FISTICUFFS	拳斗	colorless	1	Uncommon	7	1	0	7	9	0	0	造成7点伤害。 获得等量于所造成伤害的格挡。	造成7点伤害。 获得等量于所造成伤害的格挡。
+CARD.FLASH_OF_STEEL	亮剑	colorless	0	Uncommon	5	1	0			0	0	造成5点伤害。 抽1张牌。	造成5点伤害。 抽1张牌。
+CARD.GANG_UP	群起攻之	colorless	1	Uncommon						0	1	造成5点伤害。 本回合其他玩家每攻击过一次该敌人，该牌造成的伤害就额外增加5点。	造成5点伤害。 本回合其他玩家每攻击过一次该敌人，该牌造成的伤害就额外增加5点。
+CARD.GOLD_AXE	金斧	colorless	1	Rare						0	1	造成本场战斗中所打出牌数的伤害。{InCombat: （造成0点伤害）|}	造成本场战斗中所打出牌数的伤害。{InCombat: （造成0点伤害）|}
+CARD.HAND_OF_GREED	贪婪之手	colorless	2	Rare	20	1	0	10	12.5	0	1	造成20点伤害。 斩杀时，获得{Gold:diff()}金币。	造成20点伤害。 斩杀时，获得{Gold:diff()}金币。
+CARD.HIDDEN_GEM	未掘宝石	colorless	1	Rare						0	1	你抽牌堆中的一张没有重放的随机牌获得{Replay:diff()}层重放。	你抽牌堆中的一张没有重放的随机牌获得{Replay:diff()}层重放。
+CARD.HUDDLE_UP	抱团	colorless	1	Uncommon						0	1	所有玩家抽2张牌。	所有玩家抽2张牌。
+CARD.IMPATIENCE	急躁	colorless		Uncommon						0	1	如果你的手牌中没有攻击牌，抽2张牌。	如果你的手牌中没有攻击牌，抽2张牌。
+CARD.INTERCEPT	拦截	colorless	1	Uncommon	0	1	9	10.8	15.6	0	0	获得9点格挡。 将本回合所有要对另一名玩家发起的攻击转移到你的身上。	获得9点格挡。 将本回合所有要对另一名玩家发起的攻击转移到你的身上。
+CARD.JACK_OF_ALL_TRADES	花样百出	colorless		Uncommon						0	1	将1张随机无色牌加入你的手牌。	将1张随机无色牌加入你的手牌。
+CARD.JACKPOT	大奖	colorless	3	Rare	25	1	0	8.33	10	0	1	造成25点伤害。 将3张随机{IfUpgraded:show:升级过的}0{energyPrefix:energyIcons(1)}的牌加入你的手牌。	造成25点伤害。 将3张随机{IfUpgraded:show:升级过的}0{energyPrefix:energyIcons(1)}的牌加入你的手牌。
+CARD.KNOCKDOWN	击倒	colorless	3	Rare	10	1	0	3.33	4.67	0	1	造成10点伤害。 该敌人在本回合受到的来自其他玩家的伤害变为两倍。	造成10点伤害。 该敌人在本回合受到的来自其他玩家的伤害变为三倍。
+CARD.LIFT	托举	colorless	1	Uncommon	0	1	11	13.2	19.2	0	0	给另一名玩家11点格挡。	给另一名玩家11点格挡。
+CARD.MASTER_OF_STRATEGY	战略大师	colorless		Rare						0	1	抽3张牌。	抽3张牌。
+CARD.MAYHEM	乱战	colorless	2	Rare						0	1	在你的回合开始时，打出你抽牌堆顶部的牌。	在你的回合开始时，打出你抽牌堆顶部的牌。
+CARD.MIMIC	拟态	colorless	1	Rare						0	1	获得等同于另一位玩家格挡值的格挡。	获得等同于另一位玩家格挡值的格挡。
+CARD.MIND_BLAST	心灵震慑	colorless	1	Uncommon						0	1	造成你抽牌堆中剩余牌数的伤害。{InCombat: （造成0点伤害）|}	造成你抽牌堆中剩余牌数的伤害。{InCombat: （造成0点伤害）|}
+CARD.NOSTALGIA	怀旧	colorless	1	Rare						0	1	每回合首次打出攻击或技能牌时，将其置于你的抽牌堆顶端。	每回合首次打出攻击或技能牌时，将其置于你的抽牌堆顶端。
+CARD.OMNISLICE	万向斩	colorless	0	Uncommon	8	1	0			0	0	造成8点伤害。 对所有其他敌人造成等量的伤害。	造成8点伤害。 对所有其他敌人造成等量的伤害。
+CARD.PANACHE	神气制胜	colorless		Uncommon						0	1	每当你在一回合内打出五张牌时，对所有敌人造成{PanacheDamage:diff()}点伤害。	每当你在一回合内打出五张牌时，对所有敌人造成{PanacheDamage:diff()}点伤害。
+CARD.PANIC_BUTTON	应急按钮	colorless	0	Uncommon	0	1	30			0	0	获得30点格挡。 你在接下来的{Turns:diff()}回合内无法再从卡牌中获得格挡。	获得30点格挡。 你在接下来的{Turns:diff()}回合内无法再从卡牌中获得格挡。
+CARD.PREP_TIME	准备时间	colorless	1	Uncommon						0	1	在你的回合开始时，获得{PrepTimePower:diff()}点活力。	在你的回合开始时，获得{PrepTimePower:diff()}点活力。
+CARD.PRODUCTION	生产制造	colorless		Uncommon						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.PROLONG	延伸	colorless		Uncommon						0	1	在下个回合获得等量于你当前格挡值的格挡。	在下个回合获得等量于你当前格挡值的格挡。
+CARD.PROWESS	非凡技艺	colorless	1	Uncommon						0	1	获得{StrengthPower:diff()}点力量。 获得{DexterityPower:diff()}点敏捷。	获得{StrengthPower:diff()}点力量。 获得{DexterityPower:diff()}点敏捷。
+CARD.PURITY	净化	colorless		Uncommon						0	1	从手牌中选择最多3张牌消耗。	从手牌中选择最多3张牌消耗。
+CARD.RALLY	集结	colorless	2	Rare	0	1	12	7.2	10.2	0	1	所有玩家获得12点格挡。	所有玩家获得12点格挡。
+CARD.REND	撕碎	colorless	1	Rare						0	1	造成10点伤害。 该名敌人身上每有一种负面效果，就额外造成5点伤害。	造成10点伤害。 该名敌人身上每有一种负面效果，就额外造成5点伤害。
+CARD.RESTLESSNESS	心神不宁	colorless		Uncommon						0	1	如果你的手牌为空，则抽2张牌并获得{Energy:energyIcons()}。	如果你的手牌为空，则抽2张牌并获得{Energy:energyIcons()}。
+CARD.ROLLING_BOULDER	滚石	colorless	3	Rare						0	1	在你的回合开始时，对所有敌人造成{RollingBoulderPower:diff()}点伤害，然后将该伤害增加{IncrementAmount:diff()}点。	在你的回合开始时，对所有敌人造成{RollingBoulderPower:diff()}点伤害，然后将该伤害增加{IncrementAmount:diff()}点。
+CARD.SALVO	箭雨	colorless	1	Uncommon	12	1	0	12	16	0	0	造成12点伤害。 在本回合保留你的手牌。	造成12点伤害。 在本回合保留你的手牌。
+CARD.SCRAWL	潦草急就	colorless	1	Rare						0	1	抽牌直到抽满手牌。	抽牌直到抽满手牌。
+CARD.SECRET_TECHNIQUE	秘密技法	colorless		Rare						0	1	从抽牌堆中选择一张技能牌放入你的手牌。	从抽牌堆中选择一张技能牌放入你的手牌。
+CARD.SECRET_WEAPON	秘密武器	colorless		Rare						0	1	从抽牌堆中选择一张攻击牌放入你的手牌。	从抽牌堆中选择一张攻击牌放入你的手牌。
+CARD.SEEKER_STRIKE	探寻打击	colorless	1	Uncommon	9	1	0	9	12	0	0	造成9点伤害。 从抽牌堆的随机3张牌中选择一张加入你的手牌。	造成9点伤害。 从抽牌堆的随机3张牌中选择一张加入你的手牌。
+CARD.SHOCKWAVE	震荡波	colorless	2	Uncommon						0	1	给予所有敌人{Power:diff()}层虚弱和易伤。	给予所有敌人{Power:diff()}层虚弱和易伤。
+CARD.SPLASH	飞溅	colorless	1	Rare						0	1	从3张其他角色的{IfUpgraded:show:升级过的}攻击牌中选择1张加入你的手牌。这张牌在本回合免费打出。	从3张其他角色的{IfUpgraded:show:升级过的}攻击牌中选择1张加入你的手牌。这张牌在本回合免费打出。
+CARD.STRATAGEM	计策	colorless	1	Uncommon						0	1	每当你的抽牌堆打乱洗牌时，选择一张牌放入你的手牌。	每当你的抽牌堆打乱洗牌时，选择一张牌放入你的手牌。
+CARD.TAG_TEAM	双打组合	colorless	2	Uncommon	11	1	0	5.5	7.5	0	1	造成11点伤害。 其他玩家的下一张攻击牌将在该名敌人身上额外生效一次。	造成11点伤害。 其他玩家的下一张攻击牌将在该名敌人身上额外生效一次。
+CARD.THE_BALL	魔球	colorless	1	Uncommon	10	1	0	10	10	0	0	造成10点伤害。 将这张牌在本场战斗中的伤害增加{Increase:diff()}，然后将其交给一名随机盟友。	造成10点伤害。 将这张牌在本场战斗中的伤害增加{Increase:diff()}，然后将其交给一名随机盟友。
+CARD.THE_BOMB	炸弹	colorless	2	Uncommon						0	1	在{Turns:diff()}回合结束后，对所有敌人造成{BombDamage:diff()}点伤害。	在{Turns:diff()}回合结束后，对所有敌人造成{BombDamage:diff()}点伤害。
+CARD.THE_GAMBIT	孤注一掷	colorless	0	Rare	0	1	50			0	0	获得50点格挡。 如果你在本场战斗中受到未被格挡的攻击伤害，则立刻死亡。	获得50点格挡。 如果你在本场战斗中受到未被格挡的攻击伤害，则立刻死亡。
+CARD.THINKING_AHEAD	深谋远虑	colorless		Uncommon						0	1	抽2张牌。 将手牌中的一张牌放到你的抽牌堆的顶端。	抽2张牌。 将手牌中的一张牌放到你的抽牌堆的顶端。
+CARD.THRUMMING_HATCHET	无休手斧	colorless	1	Uncommon	11	1	0	11	14	0	0	造成11点伤害。 在你的下个回合开始时，将此卡返回你的手牌。	造成11点伤害。 在你的下个回合开始时，将此卡返回你的手牌。
+CARD.ULTIMATE_DEFEND	究极防御	colorless	1	Uncommon	0	1	11	13.2	18	0	0	获得11点格挡。	获得11点格挡。
+CARD.ULTIMATE_STRIKE	究极打击	colorless	1	Uncommon	14	1	0	14	20	0	0	造成14点伤害。	造成14点伤害。
+CARD.VOLLEY	连射	colorless	0	Uncommon	10	1	0	10		0	0	随机对敌人造成10点伤害X次。	随机对敌人造成10点伤害X次。
+CARD.ASCENDERS_BANE	进阶之灾	curse	-1	Curse						0	1		
+CARD.BAD_LUCK	霉运	curse	-1	Curse						0	1	在你的回合结束时，如果这张牌在你的手牌中，你失去13点生命。	在你的回合结束时，如果这张牌在你的手牌中，你失去13点生命。
+CARD.CLUMSY	笨拙	curse	-1	Curse						0	1		
+CARD.CURSE_OF_THE_BELL	铃铛的诅咒	curse	-1	Curse						0	1		
+CARD.DEBT	债务	curse	-1	Curse						0	1	在你的回合结束时，如果这张牌在你的手牌中，你失去10金币。	在你的回合结束时，如果这张牌在你的手牌中，你失去10金币。
+CARD.DECAY	腐朽	curse	-1	Curse	2	1	0			0	0	在你的回合结束时，如果这张牌在你的手牌中, 你受到2点伤害。	在你的回合结束时，如果这张牌在你的手牌中, 你受到2点伤害。
+CARD.DOUBT	疑虑	curse	-1	Curse						0	1	在你的回合结束时，如果这张牌在你的手牌中，获得{WeakPower:diff()}层虚弱。	在你的回合结束时，如果这张牌在你的手牌中，获得{WeakPower:diff()}层虚弱。
+CARD.ENTHRALLED	执迷	curse	2	Curse						0	1	如果这张牌在你的手牌中，你必须优先打出这张牌。	如果这张牌在你的手牌中，你必须优先打出这张牌。
+CARD.FOLLY	愚行	curse	-1	Curse						0	1		
+CARD.GREED	贪婪	curse	-1	Curse						0	1		
+CARD.GUILTY	愧疚	curse	-1	Curse						0	1	在{Combats:diff()}场战斗后从你的牌组中移除。	在{Combats:diff()}场战斗后从你的牌组中移除。
+CARD.INJURY	受伤	curse	-1	Curse						0	1		
+CARD.NORMALITY	凡庸	curse	-1	Curse						0	1	你在本回合不能打出超过3张牌。{InCombat: （还剩{CalculatedCards}张牌）|}	你在本回合不能打出超过3张牌。{InCombat: （还剩{CalculatedCards}张牌）|}
+CARD.POOR_SLEEP	睡眠不佳	curse	-1	Curse						0	1		
+CARD.REGRET	悔恨	curse	-1	Curse						0	1	在你的回合结束时，如果这张牌在你的手牌中，失去相当于手牌数量的生命。	在你的回合结束时，如果这张牌在你的手牌中，失去相当于手牌数量的生命。
+CARD.SHAME	羞耻	curse	-1	Curse						0	1	在你的回合结束时，如果这张牌在你的手牌中，则获得{Frail:diff()}层脆弱。	在你的回合结束时，如果这张牌在你的手牌中，则获得{Frail:diff()}层脆弱。
+CARD.SPORE_MIND	孢子心灵	curse	1	Curse						0	1		
+CARD.WRITHE	苦恼	curse	-1	Curse						0	1		
+CARD.DEPRECATED_CARD	弃用卡牌	token		Status						0	1	[blue]这张卡牌在近期的一次更新中被移除。[/blue] 抽1张牌。 将这张牌从你的牌组中移除。	[blue]这张卡牌在近期的一次更新中被移除。[/blue] 抽1张牌。 将这张牌从你的牌组中移除。
+CARD.ABUNDANCE	富足	event	1	Ancient						0	1	从3张升级过的能力牌中选择1张加入你的手牌。这张牌在本回合可以免费打出。	从3张升级过的能力牌中选择1张加入你的手牌。这张牌在本回合可以免费打出。
+CARD.APOTHEOSIS	神化	event	2	Ancient						0	1	升级你的全部卡牌。	升级你的全部卡牌。
+CARD.APPARITION	灵体	event	1	Ancient						0	1	获得{IntangiblePower:diff()}层无实体。	获得{IntangiblePower:diff()}层无实体。
+CARD.BRIGHTEST_FLAME	至亮之焰	event		Ancient						0	1	获得{Energy:energyIcons()}。 抽2张牌。 失去2点最大生命。	获得{Energy:energyIcons()}。 抽2张牌。 失去2点最大生命。
+CARD.BYRD_SWOOP	异鸟扑击	event	0	Event	14	1	0			0	0	造成14点伤害。	造成14点伤害。
+CARD.CALTROPS	铁蒺藜	event	1	Event						0	1	每当你被攻击时，对攻击者造成{ThornsPower:diff()}点伤害。	每当你被攻击时，对攻击者造成{ThornsPower:diff()}点伤害。
+CARD.CLASH	交锋	event	0	Event	14	1	0			0	0	只有在手牌中每一张牌都是攻击牌时才能被打出。 造成14点伤害。	只有在手牌中每一张牌都是攻击牌时才能被打出。 造成14点伤害。
+CARD.DISTRACTION	声东击西	event	1	Event						0	1	将一张随机技能牌添加到你的手牌中。这张牌在本回合内可以免费打出。	将一张随机技能牌添加到你的手牌中。这张牌在本回合内可以免费打出。
+CARD.DUAL_WIELD	双持	event	1	Event						0	1	选择一张攻击牌或能力牌。将该牌的{IfUpgraded:show:{Cards}张复制品|一张复制品}加入你的手牌。	选择一张攻击牌或能力牌。将该牌的{IfUpgraded:show:{Cards}张复制品|一张复制品}加入你的手牌。
+CARD.ENLIGHTENMENT	开悟	event		Event						0	1	在这个回合，你当前手牌中所有牌的耗能降低至1。	在这场战斗，你当前手牌中所有牌的耗能降低至1。
+CARD.ENTRENCH	巩固	event	2	Event						0	1	将你当前的格挡翻倍。	将你当前的格挡翻倍。
+CARD.EXTERMINATE	杀灭	event	1	Event	3	1	0	3	4	1	0	对所有敌人造成3点伤害4次。	对所有敌人造成3点伤害4次。
+CARD.FEEDING_FRENZY	疯狂进食	event		Event						0	1	在本回合内获得{StrengthPower:diff()}点力量。	在本回合内获得{StrengthPower:diff()}点力量。
+CARD.HELLO_WORLD	你好世界	event	1	Event						0	1	在你的回合开始时，将一张随机普通牌加入你的手牌。	在你的回合开始时，将一张随机普通牌加入你的手牌。
+CARD.MAD_SCIENCE	疯狂科学	event	1	Event	12	1	8	10.8	10.8	0	0	{CardType:choose(Attack|Skill|Power):造成12点伤害{Violence:{ViolenceHits:diff()}次|}。|获得8点格挡。||？？？}{HasRider:{Sapping: 给予{SappingWeak:diff()}层虚弱。 给予{SappingVulnerable:diff()}层易伤。|}{Choking: 本回合，你每打出一张牌，该敌人失去{ChokingDamage:diff()}点生命。|}{Energized: 获得{EnergizedEnergy:energyIcons()}。|}{Wisdom: 抽{WisdomCards:diff()}张牌|}{Chaos: 将一张随机牌放入你的手牌，这张牌在本回合可以免费打出。|}{Expertise:获得{ExpertiseStrength:diff()}点力量。 获得{ExpertiseDexterity:diff()}点敏捷。|}{Curious:能力牌的耗能减少{CuriousReduction:diff()}{energyPrefix:energyIcons(1)}。|}{Improvement:在战斗结束时，升级你牌组中的一张随机牌。|}|{CardType:choose(Attack|Skill|Power): ？？？| ？？？|？？？|？？？}}	{CardType:choose(Attack|Skill|Power):造成12点伤害{Violence:{ViolenceHits:diff()}次|}。|获得8点格挡。||？？？}{HasRider:{Sapping: 给予{SappingWeak:diff()}层虚弱。 给予{SappingVulnerable:diff()}层易伤。|}{Choking: 本回合，你每打出一张牌，该敌人失去{ChokingDamage:diff()}点生命。|}{Energized: 获得{EnergizedEnergy:energyIcons()}。|}{Wisdom: 抽{WisdomCards:diff()}张牌|}{Chaos: 将一张随机牌放入你的手牌，这张牌在本回合可以免费打出。|}{Expertise:获得{ExpertiseStrength:diff()}点力量。 获得{ExpertiseDexterity:diff()}点敏捷。|}{Curious:能力牌的耗能减少{CuriousReduction:diff()}{energyPrefix:energyIcons(1)}。|}{Improvement:在战斗结束时，升级你牌组中的一张随机牌。|}|{CardType:choose(Attack|Skill|Power): ？？？| ？？？|？？？|？？？}}
+CARD.MAUL	撕咬	event	1	Ancient	5	2	0	10	12	0	0	造成5点伤害两次。 在这场战斗中，将所有“撕咬”牌的伤害增加{Increase:diff()}。	造成5点伤害两次。 在这场战斗中，将所有“撕咬”牌的伤害增加{Increase:diff()}。
+CARD.METAMORPHOSIS	羽化	event	2	Event						0	1	在你的抽牌堆中加入3张随机攻击牌。它们在本场战斗中可以被免费打出。	在你的抽牌堆中加入3张随机攻击牌。它们在本场战斗中可以被免费打出。
+CARD.NEOWS_FURY	涅奥之怒	event	1	Ancient	10	1	0	10	14	0	0	造成10点伤害。 将你弃牌堆中的至多2张牌放入你的手牌。	造成10点伤害。 将你弃牌堆中的至多2张牌放入你的手牌。
+CARD.OUTMANEUVER	抢占先机	event	1	Event						0	1	在下个回合获得{Energy:energyIcons()}。	在下个回合获得{Energy:energyIcons()}。
+CARD.PECK	啄击	event	1	Event	2	1	0	2	2	0	0	造成2点伤害3次。	造成2点伤害3次。
+CARD.REBOUND	弹回	event	1	Event	9	1	0	9	12	0	0	造成9点伤害。 将你在本回合打出的下一张牌放置到你的抽牌堆顶部。	造成9点伤害。 将你在本回合打出的下一张牌放置到你的抽牌堆顶部。
+CARD.RELAX	放松	event	3	Ancient	0	1	16	6.4	7.2	0	1	获得16点格挡。 下个回合，抽2张牌并获得{Energy:energyIcons()}。	获得16点格挡。 下个回合，抽2张牌并获得{Energy:energyIcons()}。
+CARD.RIP_AND_TEAR	狂乱撕扯	event	1	Event	7	2	0	14	18	0	0	随机对敌人造成7点伤害两次。	随机对敌人造成7点伤害两次。
+CARD.SQUASH	压扁	event	1	Event	10	1	0	10	12	0	0	造成10点伤害。 给予{VulnerablePower:diff()}层易伤。	造成10点伤害。 给予{VulnerablePower:diff()}层易伤。
+CARD.STACK	堆栈	event	1	Event						0	1	获得等量于与你当前弃牌堆中牌数{IfUpgraded:show:+{CalculationBase}|}的格挡值。{InCombat: （获得0点格挡）|}	获得等量于与你当前弃牌堆中牌数{IfUpgraded:show:+{CalculationBase}|}的格挡值。{InCombat: （获得0点格挡）|}
+CARD.TORIC_TOUGHNESS	坚韧之环	event	2	Event	0	1	5	3	4.2	0	1	获得5点格挡。 在接下来的{Turns:diff()}个回合开始时，获得5点格挡。	获得5点格挡。 在接下来的{Turns:diff()}个回合开始时，获得5点格挡。
+CARD.WISH	许愿	event		Ancient						0	1	将你抽牌堆中的一张牌放入你的手牌。	将你抽牌堆中的一张牌放入你的手牌。
+CARD.WHISTLE	吹哨	event	2	Ancient	33	1	0	16.5	22	0	1	造成33点伤害。 击晕该敌人。	造成33点伤害。 击晕该敌人。
+CARD.BYRDONIS_EGG	多尼斯异鸟蛋	quest	-1	Quest						0	1	能在休息处被孵化。	能在休息处被孵化。
+CARD.DOWSING	探寻	quest	-1	Quest						0	1	在进入{Rooms:diff()}个?{Rooms:plural:|}房间后，这张牌变化为富足。	在进入{Rooms:diff()}个?{Rooms:plural:|}房间后，这张牌变化为富足。
+CARD.LANTERN_KEY	灯火钥匙	quest	-1	Quest						0	1	在下一阶段解锁一个特殊事件。	在下一阶段解锁一个特殊事件。
+CARD.SPOILS_MAP	藏宝图	quest	-1	Quest						0	1	在下一阶段的地图上，标记一个有600额外金币的地点。	在下一阶段的地图上，标记一个有600额外金币的地点。
+CARD.BECKON	呼唤	status	1	Status						0	1	在你的回合结束时，如果这张牌在你的手牌中， 你失去{HpLoss}点生命。	在你的回合结束时，如果这张牌在你的手牌中， 你失去{HpLoss}点生命。
+CARD.BURN	灼伤	status	-1	Status	2	1	0			0	0	在你的回合结束时，如果这张牌在你的手牌中，你受到2点伤害。	在你的回合结束时，如果这张牌在你的手牌中，你受到2点伤害。
+CARD.DAZED	晕眩	status	-1	Status						0	1		
+CARD.DEBRIS	碎屑	status	1	Status						0	1		
+CARD.FRANTIC_ESCAPE	狂乱逃离	status	1	Status						0	1	远离。 将沙坑的计数加1。 这张牌的耗能加1。	远离。 将沙坑的计数加1。 这张牌的耗能加1。
+CARD.INFECTION	感染	status	-1	Status	3	1	0			0	0	在你的回合结束时，如果这张牌在你的手牌中，你受到3点伤害。	在你的回合结束时，如果这张牌在你的手牌中，你受到3点伤害。
+CARD.WITHER	凋萎	status	-1	Status	3	1	0			0	0	在你的回合结束时，如果这张牌在你的手牌中，你受到3点伤害。	在你的回合结束时，如果这张牌在你的手牌中，你受到3点伤害。
+CARD.SLIMED	黏液	status	1	Status						0	1	抽1张牌。	抽1张牌。
+CARD.SOOT	煤灰	status	-1	Status						0	1		
+CARD.TOXIC	毒素	status	1	Status	5	1	0	5	5	0	0	在你的回合结束时，如果这张牌在你的手牌中，你受到5点伤害。	在你的回合结束时，如果这张牌在你的手牌中，你受到5点伤害。
+CARD.VOID	虚空	status	-1	Status						0	1	每当你抽到这张牌时，失去{Energy:energyIcons()}。	每当你抽到这张牌时，失去{Energy:energyIcons()}。
+CARD.WOUND	伤口	status	-1	Status						0	1		
+CARD.DISINTEGRATION	瓦解	token	-1	Status						0	1	在你的回合结束时，受到{DisintegrationPower:diff()}点伤害。	在你的回合结束时，受到{DisintegrationPower:diff()}点伤害。
+CARD.FUEL	燃料	token		Token						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.GIANT_ROCK	巨石	token	1	Token	20	1	0	20	24	0	0	造成20点伤害。	造成20点伤害。
+CARD.LUMINESCE	冷光	token		Token						0	1	获得{Energy:energyIcons()}。	获得{Energy:energyIcons()}。
+CARD.MIND_ROT	心灵腐化	token	-1	Status						0	1	每回合少抽{MindRotPower:diff()}张牌。	每回合少抽{MindRotPower:diff()}张牌。
+CARD.MINION_DIVE_BOMB	仆从俯冲	token	0	Token	13	1	0			0	0	造成13点伤害。	造成13点伤害。
+CARD.MINION_SACRIFICE	仆从捐躯	token	0	Token	0	1	7			0	0	获得7点格挡。	获得7点格挡。
+CARD.MINION_STRIKE	仆从打击	token	0	Token	6	1	0			0	0	造成6点伤害。 抽1张牌。	造成6点伤害。 抽1张牌。
+CARD.SHIV	小刀	token	0	Token	4	1	0			1	0	{TargetType:choose(AllEnemies):对所有敌人|}造成4点伤害。	{TargetType:choose(AllEnemies):对所有敌人|}造成4点伤害。
+CARD.SLOTH	懒惰	token	-1	Status						0	1	你在每个回合不能打出超过{SlothPower:diff()}张牌。	你在每个回合不能打出超过{SlothPower:diff()}张牌。
+CARD.SOUL	灵魂	token		Token						0	1	抽2张牌。	抽2张牌。
+CARD.SOVEREIGN_BLADE	君王之剑	token	2	Token	10	1	0	5	5	1	1	{TargetType:choose(AllEnemies):对所有敌人|}造成10点伤害{Repeat:choose(1):|{}次}。{GainsBlock:cond: 获得0点格挡.|}	{TargetType:choose(AllEnemies):对所有敌人|}造成10点伤害{Repeat:choose(1):|{}次}。{GainsBlock:cond: 获得0点格挡.|}
+CARD.SWEEPING_GAZE	扫荡凝视	token		Token						0	1	奥斯提对随机一名敌人造成10点伤害。	奥斯提对随机一名敌人造成10点伤害。
+CARD.WASTE_AWAY	衰朽	token	-1	Status						0	1	每回合失去{WasteAwayPower:diff()}点{energyPrefix:energyIcons(1)}。	每回合失去{WasteAwayPower:diff()}点{energyPrefix:energyIcons(1)}。

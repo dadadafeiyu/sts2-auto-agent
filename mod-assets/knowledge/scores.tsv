@@ -1,0 +1,1165 @@
+id	char	score	tier	up	upType	kw
+CARD.AGGRESSION	ironclad	43	C	40	数值-其他	
+CARD.ANGER	ironclad	50	B	44	数值-攻击	
+CARD.ARMAMENTS	ironclad	87	S	100	T0-群体化	
+CARD.ASHEN_STRIKE	ironclad	48	C	40	数值-其他	
+CARD.BARRICADE	ironclad	68	A	88	T1-降费	
+CARD.BASH	ironclad	72	A	44	数值-攻击	
+CARD.BATTLE_TRANCE	ironclad	41	C	40	数值-其他	
+CARD.BLAZE	ironclad	36	C	40	数值-其他	
+CARD.BLOOD_WALL	ironclad	56	B	56	数值-防御	
+CARD.BLOODLETTING	ironclad	45	C	40	数值-其他	
+CARD.BLUDGEON	ironclad	53	B	50	数值-攻击	
+CARD.BODY_SLAM	ironclad	45	C	100	T0-零费	
+CARD.BRAND	ironclad	53	B	85	T1-翻倍	
+CARD.BREAK	ironclad	65	B	50	数值-攻击	
+CARD.BREAKTHROUGH	ironclad	50	B	46	数值-攻击	
+CARD.BULLY	ironclad	41	C	40	数值-其他	
+CARD.BURNING_PACT	ironclad	50	B	40	数值-其他	
+CARD.CASCADE	ironclad	49	C	40	数值-其他	
+CARD.CINDER	ironclad	55	B	48	数值-攻击	
+CARD.COLOSSUS	ironclad	55	B	55	数值-防御	
+CARD.CONFLAGRATION	ironclad	34	C	42	数值-攻击	
+CARD.CORRUPTION	ironclad	93	S	88	T1-降费	
+CARD.CRIMSON_MANTLE	ironclad	47	C	40	数值-其他	
+CARD.CRUELTY	ironclad	41	C	85	T1-翻倍	
+CARD.DARK_EMBRACE	ironclad	56	B	88	T1-降费	
+CARD.DEFEND_IRONCLAD	ironclad	5	D	55	数值-防御	
+CARD.DEMON_FORM	ironclad	75	A	40	数值-其他	
+CARD.DEMONIC_SHIELD	ironclad	47	C	40	数值-其他	Exhaust
+CARD.DISMANTLE	ironclad	59	B	44	数值-攻击	
+CARD.DOMINATE	ironclad	45	C	85	T1-翻倍	Exhaust
+CARD.DRUM_OF_BATTLE	ironclad	57	B	40	数值-其他	
+CARD.EVIL_EYE	ironclad	65	B	55	数值-防御	
+CARD.EXPECT_A_FIGHT	ironclad	40	C	40	数值-其他	
+CARD.FEED	ironclad	59	B	44	数值-攻击	Exhaust
+CARD.FEEL_NO_PAIN	ironclad	60	B	40	数值-其他	
+CARD.FIEND_FIRE	ironclad	58	B	45	数值-攻击	Exhaust
+CARD.FIGHT_ME	ironclad	35	C	43	数值-攻击	
+CARD.FLAME_BARRIER	ironclad	52	B	56	数值-防御	
+CARD.FORGOTTEN_RITUAL	ironclad	45	C	40	数值-其他	Exhaust
+CARD.HAVOC	ironclad	53	B	100	T0-零费	
+CARD.HEADBUTT	ironclad	59	B	45	数值-攻击	
+CARD.HELLRAISER	ironclad	44	C	88	T1-降费	
+CARD.HEMOKINESIS	ironclad	57	B	47	数值-攻击	
+CARD.HOWL_FROM_BEYOND	ironclad	52	B	48	数值-攻击	
+CARD.IMPERVIOUS	ironclad	68	A	58	数值-防御	Exhaust
+CARD.INFERNAL_BLADE	ironclad	38	C	100	T0-零费	Exhaust
+CARD.INFERNO	ironclad	44	C	40	数值-其他	
+CARD.INFLAME	ironclad	40	C	40	数值-其他	
+CARD.IRON_WAVE	ironclad	45	C	44	数值-攻击	
+CARD.JUGGERNAUT	ironclad	50	B	40	数值-其他	
+CARD.JUGGLING	ironclad	43	C	40	数值-其他	
+CARD.MANGLE	ironclad	46	C	48	数值-攻击	
+CARD.MIDNIGHT	ironclad	7	D	50	数值-攻击	
+CARD.MOLTEN_FIST	ironclad	51	B	46	数值-攻击	Exhaust
+CARD.NOT_YET	ironclad	36	C	40	数值-其他	Exhaust
+CARD.OFFERING	ironclad	95	S	40	数值-其他	Exhaust
+CARD.ONE_TWO_PUNCH	ironclad	40	C	85	T1-翻倍	
+CARD.OUTRAGE	ironclad	52	B	46	数值-攻击	
+CARD.PACTS_END	ironclad	60	B	48	数值-攻击	
+CARD.PERFECTED_STRIKE	ironclad	32	D	40	数值-其他	
+CARD.PILLAGE	ironclad	56	B	45	数值-攻击	
+CARD.POMMEL_STRIKE	ironclad	50	B	85	T1-翻倍	
+CARD.PRIMAL_FORCE	ironclad	48	C	40	数值-其他	
+CARD.PYRE	ironclad	42	C	85	T1-翻倍	
+CARD.RAGE	ironclad	47	C	40	数值-其他	
+CARD.RAMPAGE	ironclad	51	B	85	T1-翻倍	
+CARD.RUPTURE	ironclad	42	C	85	T1-翻倍	
+CARD.SECOND_WIND	ironclad	62	B	54	数值-防御	
+CARD.SETUP_STRIKE	ironclad	43	C	44	数值-攻击	
+CARD.SHRUG_IT_OFF	ironclad	58	B	55	数值-防御	
+CARD.SPITE	ironclad	46	C	42	数值-攻击	
+CARD.STAMPEDE	ironclad	34	C	88	T1-降费	
+CARD.STOKE	ironclad	95	S	100	T0-群体化	
+CARD.STOMP	ironclad	32	D	45	数值-攻击	
+CARD.STONE_ARMOR	ironclad	38	C	40	数值-其他	
+CARD.STRIKE_IRONCLAD	ironclad	5	D	45	数值-攻击	
+CARD.SWORD_BOOMERANG	ironclad	29	D	42	数值-攻击	
+CARD.TANK	ironclad	40	C	100	T0-零费	
+CARD.TAUNT	ironclad	52	B	85	T1-翻倍	
+CARD.TEAR_ASUNDER	ironclad	28	D	44	数值-攻击	
+CARD.THRASH	ironclad	65	B	44	数值-攻击	
+CARD.THUNDERCLAP	ironclad	46	C	45	数值-攻击	
+CARD.TREMBLE	ironclad	38	C	40	数值-其他	Exhaust
+CARD.TRUE_GRIT	ironclad	67	A	54	数值-防御	
+CARD.TWIN_STRIKE	ironclad	49	C	44	数值-攻击	
+CARD.UNMOVABLE	ironclad	45	C	88	T1-降费	
+CARD.UNRELENTING	ironclad	50	B	48	数值-攻击	
+CARD.UPPERCUT	ironclad	44	C	85	T1-翻倍	
+CARD.VICIOUS	ironclad	50	B	85	T1-翻倍	
+CARD.WHIRLWIND	ironclad	44	C	45	数值-攻击	
+CARD.ABRASIVE	silent	60	B	40	数值-其他	Sly
+CARD.ACCELERANT	silent	80	A	85	T1-翻倍	
+CARD.ACCURACY	silent	50	C	40	数值-其他	
+CARD.ACROBATICS	silent	68	B	40	数值-其他	
+CARD.ADRENALINE	silent	80	A	85	T1-翻倍	Exhaust
+CARD.AFTERIMAGE	silent	65	B	40	数值-其他	
+CARD.ANTICIPATE	silent	35	D	85	T1-翻倍	
+CARD.ASSASSINATE	silent	50	C	85	T1-翻倍	Innate,Exhaust
+CARD.BACKFLIP	silent	60	B	74	数值-抽牌	
+CARD.BACKSTAB	silent	40	C	46	数值-攻击	Exhaust,Innate
+CARD.BLADE_OF_INK	silent	55	B	40	数值-其他	
+CARD.BLADE_DANCE	silent	55	B	40	数值-其他	Exhaust
+CARD.BLADE_SYMPHONY	silent	45	C	88	T1-降费	
+CARD.BLUR	silent	60	B	55	数值-防御	
+CARD.BOUNCING_FLASK	silent	45	C	66	数值-毒	
+CARD.BUBBLE_BUBBLE	silent	58	C	66	数值-毒	
+CARD.BULLET_TIME	silent	74	A	88	T1-降费	
+CARD.BURST	silent	45	C	85	T1-翻倍	
+CARD.CALCULATED_GAMBLE	silent	65	B	40	数值-其他	Exhaust
+CARD.CLOAK_AND_DAGGER	silent	45	C	85	T1-翻倍	
+CARD.CORROSIVE_WAVE	silent	68	A	66	数值-毒	
+CARD.CONCOCT	silent	55	C	66	数值-毒	
+CARD.DAGGER_SPRAY	silent	40	C	44	数值-攻击	
+CARD.DAGGER_THROW	silent	40	C	71	数值-抽牌	
+CARD.DASH	silent	60	B	45	数值-攻击	
+CARD.DEADLY_POISON	silent	58	C	66	数值-毒	
+CARD.DEFEND_SILENT	silent	5	D	55	数值-防御	
+CARD.DEFLECT	silent	40	C	55	数值-防御	
+CARD.DODGE_AND_ROLL	silent	45	C	54	数值-防御	
+CARD.ECHOING_SLASH	silent	45	C	45	数值-攻击	
+CARD.ENVENOM	silent	48	C	85	T1-翻倍	
+CARD.ESCAPE_PLAN	silent	70	A	71	数值-抽牌	
+CARD.EXPERTISE	silent	30	D	40	数值-其他	
+CARD.EXPOSE	silent	60	B	40	数值-其他	Exhaust
+CARD.FADE	silent	60	B	40	数值-其他	Retain
+CARD.FAN_OF_KNIVES	silent	65	B	40	数值-其他	
+CARD.FINISHER	silent	60	B	44	数值-攻击	
+CARD.FLANKING	silent	60	B	88	T1-降费	
+CARD.FLECHETTES	silent	45	C	44	数值-攻击	
+CARD.FLICK_FLACK	silent	30	D	44	数值-攻击	Sly
+CARD.SIDESTEP	silent	40	C	85	T1-翻倍	
+CARD.FOOTWORK	silent	65	B	40	数值-其他	
+CARD.GRAND_FINALE	silent	85	S	50	数值-攻击	
+CARD.HAND_TRICK	silent	50	C	55	数值-防御	
+CARD.HAZE	silent	45	C	85	T1-翻倍	
+CARD.HIDDEN_DAGGERS	silent	65	B	40	数值-其他	
+CARD.INFINITE_BLADES	silent	20	D	40	数值-其他	
+CARD.KNIFE_TRAP	silent	60	B	40	数值-其他	
+CARD.LEADING_STRIKE	silent	50	C	85	T1-翻倍	
+CARD.LEG_SWEEP	silent	60	B	55	数值-防御	
+CARD.MALAISE	silent	60	B	40	数值-其他	Exhaust
+CARD.MASTER_PLANNER	silent	1	D	88	T1-降费	
+CARD.MEMENTO_MORI	silent	40	C	40	数值-其他	
+CARD.MIRAGE	silent	45	C	66	数值-毒	Exhaust
+CARD.MURDER	silent	50	C	88	T1-降费	
+CARD.NEUTRALIZE	silent	65	B	85	T1-翻倍	
+CARD.NIGHTMARE	silent	64	B	88	T1-降费	Exhaust
+CARD.NOXIOUS_FUMES	silent	62	B	66	数值-毒	
+CARD.OUTBREAK	silent	70	A	66	数值-毒	
+CARD.PHANTOM_BLADES	silent	55	B	40	数值-其他	
+CARD.PIERCING_WAIL	silent	45	C	40	数值-其他	Exhaust
+CARD.PINPOINT	silent	50	C	46	数值-攻击	
+CARD.POISONED_STAB	silent	55	C	68	数值-毒	
+CARD.POUNCE	silent	45	C	48	数值-攻击	
+CARD.PRECISE_CUT	silent	40	C	40	数值-其他	
+CARD.PREDATOR	silent	32	D	74	数值-抽牌	
+CARD.PREPARED	silent	55	B	85	T1-翻倍	
+CARD.REFLEX	silent	60	B	40	数值-其他	Sly
+CARD.RICOCHET	silent	35	D	42	数值-攻击	Sly
+CARD.SERPENT_FORM	silent	60	B	40	数值-其他	
+CARD.SHADOW_STEP	silent	50	C	100	T0-零费	
+CARD.SHADOWMELD	silent	45	C	100	T0-零费	
+CARD.SKEWER	silent	45	C	45	数值-攻击	
+CARD.SLICE	silent	35	D	45	数值-攻击	
+CARD.SNAKEBITE	silent	50	C	66	数值-毒	Retain
+CARD.SNEAKY	silent	60	B	85	T1-翻倍	Sly
+CARD.SPEEDSTER	silent	35	D	40	数值-其他	
+CARD.STORM_OF_STEEL	silent	35	D	100	T0-群体化	
+CARD.STRANGLE	silent	30	D	44	数值-攻击	
+CARD.STRIKE_SILENT	silent	5	D	45	数值-攻击	
+CARD.SUCKER_PUNCH	silent	50	C	85	T1-翻倍	
+CARD.SUPPRESS	silent	75	A	48	数值-攻击	Innate
+CARD.SURVIVOR	silent	60	B	55	数值-防御	
+CARD.TACTICIAN	silent	60	B	85	T1-翻倍	Sly
+CARD.THE_HUNT	silent	50	C	47	数值-攻击	Exhaust
+CARD.TOOLS_OF_THE_TRADE	silent	55	B	100	T0-零费	
+CARD.TRACKING	silent	50	C	88	T1-降费	
+CARD.UNTOUCHABLE	silent	35	D	55	数值-防御	Sly
+CARD.UP_MY_SLEEVE	silent	10	D	40	数值-其他	
+CARD.WELL_LAID_PLANS	silent	45	C	88	T1-降费	
+CARD.WRAITH_FORM	silent	70	A	40	数值-其他	
+CARD.ADAPTIVE_STRIKE	defect	91	S	47	数值-攻击	
+CARD.ALL_FOR_ONE	defect	60	B	46	数值-攻击	
+CARD.BALL_LIGHTNING	defect	53	B	45	数值-攻击	
+CARD.BARRAGE	defect	45	C	44	数值-攻击	
+CARD.BEAM_CELL	defect	60	B	85	T1-翻倍	
+CARD.BIASED_COGNITION	defect	45	C	40	数值-其他	
+CARD.BOOST_AWAY	defect	76	A	55	数值-防御	
+CARD.BOOT_SEQUENCE	defect	71	A	55	数值-防御	Innate,Exhaust
+CARD.BUFFER	defect	47	C	85	T1-翻倍	
+CARD.BULK_UP	defect	41	C	40	数值-其他	
+CARD.CAPACITOR	defect	49	C	40	数值-其他	
+CARD.CHAOS	defect	49	C	85	T1-翻倍	
+CARD.CHARGE_BATTERY	defect	79	A	55	数值-防御	
+CARD.CHILL	defect	49	C	40	数值-其他	Exhaust
+CARD.CLAW	defect	56	B	43	数值-攻击	
+CARD.COLD_SNAP	defect	60	B	45	数值-攻击	
+CARD.COMPACT	defect	79	A	53	数值-防御	
+CARD.COMPILE_DRIVER	defect	67	A	45	数值-攻击	
+CARD.CONSUMING_SHADOW	defect	47	C	40	数值-其他	
+CARD.COOLANT	defect	64	B	40	数值-其他	
+CARD.COOLHEADED	defect	53	B	85	T1-翻倍	
+CARD.CREATIVE_AI	defect	45	C	88	T1-降费	
+CARD.DARKNESS	defect	60	B	40	数值-其他	
+CARD.DEFEND_DEFECT	defect	5	D	55	数值-防御	
+CARD.DEFRAGMENT	defect	52	B	85	T1-翻倍	
+CARD.DOUBLE_ENERGY	defect	47	C	100	T0-零费	Exhaust
+CARD.DUALCAST	defect	44	C	100	T0-零费	
+CARD.ECHO_FORM	defect	41	C	40	数值-其他	Ethereal
+CARD.ENERGY_SURGE	defect	59	B	40	数值-其他	Exhaust
+CARD.FERAL	defect	51	B	88	T1-降费	
+CARD.FIGHT_THROUGH	defect	95	S	56	数值-防御	
+CARD.FLAK_CANNON	defect	45	C	45	数值-攻击	
+CARD.FOCUSED_STRIKE	defect	60	B	85	T1-翻倍	
+CARD.FTL	defect	74	A	71	数值-抽牌	
+CARD.FUSION	defect	49	C	40	数值-其他	Exhaust
+CARD.GENETIC_ALGORITHM	defect	56	B	52	数值-防御	Exhaust
+CARD.GLACIER	defect	59	B	55	数值-防御	
+CARD.GLASSWORK	defect	75	A	55	数值-防御	
+CARD.GO_FOR_THE_EYES	defect	60	B	85	T1-翻倍	
+CARD.GUNK_UP	defect	49	C	43	数值-攻击	
+CARD.HAILSTORM	defect	55	B	40	数值-其他	
+CARD.HELIX_DRILL	defect	72	A	44	数值-攻击	
+CARD.HIBERNATE	defect	55	B	40	数值-其他	
+CARD.HOLOGRAM	defect	69	A	54	数值-防御	Exhaust
+CARD.HOTFIX	defect	47	C	40	数值-其他	Exhaust
+CARD.HYPERBEAM	defect	84	S	48	数值-攻击	
+CARD.ICE_LANCE	defect	56	B	47	数值-攻击	
+CARD.IGNITION	defect	49	C	40	数值-其他	Exhaust
+CARD.IMITATION_LEARNING	defect	63	B	40	数值-其他	Exhaust
+CARD.ITERATION	defect	56	B	40	数值-其他	
+CARD.LEAP	defect	79	A	55	数值-防御	
+CARD.LIGHTNING_ROD	defect	67	A	55	数值-防御	
+CARD.LOOP	defect	52	B	85	T1-翻倍	
+CARD.MACHINE_LEARNING	defect	60	B	40	数值-其他	
+CARD.METEOR_STRIKE	defect	29	D	48	数值-攻击	
+CARD.MODDED	defect	60	B	85	T1-翻倍	
+CARD.MOMENTUM_STRIKE	defect	78	A	46	数值-攻击	
+CARD.MULTI_CAST	defect	63	B	40	数值-其他	
+CARD.NULL	defect	45	C	85	T1-翻倍	
+CARD.ONE_FOR_ALL	defect	61	B	40	数值-其他	
+CARD.OVERCLOCK	defect	65	B	40	数值-其他	
+CARD.QUADCAST	defect	45	C	100	T0-零费	
+CARD.RAINBOW	defect	47	C	40	数值-其他	Exhaust
+CARD.REBOOT	defect	75	A	40	数值-其他	Exhaust
+CARD.REFRACT	defect	55	B	45	数值-攻击	
+CARD.ROCKET_PUNCH	defect	69	A	85	T1-翻倍	
+CARD.SCAVENGE	defect	63	B	40	数值-其他	
+CARD.SCRAPE	defect	82	S	45	数值-攻击	
+CARD.SHADOW_SHIELD	defect	65	B	56	数值-防御	
+CARD.SHATTER	defect	95	S	46	数值-攻击	Exhaust
+CARD.SIGNAL_BOOST	defect	56	B	100	T0-零费	Exhaust
+CARD.SKIM	defect	56	B	40	数值-其他	
+CARD.SMOKESTACK	defect	63	B	40	数值-其他	
+CARD.SPINNER	defect	63	B	40	数值-其他	
+CARD.STORM	defect	60	B	85	T1-翻倍	
+CARD.STRIKE_DEFECT	defect	5	D	45	数值-攻击	
+CARD.SUBROUTINE	defect	61	B	100	T0-零费	
+CARD.SUNDER	defect	72	A	50	数值-攻击	
+CARD.SUPERCRITICAL	defect	61	B	40	数值-其他	Exhaust
+CARD.SWEEPING_BEAM	defect	71	A	45	数值-攻击	
+CARD.SYNCHRONIZE	defect	49	C	85	T1-翻倍	
+CARD.SYNTHESIS	defect	68	A	48	数值-攻击	
+CARD.TEMPEST	defect	60	B	40	数值-其他	
+CARD.TESLA_COIL	defect	71	A	43	数值-攻击	
+CARD.THUNDER	defect	57	B	40	数值-其他	
+CARD.TRASH_TO_TREASURE	defect	61	B	100	T0-零费	
+CARD.TURBO	defect	64	B	40	数值-其他	
+CARD.UPROAR	defect	63	B	44	数值-攻击	
+CARD.VOLTAIC	defect	41	C	40	数值-其他	Exhaust
+CARD.WHITE_NOISE	defect	52	B	100	T0-零费	Exhaust
+CARD.ZAP	defect	44	C	100	T0-零费	
+CARD.ALIGNMENT	regent	55	B	40	数值-其他	
+CARD.ARSENAL	regent	59	B	40	数值-其他	
+CARD.ASTRAL_PULSE	regent	46	B	44	数值-攻击	
+CARD.BEAT_INTO_SHAPE	regent	49	C	44	数值-攻击	
+CARD.BEGONE	regent	54	B	40	数值-其他	
+CARD.BIG_BANG	regent	69	A	40	数值-其他	Exhaust
+CARD.BLACK_HOLE	regent	59	B	40	数值-其他	
+CARD.BOMBARDMENT	regent	55	B	48	数值-攻击	Exhaust
+CARD.BULWARK	regent	65	B	55	数值-防御	
+CARD.BUNDLE_OF_JOY	regent	49	C	40	数值-其他	Exhaust
+CARD.CELESTIAL_MIGHT	regent	30	D	42	数值-攻击	
+CARD.CHARGE	regent	75	A	40	数值-其他	
+CARD.CHILD_OF_THE_STARS	regent	66	A	40	数值-其他	
+CARD.CLOAK_OF_STARS	regent	52	B	55	数值-防御	
+CARD.COLLISION_COURSE	regent	52	B	46	数值-攻击	
+CARD.COMET	regent	50	B	50	数值-攻击	
+CARD.CONQUEROR	regent	46	C	40	数值-其他	
+CARD.CONSTELLATION	regent	63	A	55	数值-防御	
+CARD.CONVERGENCE	regent	58	B	85	T1-翻倍	
+CARD.COSMIC_INDIFFERENCE	regent	85	S	55	数值-防御	
+CARD.CRASH_LANDING	regent	79	A	47	数值-攻击	
+CARD.CRESCENT_SPEAR	regent	44	C	40	数值-其他	
+CARD.CRUSH_UNDER	regent	60	B	85	T1-翻倍	
+CARD.DECISIONS_DECISIONS	regent	60	B	40	数值-其他	Exhaust
+CARD.DEFEND_REGENT	regent	5	D	55	数值-防御	
+CARD.DEVASTATE	regent	57	A	50	数值-攻击	
+CARD.DYING_STAR	regent	55	A	44	数值-攻击	Ethereal
+CARD.FALLING_STAR	regent	43	B	46	数值-攻击	
+CARD.FOREGONE_CONCLUSION	regent	68	A	40	数值-其他	
+CARD.FURNACE	regent	46	C	40	数值-其他	
+CARD.GAMMA_BLAST	regent	47	B	47	数值-攻击	
+CARD.GATHER_LIGHT	regent	71	A	55	数值-防御	
+CARD.GENESIS	regent	44	C	40	数值-其他	
+CARD.GLIMMER	regent	65	B	40	数值-其他	
+CARD.GLITTERSTREAM	regent	60	B	54	数值-防御	
+CARD.GLOW	regent	55	B	85	T1-翻倍	
+CARD.GUARDS	regent	54	B	40	数值-其他	Exhaust
+CARD.GUIDING_STAR	regent	63	A	43	数值-攻击	
+CARD.HAMMER_TIME	regent	50	B	88	T1-降费	
+CARD.HEAVENLY_DRILL	regent	74	A	44	数值-攻击	
+CARD.HEGEMONY	regent	62	B	45	数值-攻击	
+CARD.HEIRLOOM_HAMMER	regent	72	A	47	数值-攻击	
+CARD.HIDDEN_CACHE	regent	44	C	40	数值-其他	
+CARD.I_AM_INVINCIBLE	regent	95	S	55	数值-防御	
+CARD.KINGLY_KICK	regent	52	B	50	数值-攻击	
+CARD.KINGLY_PUNCH	regent	75	A	44	数值-攻击	
+CARD.KNOCKOUT_BLOW	regent	64	B	50	数值-攻击	
+CARD.KNOW_THY_PLACE	regent	46	C	40	数值-其他	Exhaust
+CARD.LARGESSE	regent	46	C	40	数值-其他	
+CARD.LUNAR_BLAST	regent	56	B	43	数值-攻击	
+CARD.MAKE_IT_SO	regent	59	B	45	数值-攻击	
+CARD.MANIFEST_AUTHORITY	regent	70	A	53	数值-防御	
+CARD.METEOR_SHOWER	regent	48	B	49	数值-攻击	
+CARD.MONARCHS_GAZE	regent	52	B	88	T1-降费	
+CARD.MONOLOGUE	regent	56	B	40	数值-其他	
+CARD.NEUTRON_AEGIS	regent	49	C	40	数值-其他	
+CARD.ORBIT	regent	48	C	88	T1-降费	
+CARD.PALE_BLUE_DOT	regent	58	B	85	T1-翻倍	
+CARD.PARRY	regent	59	B	40	数值-其他	
+CARD.PARTICLE_WALL	regent	54	A	55	数值-防御	
+CARD.PATTER	regent	71	A	54	数值-防御	
+CARD.PHOTON_CUT	regent	79	A	85	T1-翻倍	
+CARD.PLOT	regent	58	B	40	数值-其他	
+CARD.PILLAR_OF_CREATION	regent	66	A	53	数值-防御	
+CARD.PROPHESIZE	regent	52	B	40	数值-其他	
+CARD.QUASAR	regent	56	B	40	数值-其他	
+CARD.RADIATE	regent	60	B	43	数值-攻击	
+CARD.REFINE_BLADE	regent	52	B	40	数值-其他	
+CARD.REFLECT	regent	66	S	57	数值-防御	
+CARD.RESONANCE	regent	52	B	85	T1-翻倍	
+CARD.ROYAL_GAMBLE	regent	46	C	40	数值-其他	Exhaust
+CARD.ROYALTIES	regent	49	C	40	数值-其他	
+CARD.SEEKING_EDGE	regent	54	B	40	数值-其他	
+CARD.SEVEN_STARS	regent	33	C	88	T1-降费	
+CARD.SHINING_STRIKE	regent	75	A	45	数值-攻击	
+CARD.SOLAR_STRIKE	regent	56	B	85	T1-翻倍	
+CARD.SPECTRUM_SHIFT	regent	41	C	88	T1-降费	
+CARD.SPOILS_OF_BATTLE	regent	55	B	40	数值-其他	
+CARD.STARDUST	regent	56	B	44	数值-攻击	
+CARD.STRIKE_REGENT	regent	5	D	45	数值-攻击	
+CARD.SUMMON_FORTH	regent	46	C	40	数值-其他	
+CARD.SUPERMASSIVE	regent	46	C	40	数值-其他	
+CARD.SWORD_SAGE	regent	44	C	88	T1-降费	
+CARD.TERRAFORMING	regent	46	C	40	数值-其他	
+CARD.THE_SEALED_THRONE	regent	42	C	100	T0-零费	
+CARD.THE_SMITH	regent	49	C	40	数值-其他	
+CARD.TUTOR	regent	68	A	100	T0-零费	
+CARD.TYRANNY	regent	72	A	40	数值-其他	
+CARD.VENERATE	regent	41	C	40	数值-其他	
+CARD.VOID_FORM	regent	39	C	40	数值-其他	Ethereal
+CARD.WROUGHT_IN_WAR	regent	50	B	44	数值-攻击	
+CARD.AFTERLIFE	necrobinder	44	C	40	数值-其他	Exhaust
+CARD.BANSHEES_CRY	necrobinder	10	D	88	T1-降费	
+CARD.BLIGHT_STRIKE	necrobinder	54	B	62	数值-灾厄	
+CARD.BODYGUARD	necrobinder	41	C	40	数值-其他	
+CARD.BONE_SHARDS	necrobinder	82	S	55	数值-防御	
+CARD.BORROWED_TIME	necrobinder	55	B	40	数值-其他	
+CARD.BURY	necrobinder	71	A	50	数值-攻击	
+CARD.CACOPHONY	necrobinder	95	S	50	数值-攻击	
+CARD.CALCIFY	necrobinder	46	C	40	数值-其他	
+CARD.CALL_OF_THE_VOID	necrobinder	49	C	40	数值-其他	
+CARD.CAPTURE_SPIRIT	necrobinder	56	B	43	数值-攻击	
+CARD.CLEANSE	necrobinder	70	A	40	数值-其他	
+CARD.COUNTDOWN	necrobinder	46	C	60	数值-灾厄	
+CARD.DANSE_MACABRE	necrobinder	75	A	40	数值-其他	
+CARD.DEATH_MARCH	necrobinder	58	B	40	数值-其他	
+CARD.DEATHBRINGER	necrobinder	48	C	60	数值-灾厄	
+CARD.DEATHS_DOOR	necrobinder	65	B	60	数值-灾厄	
+CARD.DEBILITATE	necrobinder	68	A	44	数值-攻击	
+CARD.DEFEND_NECROBINDER	necrobinder	5	D	55	数值-防御	
+CARD.DEFILE	necrobinder	68	A	46	数值-攻击	Ethereal
+CARD.DEFY	necrobinder	75	A	55	数值-防御	Ethereal
+CARD.DELAY	necrobinder	71	A	85	T1-翻倍	
+CARD.DEMESNE	necrobinder	55	B	88	T1-降费	Ethereal
+CARD.DEVOUR_LIFE	necrobinder	58	B	85	T1-翻倍	
+CARD.DIRGE	necrobinder	75	A	40	数值-其他	Exhaust
+CARD.DRAIN_POWER	necrobinder	66	A	44	数值-攻击	
+CARD.DREDGE	necrobinder	52	B	40	数值-其他	Exhaust
+CARD.EIDOLON	necrobinder	48	C	88	T1-降费	Exhaust
+CARD.END_OF_DAYS	necrobinder	41	C	60	数值-灾厄	
+CARD.ENFEEBLING_TOUCH	necrobinder	45	C	40	数值-其他	Ethereal
+CARD.ERADICATE	necrobinder	74	A	45	数值-攻击	Retain
+CARD.FEAR	necrobinder	52	B	85	T1-翻倍	Ethereal
+CARD.FETCH	necrobinder	58	B	85	T1-翻倍	
+CARD.FLATTEN	necrobinder	45	C	40	数值-其他	
+CARD.FORBIDDEN_GRIMOIRE	necrobinder	38	C	88	T1-降费	Eternal
+CARD.FRIENDSHIP	necrobinder	62	B	40	数值-其他	
+CARD.GLIMPSE_BEYOND	necrobinder	68	A	40	数值-其他	Exhaust
+CARD.GRAVE_WARDEN	necrobinder	80	A	55	数值-防御	
+CARD.GRAVEBLAST	necrobinder	55	B	44	数值-攻击	Exhaust
+CARD.HANG	necrobinder	66	A	45	数值-攻击	
+CARD.HAUNT	necrobinder	54	B	40	数值-其他	
+CARD.HIGH_FIVE	necrobinder	48	C	40	数值-其他	
+CARD.INVOKE	necrobinder	52	B	40	数值-其他	
+CARD.LEGION_OF_BONE	necrobinder	41	C	40	数值-其他	
+CARD.LETHALITY	necrobinder	46	C	40	数值-其他	Ethereal
+CARD.MELANCHOLY	necrobinder	55	B	56	数值-防御	
+CARD.MISERY	necrobinder	59	B	44	数值-攻击	
+CARD.NECRO_MASTERY	necrobinder	50	B	40	数值-其他	
+CARD.NEGATIVE_PULSE	necrobinder	61	B	60	数值-灾厄	
+CARD.NEUROSURGE	necrobinder	69	A	60	数值-灾厄	
+CARD.NO_ESCAPE	necrobinder	46	C	60	数值-灾厄	
+CARD.OBLIVION	necrobinder	49	C	60	数值-灾厄	
+CARD.PAGESTORM	necrobinder	65	B	100	T0-零费	
+CARD.PARSE	necrobinder	58	B	40	数值-其他	Ethereal
+CARD.POKE	necrobinder	44	C	40	数值-其他	
+CARD.PROTECTOR	necrobinder	42	C	100	T0-零费	
+CARD.PULL_AGGRO	necrobinder	45	C	54	数值-防御	
+CARD.PULL_FROM_BELOW	necrobinder	45	C	44	数值-攻击	
+CARD.PUTREFY	necrobinder	50	B	40	数值-其他	Exhaust
+CARD.RATTLE	necrobinder	46	C	40	数值-其他	
+CARD.REANIMATE	necrobinder	39	C	40	数值-其他	Exhaust
+CARD.REAP	necrobinder	56	B	48	数值-攻击	Retain
+CARD.REAPER_FORM	necrobinder	44	C	60	数值-灾厄	
+CARD.REAVE	necrobinder	89	S	45	数值-攻击	
+CARD.RIGHT_HAND_HAND	necrobinder	69	A	40	数值-其他	
+CARD.SACRIFICE	necrobinder	61	B	100	T0-零费	Retain
+CARD.SCOURGE	necrobinder	55	B	85	T1-翻倍	
+CARD.SCULPTING_STRIKE	necrobinder	56	B	45	数值-攻击	
+CARD.SEANCE	necrobinder	68	A	100	T0-零费	Ethereal
+CARD.SENTRY_MODE	necrobinder	44	C	88	T1-降费	
+CARD.SEVERANCE	necrobinder	72	A	47	数值-攻击	
+CARD.SHARED_FATE	necrobinder	49	C	40	数值-其他	Exhaust
+CARD.SHROUD	necrobinder	60	B	60	数值-灾厄	
+CARD.SIC_EM	necrobinder	54	B	40	数值-其他	
+CARD.SLEIGHT_OF_FLESH	necrobinder	48	C	40	数值-其他	
+CARD.SNAP	necrobinder	46	C	40	数值-其他	
+CARD.SOUL_STORM	necrobinder	54	B	40	数值-其他	
+CARD.SOULBOUND	necrobinder	72	A	40	数值-其他	
+CARD.SOW	necrobinder	58	B	45	数值-攻击	Retain
+CARD.SPIRIT_OF_ASH	necrobinder	74	A	40	数值-其他	
+CARD.SPUR	necrobinder	46	C	40	数值-其他	Retain
+CARD.SQUEEZE	necrobinder	39	C	40	数值-其他	
+CARD.STRIKE_NECROBINDER	necrobinder	5	D	45	数值-攻击	
+CARD.THE_SCYTHE	necrobinder	55	B	42	数值-攻击	Exhaust
+CARD.TIMES_UP	necrobinder	44	C	60	数值-灾厄	
+CARD.TRANSFIGURE	necrobinder	58	B	40	数值-其他	Exhaust
+CARD.UNDEATH	necrobinder	84	S	54	数值-防御	
+CARD.UNDERWORLD	necrobinder	48	C	60	数值-灾厄	Exhaust
+CARD.UNLEASH	necrobinder	41	C	40	数值-其他	
+CARD.VEILPIERCER	necrobinder	72	A	45	数值-攻击	
+CARD.WISP	necrobinder	52	B	40	数值-其他	Exhaust
+CARD.ALCHEMIZE	ironclad	49	C	100	T0-零费	Exhaust
+CARD.ALCHEMIZE	silent	49	C	100	T0-零费	Exhaust
+CARD.ALCHEMIZE	defect	49	C	100	T0-零费	Exhaust
+CARD.ALCHEMIZE	regent	49	C	100	T0-零费	Exhaust
+CARD.ALCHEMIZE	necrobinder	49	C	100	T0-零费	Exhaust
+CARD.ANOINTED	ironclad	68	A	40	数值-其他	Exhaust
+CARD.ANOINTED	silent	68	A	40	数值-其他	Exhaust
+CARD.ANOINTED	defect	68	A	40	数值-其他	Exhaust
+CARD.ANOINTED	regent	68	A	40	数值-其他	Exhaust
+CARD.ANOINTED	necrobinder	68	A	40	数值-其他	Exhaust
+CARD.AUTOMATION	ironclad	73	A	100	T0-零费	
+CARD.AUTOMATION	silent	73	A	100	T0-零费	
+CARD.AUTOMATION	defect	73	A	100	T0-零费	
+CARD.AUTOMATION	regent	73	A	100	T0-零费	
+CARD.AUTOMATION	necrobinder	73	A	100	T0-零费	
+CARD.BEACON_OF_HOPE	ironclad	62	B	40	数值-其他	
+CARD.BEACON_OF_HOPE	silent	62	B	40	数值-其他	
+CARD.BEACON_OF_HOPE	defect	62	B	40	数值-其他	
+CARD.BEACON_OF_HOPE	regent	62	B	40	数值-其他	
+CARD.BEACON_OF_HOPE	necrobinder	62	B	40	数值-其他	
+CARD.BEAT_DOWN	ironclad	39	C	40	数值-其他	
+CARD.BEAT_DOWN	silent	39	C	40	数值-其他	
+CARD.BEAT_DOWN	defect	39	C	40	数值-其他	
+CARD.BEAT_DOWN	regent	39	C	40	数值-其他	
+CARD.BEAT_DOWN	necrobinder	39	C	40	数值-其他	
+CARD.BELIEVE_IN_YOU	ironclad	55	B	40	数值-其他	
+CARD.BELIEVE_IN_YOU	silent	55	B	40	数值-其他	
+CARD.BELIEVE_IN_YOU	defect	55	B	40	数值-其他	
+CARD.BELIEVE_IN_YOU	regent	55	B	40	数值-其他	
+CARD.BELIEVE_IN_YOU	necrobinder	55	B	40	数值-其他	
+CARD.BOLAS	ironclad	58	B	43	数值-攻击	
+CARD.BOLAS	silent	58	B	43	数值-攻击	
+CARD.BOLAS	defect	58	B	43	数值-攻击	
+CARD.BOLAS	regent	58	B	43	数值-攻击	
+CARD.BOLAS	necrobinder	58	B	43	数值-攻击	
+CARD.CALAMITY	ironclad	43	C	88	T1-降费	
+CARD.CALAMITY	silent	43	C	88	T1-降费	
+CARD.CALAMITY	defect	43	C	88	T1-降费	
+CARD.CALAMITY	regent	43	C	88	T1-降费	
+CARD.CALAMITY	necrobinder	43	C	88	T1-降费	
+CARD.CATASTROPHE	ironclad	58	B	40	数值-其他	
+CARD.CATASTROPHE	silent	58	B	40	数值-其他	
+CARD.CATASTROPHE	defect	58	B	40	数值-其他	
+CARD.CATASTROPHE	regent	58	B	40	数值-其他	
+CARD.CATASTROPHE	necrobinder	58	B	40	数值-其他	
+CARD.COORDINATE	ironclad	46	C	40	数值-其他	
+CARD.COORDINATE	silent	46	C	40	数值-其他	
+CARD.COORDINATE	defect	46	C	40	数值-其他	
+CARD.COORDINATE	regent	46	C	40	数值-其他	
+CARD.COORDINATE	necrobinder	46	C	40	数值-其他	
+CARD.DARK_SHACKLES	ironclad	46	C	40	数值-其他	Exhaust
+CARD.DARK_SHACKLES	silent	46	C	40	数值-其他	Exhaust
+CARD.DARK_SHACKLES	defect	46	C	40	数值-其他	Exhaust
+CARD.DARK_SHACKLES	regent	46	C	40	数值-其他	Exhaust
+CARD.DARK_SHACKLES	necrobinder	46	C	40	数值-其他	Exhaust
+CARD.DISCOVERY	ironclad	46	C	40	数值-其他	Exhaust
+CARD.DISCOVERY	silent	46	C	40	数值-其他	Exhaust
+CARD.DISCOVERY	defect	46	C	40	数值-其他	Exhaust
+CARD.DISCOVERY	regent	46	C	40	数值-其他	Exhaust
+CARD.DISCOVERY	necrobinder	46	C	40	数值-其他	Exhaust
+CARD.DRAMATIC_ENTRANCE	ironclad	60	B	46	数值-攻击	Exhaust,Innate
+CARD.DRAMATIC_ENTRANCE	silent	60	B	46	数值-攻击	Exhaust,Innate
+CARD.DRAMATIC_ENTRANCE	defect	60	B	46	数值-攻击	Exhaust,Innate
+CARD.DRAMATIC_ENTRANCE	regent	60	B	46	数值-攻击	Exhaust,Innate
+CARD.DRAMATIC_ENTRANCE	necrobinder	60	B	46	数值-攻击	Exhaust,Innate
+CARD.ENTROPY	ironclad	49	C	40	数值-其他	
+CARD.ENTROPY	silent	49	C	40	数值-其他	
+CARD.ENTROPY	defect	49	C	40	数值-其他	
+CARD.ENTROPY	regent	49	C	40	数值-其他	
+CARD.ENTROPY	necrobinder	49	C	40	数值-其他	
+CARD.EQUILIBRIUM	ironclad	70	A	55	数值-防御	
+CARD.EQUILIBRIUM	silent	70	A	55	数值-防御	
+CARD.EQUILIBRIUM	defect	70	A	55	数值-防御	
+CARD.EQUILIBRIUM	regent	70	A	55	数值-防御	
+CARD.EQUILIBRIUM	necrobinder	70	A	55	数值-防御	
+CARD.ETERNAL_ARMOR	ironclad	39	C	40	数值-其他	
+CARD.ETERNAL_ARMOR	silent	39	C	40	数值-其他	
+CARD.ETERNAL_ARMOR	defect	39	C	40	数值-其他	
+CARD.ETERNAL_ARMOR	regent	39	C	40	数值-其他	
+CARD.ETERNAL_ARMOR	necrobinder	39	C	40	数值-其他	
+CARD.FASTEN	ironclad	58	B	40	数值-其他	
+CARD.FASTEN	silent	58	B	40	数值-其他	
+CARD.FASTEN	defect	58	B	40	数值-其他	
+CARD.FASTEN	regent	58	B	40	数值-其他	
+CARD.FASTEN	necrobinder	58	B	40	数值-其他	
+CARD.FINESSE	ironclad	77	A	71	数值-抽牌	
+CARD.FINESSE	silent	77	A	71	数值-抽牌	
+CARD.FINESSE	defect	77	A	71	数值-抽牌	
+CARD.FINESSE	regent	77	A	71	数值-抽牌	
+CARD.FINESSE	necrobinder	77	A	71	数值-抽牌	
+CARD.FISTICUFFS	ironclad	65	B	44	数值-攻击	
+CARD.FISTICUFFS	silent	65	B	44	数值-攻击	
+CARD.FISTICUFFS	defect	65	B	44	数值-攻击	
+CARD.FISTICUFFS	regent	65	B	44	数值-攻击	
+CARD.FISTICUFFS	necrobinder	65	B	44	数值-攻击	
+CARD.FLASH_OF_STEEL	ironclad	75	A	71	数值-抽牌	
+CARD.FLASH_OF_STEEL	silent	75	A	71	数值-抽牌	
+CARD.FLASH_OF_STEEL	defect	75	A	71	数值-抽牌	
+CARD.FLASH_OF_STEEL	regent	75	A	71	数值-抽牌	
+CARD.FLASH_OF_STEEL	necrobinder	75	A	71	数值-抽牌	
+CARD.GANG_UP	ironclad	46	C	40	数值-其他	
+CARD.GANG_UP	silent	46	C	40	数值-其他	
+CARD.GANG_UP	defect	46	C	40	数值-其他	
+CARD.GANG_UP	regent	46	C	40	数值-其他	
+CARD.GANG_UP	necrobinder	46	C	40	数值-其他	
+CARD.GOLD_AXE	ironclad	49	C	40	数值-其他	
+CARD.GOLD_AXE	silent	49	C	40	数值-其他	
+CARD.GOLD_AXE	defect	49	C	40	数值-其他	
+CARD.GOLD_AXE	regent	49	C	40	数值-其他	
+CARD.GOLD_AXE	necrobinder	49	C	40	数值-其他	
+CARD.HAND_OF_GREED	ironclad	66	A	47	数值-攻击	
+CARD.HAND_OF_GREED	silent	66	A	47	数值-攻击	
+CARD.HAND_OF_GREED	defect	66	A	47	数值-攻击	
+CARD.HAND_OF_GREED	regent	66	A	47	数值-攻击	
+CARD.HAND_OF_GREED	necrobinder	66	A	47	数值-攻击	
+CARD.HIDDEN_GEM	ironclad	68	A	40	数值-其他	
+CARD.HIDDEN_GEM	silent	68	A	40	数值-其他	
+CARD.HIDDEN_GEM	defect	68	A	40	数值-其他	
+CARD.HIDDEN_GEM	regent	68	A	40	数值-其他	
+CARD.HIDDEN_GEM	necrobinder	68	A	40	数值-其他	
+CARD.HUDDLE_UP	ironclad	57	B	40	数值-其他	Exhaust
+CARD.HUDDLE_UP	silent	57	B	40	数值-其他	Exhaust
+CARD.HUDDLE_UP	defect	57	B	40	数值-其他	Exhaust
+CARD.HUDDLE_UP	regent	57	B	40	数值-其他	Exhaust
+CARD.HUDDLE_UP	necrobinder	57	B	40	数值-其他	Exhaust
+CARD.IMPATIENCE	ironclad	57	B	40	数值-其他	
+CARD.IMPATIENCE	silent	57	B	40	数值-其他	
+CARD.IMPATIENCE	defect	57	B	40	数值-其他	
+CARD.IMPATIENCE	regent	57	B	40	数值-其他	
+CARD.IMPATIENCE	necrobinder	57	B	40	数值-其他	
+CARD.INTERCEPT	ironclad	72	A	56	数值-防御	
+CARD.INTERCEPT	silent	72	A	56	数值-防御	
+CARD.INTERCEPT	defect	72	A	56	数值-防御	
+CARD.INTERCEPT	regent	72	A	56	数值-防御	
+CARD.INTERCEPT	necrobinder	72	A	56	数值-防御	
+CARD.JACK_OF_ALL_TRADES	ironclad	46	C	85	T1-翻倍	Exhaust
+CARD.JACK_OF_ALL_TRADES	silent	46	C	85	T1-翻倍	Exhaust
+CARD.JACK_OF_ALL_TRADES	defect	46	C	85	T1-翻倍	Exhaust
+CARD.JACK_OF_ALL_TRADES	regent	46	C	85	T1-翻倍	Exhaust
+CARD.JACK_OF_ALL_TRADES	necrobinder	46	C	85	T1-翻倍	Exhaust
+CARD.JACKPOT	ironclad	69	A	47	数值-攻击	
+CARD.JACKPOT	silent	69	A	47	数值-攻击	
+CARD.JACKPOT	defect	69	A	47	数值-攻击	
+CARD.JACKPOT	regent	69	A	47	数值-攻击	
+CARD.JACKPOT	necrobinder	69	A	47	数值-攻击	
+CARD.KNOCKDOWN	ironclad	42	C	46	数值-攻击	
+CARD.KNOCKDOWN	silent	42	C	46	数值-攻击	
+CARD.KNOCKDOWN	defect	42	C	46	数值-攻击	
+CARD.KNOCKDOWN	regent	42	C	46	数值-攻击	
+CARD.KNOCKDOWN	necrobinder	42	C	46	数值-攻击	
+CARD.LIFT	ironclad	84	S	57	数值-防御	
+CARD.LIFT	silent	84	S	57	数值-防御	
+CARD.LIFT	defect	84	S	57	数值-防御	
+CARD.LIFT	regent	84	S	57	数值-防御	
+CARD.LIFT	necrobinder	84	S	57	数值-防御	
+CARD.MASTER_OF_STRATEGY	ironclad	61	B	40	数值-其他	Exhaust
+CARD.MASTER_OF_STRATEGY	silent	61	B	40	数值-其他	Exhaust
+CARD.MASTER_OF_STRATEGY	defect	61	B	40	数值-其他	Exhaust
+CARD.MASTER_OF_STRATEGY	regent	61	B	40	数值-其他	Exhaust
+CARD.MASTER_OF_STRATEGY	necrobinder	61	B	40	数值-其他	Exhaust
+CARD.MAYHEM	ironclad	61	B	88	T1-降费	
+CARD.MAYHEM	silent	61	B	88	T1-降费	
+CARD.MAYHEM	defect	61	B	88	T1-降费	
+CARD.MAYHEM	regent	61	B	88	T1-降费	
+CARD.MAYHEM	necrobinder	61	B	88	T1-降费	
+CARD.MIMIC	ironclad	62	B	40	数值-其他	Exhaust
+CARD.MIMIC	silent	62	B	40	数值-其他	Exhaust
+CARD.MIMIC	defect	62	B	40	数值-其他	Exhaust
+CARD.MIMIC	regent	62	B	40	数值-其他	Exhaust
+CARD.MIMIC	necrobinder	62	B	40	数值-其他	Exhaust
+CARD.MIND_BLAST	ironclad	65	B	100	T0-零费	Innate
+CARD.MIND_BLAST	silent	65	B	100	T0-零费	Innate
+CARD.MIND_BLAST	defect	65	B	100	T0-零费	Innate
+CARD.MIND_BLAST	regent	65	B	100	T0-零费	Innate
+CARD.MIND_BLAST	necrobinder	65	B	100	T0-零费	Innate
+CARD.NOSTALGIA	ironclad	68	A	100	T0-零费	
+CARD.NOSTALGIA	silent	68	A	100	T0-零费	
+CARD.NOSTALGIA	defect	68	A	100	T0-零费	
+CARD.NOSTALGIA	regent	68	A	100	T0-零费	
+CARD.NOSTALGIA	necrobinder	68	A	100	T0-零费	
+CARD.OMNISLICE	ironclad	55	B	45	数值-攻击	
+CARD.OMNISLICE	silent	55	B	45	数值-攻击	
+CARD.OMNISLICE	defect	55	B	45	数值-攻击	
+CARD.OMNISLICE	regent	55	B	45	数值-攻击	
+CARD.OMNISLICE	necrobinder	55	B	45	数值-攻击	
+CARD.PANACHE	ironclad	58	B	40	数值-其他	
+CARD.PANACHE	silent	58	B	40	数值-其他	
+CARD.PANACHE	defect	58	B	40	数值-其他	
+CARD.PANACHE	regent	58	B	40	数值-其他	
+CARD.PANACHE	necrobinder	58	B	40	数值-其他	
+CARD.PANIC_BUTTON	ironclad	69	A	58	数值-防御	Exhaust
+CARD.PANIC_BUTTON	silent	69	A	58	数值-防御	Exhaust
+CARD.PANIC_BUTTON	defect	69	A	58	数值-防御	Exhaust
+CARD.PANIC_BUTTON	regent	69	A	58	数值-防御	Exhaust
+CARD.PANIC_BUTTON	necrobinder	69	A	58	数值-防御	Exhaust
+CARD.PREP_TIME	ironclad	46	C	40	数值-其他	
+CARD.PREP_TIME	silent	46	C	40	数值-其他	
+CARD.PREP_TIME	defect	46	C	40	数值-其他	
+CARD.PREP_TIME	regent	46	C	40	数值-其他	
+CARD.PREP_TIME	necrobinder	46	C	40	数值-其他	
+CARD.PRODUCTION	ironclad	55	B	40	数值-其他	Exhaust
+CARD.PRODUCTION	silent	55	B	40	数值-其他	Exhaust
+CARD.PRODUCTION	defect	55	B	40	数值-其他	Exhaust
+CARD.PRODUCTION	regent	55	B	40	数值-其他	Exhaust
+CARD.PRODUCTION	necrobinder	55	B	40	数值-其他	Exhaust
+CARD.PROLONG	ironclad	58	B	40	数值-其他	Exhaust
+CARD.PROLONG	silent	58	B	40	数值-其他	Exhaust
+CARD.PROLONG	defect	58	B	40	数值-其他	Exhaust
+CARD.PROLONG	regent	58	B	40	数值-其他	Exhaust
+CARD.PROLONG	necrobinder	58	B	40	数值-其他	Exhaust
+CARD.PROWESS	ironclad	46	C	85	T1-翻倍	
+CARD.PROWESS	silent	46	C	85	T1-翻倍	
+CARD.PROWESS	defect	46	C	85	T1-翻倍	
+CARD.PROWESS	regent	46	C	85	T1-翻倍	
+CARD.PROWESS	necrobinder	46	C	85	T1-翻倍	
+CARD.PURITY	ironclad	49	C	40	数值-其他	Retain,Exhaust
+CARD.PURITY	silent	49	C	40	数值-其他	Retain,Exhaust
+CARD.PURITY	defect	49	C	40	数值-其他	Retain,Exhaust
+CARD.PURITY	regent	49	C	40	数值-其他	Retain,Exhaust
+CARD.PURITY	necrobinder	49	C	40	数值-其他	Retain,Exhaust
+CARD.RALLY	ironclad	69	A	57	数值-防御	
+CARD.RALLY	silent	69	A	57	数值-防御	
+CARD.RALLY	defect	69	A	57	数值-防御	
+CARD.RALLY	regent	69	A	57	数值-防御	
+CARD.RALLY	necrobinder	69	A	57	数值-防御	
+CARD.REND	ironclad	49	C	40	数值-其他	
+CARD.REND	silent	49	C	40	数值-其他	
+CARD.REND	defect	49	C	40	数值-其他	
+CARD.REND	regent	49	C	40	数值-其他	
+CARD.REND	necrobinder	49	C	40	数值-其他	
+CARD.RESTLESSNESS	ironclad	66	A	40	数值-其他	Retain
+CARD.RESTLESSNESS	silent	66	A	40	数值-其他	Retain
+CARD.RESTLESSNESS	defect	66	A	40	数值-其他	Retain
+CARD.RESTLESSNESS	regent	66	A	40	数值-其他	Retain
+CARD.RESTLESSNESS	necrobinder	66	A	40	数值-其他	Retain
+CARD.ROLLING_BOULDER	ironclad	42	C	85	T1-翻倍	
+CARD.ROLLING_BOULDER	silent	42	C	85	T1-翻倍	
+CARD.ROLLING_BOULDER	defect	42	C	85	T1-翻倍	
+CARD.ROLLING_BOULDER	regent	42	C	85	T1-翻倍	
+CARD.ROLLING_BOULDER	necrobinder	42	C	85	T1-翻倍	
+CARD.SALVO	ironclad	73	A	46	数值-攻击	
+CARD.SALVO	silent	73	A	46	数值-攻击	
+CARD.SALVO	defect	73	A	46	数值-攻击	
+CARD.SALVO	regent	73	A	46	数值-攻击	
+CARD.SALVO	necrobinder	73	A	46	数值-攻击	
+CARD.SCRAWL	ironclad	68	A	40	数值-其他	Exhaust
+CARD.SCRAWL	silent	68	A	40	数值-其他	Exhaust
+CARD.SCRAWL	defect	68	A	40	数值-其他	Exhaust
+CARD.SCRAWL	regent	68	A	40	数值-其他	Exhaust
+CARD.SCRAWL	necrobinder	68	A	40	数值-其他	Exhaust
+CARD.SECRET_TECHNIQUE	ironclad	68	A	40	数值-其他	Exhaust
+CARD.SECRET_TECHNIQUE	silent	68	A	40	数值-其他	Exhaust
+CARD.SECRET_TECHNIQUE	defect	68	A	40	数值-其他	Exhaust
+CARD.SECRET_TECHNIQUE	regent	68	A	40	数值-其他	Exhaust
+CARD.SECRET_TECHNIQUE	necrobinder	68	A	40	数值-其他	Exhaust
+CARD.SECRET_WEAPON	ironclad	68	A	40	数值-其他	Exhaust
+CARD.SECRET_WEAPON	silent	68	A	40	数值-其他	Exhaust
+CARD.SECRET_WEAPON	defect	68	A	40	数值-其他	Exhaust
+CARD.SECRET_WEAPON	regent	68	A	40	数值-其他	Exhaust
+CARD.SECRET_WEAPON	necrobinder	68	A	40	数值-其他	Exhaust
+CARD.SEEKER_STRIKE	ironclad	66	A	45	数值-攻击	
+CARD.SEEKER_STRIKE	silent	66	A	45	数值-攻击	
+CARD.SEEKER_STRIKE	defect	66	A	45	数值-攻击	
+CARD.SEEKER_STRIKE	regent	66	A	45	数值-攻击	
+CARD.SEEKER_STRIKE	necrobinder	66	A	45	数值-攻击	
+CARD.SHOCKWAVE	ironclad	47	C	40	数值-其他	Exhaust
+CARD.SHOCKWAVE	silent	47	C	40	数值-其他	Exhaust
+CARD.SHOCKWAVE	defect	47	C	40	数值-其他	Exhaust
+CARD.SHOCKWAVE	regent	47	C	40	数值-其他	Exhaust
+CARD.SHOCKWAVE	necrobinder	47	C	40	数值-其他	Exhaust
+CARD.SPLASH	ironclad	49	C	40	数值-其他	
+CARD.SPLASH	silent	49	C	40	数值-其他	
+CARD.SPLASH	defect	49	C	40	数值-其他	
+CARD.SPLASH	regent	49	C	40	数值-其他	
+CARD.SPLASH	necrobinder	49	C	40	数值-其他	
+CARD.STRATAGEM	ironclad	73	A	100	T0-零费	
+CARD.STRATAGEM	silent	73	A	100	T0-零费	
+CARD.STRATAGEM	defect	73	A	100	T0-零费	
+CARD.STRATAGEM	regent	73	A	100	T0-零费	
+CARD.STRATAGEM	necrobinder	73	A	100	T0-零费	
+CARD.TAG_TEAM	ironclad	47	C	46	数值-攻击	
+CARD.TAG_TEAM	silent	47	C	46	数值-攻击	
+CARD.TAG_TEAM	defect	47	C	46	数值-攻击	
+CARD.TAG_TEAM	regent	47	C	46	数值-攻击	
+CARD.TAG_TEAM	necrobinder	47	C	46	数值-攻击	
+CARD.THE_BALL	ironclad	64	B	42	数值-攻击	
+CARD.THE_BALL	silent	64	B	42	数值-攻击	
+CARD.THE_BALL	defect	64	B	42	数值-攻击	
+CARD.THE_BALL	regent	64	B	42	数值-攻击	
+CARD.THE_BALL	necrobinder	64	B	42	数值-攻击	
+CARD.THE_BOMB	ironclad	45	C	40	数值-其他	
+CARD.THE_BOMB	silent	45	C	40	数值-其他	
+CARD.THE_BOMB	defect	45	C	40	数值-其他	
+CARD.THE_BOMB	regent	45	C	40	数值-其他	
+CARD.THE_BOMB	necrobinder	45	C	40	数值-其他	
+CARD.THE_GAMBIT	ironclad	72	A	58	数值-防御	
+CARD.THE_GAMBIT	silent	72	A	58	数值-防御	
+CARD.THE_GAMBIT	defect	72	A	58	数值-防御	
+CARD.THE_GAMBIT	regent	72	A	58	数值-防御	
+CARD.THE_GAMBIT	necrobinder	72	A	58	数值-防御	
+CARD.THINKING_AHEAD	ironclad	65	B	40	数值-其他	Exhaust
+CARD.THINKING_AHEAD	silent	65	B	40	数值-其他	Exhaust
+CARD.THINKING_AHEAD	defect	65	B	40	数值-其他	Exhaust
+CARD.THINKING_AHEAD	regent	65	B	40	数值-其他	Exhaust
+CARD.THINKING_AHEAD	necrobinder	65	B	40	数值-其他	Exhaust
+CARD.THRUMMING_HATCHET	ironclad	68	A	45	数值-攻击	
+CARD.THRUMMING_HATCHET	silent	68	A	45	数值-攻击	
+CARD.THRUMMING_HATCHET	defect	68	A	45	数值-攻击	
+CARD.THRUMMING_HATCHET	regent	68	A	45	数值-攻击	
+CARD.THRUMMING_HATCHET	necrobinder	68	A	45	数值-攻击	
+CARD.ULTIMATE_DEFEND	ironclad	84	S	56	数值-防御	
+CARD.ULTIMATE_DEFEND	silent	84	S	56	数值-防御	
+CARD.ULTIMATE_DEFEND	defect	84	S	56	数值-防御	
+CARD.ULTIMATE_DEFEND	regent	84	S	56	数值-防御	
+CARD.ULTIMATE_DEFEND	necrobinder	84	S	56	数值-防御	
+CARD.ULTIMATE_STRIKE	ironclad	70	A	48	数值-攻击	
+CARD.ULTIMATE_STRIKE	silent	70	A	48	数值-攻击	
+CARD.ULTIMATE_STRIKE	defect	70	A	48	数值-攻击	
+CARD.ULTIMATE_STRIKE	regent	70	A	48	数值-攻击	
+CARD.ULTIMATE_STRIKE	necrobinder	70	A	48	数值-攻击	
+CARD.VOLLEY	ironclad	70	A	46	数值-攻击	
+CARD.VOLLEY	silent	70	A	46	数值-攻击	
+CARD.VOLLEY	defect	70	A	46	数值-攻击	
+CARD.VOLLEY	regent	70	A	46	数值-攻击	
+CARD.VOLLEY	necrobinder	70	A	46	数值-攻击	
+CARD.ASCENDERS_BANE	ironclad	39	C	40	数值-其他	Eternal,Unplayable,Ethereal
+CARD.ASCENDERS_BANE	silent	39	C	40	数值-其他	Eternal,Unplayable,Ethereal
+CARD.ASCENDERS_BANE	defect	39	C	40	数值-其他	Eternal,Unplayable,Ethereal
+CARD.ASCENDERS_BANE	regent	39	C	40	数值-其他	Eternal,Unplayable,Ethereal
+CARD.ASCENDERS_BANE	necrobinder	39	C	40	数值-其他	Eternal,Unplayable,Ethereal
+CARD.BAD_LUCK	ironclad	39	C	40	数值-其他	Eternal,Unplayable
+CARD.BAD_LUCK	silent	39	C	40	数值-其他	Eternal,Unplayable
+CARD.BAD_LUCK	defect	39	C	40	数值-其他	Eternal,Unplayable
+CARD.BAD_LUCK	regent	39	C	40	数值-其他	Eternal,Unplayable
+CARD.BAD_LUCK	necrobinder	39	C	40	数值-其他	Eternal,Unplayable
+CARD.CLUMSY	ironclad	39	C	40	数值-其他	Unplayable,Ethereal
+CARD.CLUMSY	silent	39	C	40	数值-其他	Unplayable,Ethereal
+CARD.CLUMSY	defect	39	C	40	数值-其他	Unplayable,Ethereal
+CARD.CLUMSY	regent	39	C	40	数值-其他	Unplayable,Ethereal
+CARD.CLUMSY	necrobinder	39	C	40	数值-其他	Unplayable,Ethereal
+CARD.CURSE_OF_THE_BELL	ironclad	39	C	40	数值-其他	Eternal,Unplayable
+CARD.CURSE_OF_THE_BELL	silent	39	C	40	数值-其他	Eternal,Unplayable
+CARD.CURSE_OF_THE_BELL	defect	39	C	40	数值-其他	Eternal,Unplayable
+CARD.CURSE_OF_THE_BELL	regent	39	C	40	数值-其他	Eternal,Unplayable
+CARD.CURSE_OF_THE_BELL	necrobinder	39	C	40	数值-其他	Eternal,Unplayable
+CARD.DEBT	ironclad	39	C	40	数值-其他	Unplayable
+CARD.DEBT	silent	39	C	40	数值-其他	Unplayable
+CARD.DEBT	defect	39	C	40	数值-其他	Unplayable
+CARD.DEBT	regent	39	C	40	数值-其他	Unplayable
+CARD.DEBT	necrobinder	39	C	40	数值-其他	Unplayable
+CARD.DECAY	ironclad	50	B	42	数值-攻击	Unplayable
+CARD.DECAY	silent	50	B	42	数值-攻击	Unplayable
+CARD.DECAY	defect	50	B	42	数值-攻击	Unplayable
+CARD.DECAY	regent	50	B	42	数值-攻击	Unplayable
+CARD.DECAY	necrobinder	50	B	42	数值-攻击	Unplayable
+CARD.DOUBT	ironclad	6	D	40	数值-其他	Unplayable
+CARD.DOUBT	silent	6	D	40	数值-其他	Unplayable
+CARD.DOUBT	defect	6	D	40	数值-其他	Unplayable
+CARD.DOUBT	regent	6	D	40	数值-其他	Unplayable
+CARD.DOUBT	necrobinder	6	D	40	数值-其他	Unplayable
+CARD.ENTHRALLED	ironclad	34	C	40	数值-其他	Eternal
+CARD.ENTHRALLED	silent	34	C	40	数值-其他	Eternal
+CARD.ENTHRALLED	defect	34	C	40	数值-其他	Eternal
+CARD.ENTHRALLED	regent	34	C	40	数值-其他	Eternal
+CARD.ENTHRALLED	necrobinder	34	C	40	数值-其他	Eternal
+CARD.FOLLY	ironclad	39	C	40	数值-其他	Unplayable,Eternal,Innate,Ethereal
+CARD.FOLLY	silent	39	C	40	数值-其他	Unplayable,Eternal,Innate,Ethereal
+CARD.FOLLY	defect	39	C	40	数值-其他	Unplayable,Eternal,Innate,Ethereal
+CARD.FOLLY	regent	39	C	40	数值-其他	Unplayable,Eternal,Innate,Ethereal
+CARD.FOLLY	necrobinder	39	C	40	数值-其他	Unplayable,Eternal,Innate,Ethereal
+CARD.GREED	ironclad	39	C	40	数值-其他	Eternal,Unplayable
+CARD.GREED	silent	39	C	40	数值-其他	Eternal,Unplayable
+CARD.GREED	defect	39	C	40	数值-其他	Eternal,Unplayable
+CARD.GREED	regent	39	C	40	数值-其他	Eternal,Unplayable
+CARD.GREED	necrobinder	39	C	40	数值-其他	Eternal,Unplayable
+CARD.GUILTY	ironclad	39	C	40	数值-其他	Unplayable
+CARD.GUILTY	silent	39	C	40	数值-其他	Unplayable
+CARD.GUILTY	defect	39	C	40	数值-其他	Unplayable
+CARD.GUILTY	regent	39	C	40	数值-其他	Unplayable
+CARD.GUILTY	necrobinder	39	C	40	数值-其他	Unplayable
+CARD.INJURY	ironclad	39	C	40	数值-其他	Unplayable
+CARD.INJURY	silent	39	C	40	数值-其他	Unplayable
+CARD.INJURY	defect	39	C	40	数值-其他	Unplayable
+CARD.INJURY	regent	39	C	40	数值-其他	Unplayable
+CARD.INJURY	necrobinder	39	C	40	数值-其他	Unplayable
+CARD.NORMALITY	ironclad	39	C	40	数值-其他	Unplayable
+CARD.NORMALITY	silent	39	C	40	数值-其他	Unplayable
+CARD.NORMALITY	defect	39	C	40	数值-其他	Unplayable
+CARD.NORMALITY	regent	39	C	40	数值-其他	Unplayable
+CARD.NORMALITY	necrobinder	39	C	40	数值-其他	Unplayable
+CARD.POOR_SLEEP	ironclad	39	C	40	数值-其他	Unplayable,Retain
+CARD.POOR_SLEEP	silent	39	C	40	数值-其他	Unplayable,Retain
+CARD.POOR_SLEEP	defect	39	C	40	数值-其他	Unplayable,Retain
+CARD.POOR_SLEEP	regent	39	C	40	数值-其他	Unplayable,Retain
+CARD.POOR_SLEEP	necrobinder	39	C	40	数值-其他	Unplayable,Retain
+CARD.REGRET	ironclad	8	D	40	数值-其他	Unplayable
+CARD.REGRET	silent	8	D	40	数值-其他	Unplayable
+CARD.REGRET	defect	8	D	40	数值-其他	Unplayable
+CARD.REGRET	regent	8	D	40	数值-其他	Unplayable
+CARD.REGRET	necrobinder	8	D	40	数值-其他	Unplayable
+CARD.SHAME	ironclad	6	D	40	数值-其他	Unplayable
+CARD.SHAME	silent	6	D	40	数值-其他	Unplayable
+CARD.SHAME	defect	6	D	40	数值-其他	Unplayable
+CARD.SHAME	regent	6	D	40	数值-其他	Unplayable
+CARD.SHAME	necrobinder	6	D	40	数值-其他	Unplayable
+CARD.SPORE_MIND	ironclad	39	C	40	数值-其他	Exhaust
+CARD.SPORE_MIND	silent	39	C	40	数值-其他	Exhaust
+CARD.SPORE_MIND	defect	39	C	40	数值-其他	Exhaust
+CARD.SPORE_MIND	regent	39	C	40	数值-其他	Exhaust
+CARD.SPORE_MIND	necrobinder	39	C	40	数值-其他	Exhaust
+CARD.WRITHE	ironclad	39	C	40	数值-其他	Innate,Unplayable
+CARD.WRITHE	silent	39	C	40	数值-其他	Innate,Unplayable
+CARD.WRITHE	defect	39	C	40	数值-其他	Innate,Unplayable
+CARD.WRITHE	regent	39	C	40	数值-其他	Innate,Unplayable
+CARD.WRITHE	necrobinder	39	C	40	数值-其他	Innate,Unplayable
+CARD.DEPRECATED_CARD	ironclad	60	B	71	数值-抽牌	Exhaust
+CARD.DEPRECATED_CARD	silent	60	B	71	数值-抽牌	Exhaust
+CARD.DEPRECATED_CARD	defect	60	B	71	数值-抽牌	Exhaust
+CARD.DEPRECATED_CARD	regent	60	B	71	数值-抽牌	Exhaust
+CARD.DEPRECATED_CARD	necrobinder	60	B	71	数值-抽牌	Exhaust
+CARD.ABUNDANCE	ironclad	49	C	100	T0-零费	Exhaust
+CARD.ABUNDANCE	silent	49	C	100	T0-零费	Exhaust
+CARD.ABUNDANCE	defect	49	C	100	T0-零费	Exhaust
+CARD.ABUNDANCE	regent	49	C	100	T0-零费	Exhaust
+CARD.ABUNDANCE	necrobinder	49	C	100	T0-零费	Exhaust
+CARD.APOTHEOSIS	ironclad	39	C	88	T1-降费	Exhaust,Innate
+CARD.APOTHEOSIS	silent	39	C	88	T1-降费	Exhaust,Innate
+CARD.APOTHEOSIS	defect	39	C	88	T1-降费	Exhaust,Innate
+CARD.APOTHEOSIS	regent	39	C	88	T1-降费	Exhaust,Innate
+CARD.APOTHEOSIS	necrobinder	39	C	88	T1-降费	Exhaust,Innate
+CARD.APPARITION	ironclad	45	C	40	数值-其他	Ethereal,Exhaust
+CARD.APPARITION	silent	45	C	40	数值-其他	Ethereal,Exhaust
+CARD.APPARITION	defect	45	C	40	数值-其他	Ethereal,Exhaust
+CARD.APPARITION	regent	45	C	40	数值-其他	Ethereal,Exhaust
+CARD.APPARITION	necrobinder	45	C	40	数值-其他	Ethereal,Exhaust
+CARD.BRIGHTEST_FLAME	ironclad	65	B	40	数值-其他	
+CARD.BRIGHTEST_FLAME	silent	65	B	40	数值-其他	
+CARD.BRIGHTEST_FLAME	defect	65	B	40	数值-其他	
+CARD.BRIGHTEST_FLAME	regent	65	B	40	数值-其他	
+CARD.BRIGHTEST_FLAME	necrobinder	65	B	40	数值-其他	
+CARD.BYRD_SWOOP	ironclad	55	B	46	数值-攻击	
+CARD.BYRD_SWOOP	silent	55	B	46	数值-攻击	
+CARD.BYRD_SWOOP	defect	55	B	46	数值-攻击	
+CARD.BYRD_SWOOP	regent	55	B	46	数值-攻击	
+CARD.BYRD_SWOOP	necrobinder	55	B	46	数值-攻击	
+CARD.CALTROPS	ironclad	54	B	40	数值-其他	
+CARD.CALTROPS	silent	54	B	40	数值-其他	
+CARD.CALTROPS	defect	54	B	40	数值-其他	
+CARD.CALTROPS	regent	54	B	40	数值-其他	
+CARD.CALTROPS	necrobinder	54	B	40	数值-其他	
+CARD.CLASH	ironclad	55	B	46	数值-攻击	
+CARD.CLASH	silent	55	B	46	数值-攻击	
+CARD.CLASH	defect	55	B	46	数值-攻击	
+CARD.CLASH	regent	55	B	46	数值-攻击	
+CARD.CLASH	necrobinder	55	B	46	数值-攻击	
+CARD.DISTRACTION	ironclad	45	C	100	T0-零费	Exhaust
+CARD.DISTRACTION	silent	45	C	100	T0-零费	Exhaust
+CARD.DISTRACTION	defect	45	C	100	T0-零费	Exhaust
+CARD.DISTRACTION	regent	45	C	100	T0-零费	Exhaust
+CARD.DISTRACTION	necrobinder	45	C	100	T0-零费	Exhaust
+CARD.DUAL_WIELD	ironclad	55	B	85	T1-翻倍	
+CARD.DUAL_WIELD	silent	55	B	85	T1-翻倍	
+CARD.DUAL_WIELD	defect	55	B	85	T1-翻倍	
+CARD.DUAL_WIELD	regent	55	B	85	T1-翻倍	
+CARD.DUAL_WIELD	necrobinder	55	B	85	T1-翻倍	
+CARD.ENLIGHTENMENT	ironclad	55	B	40	数值-其他	Exhaust
+CARD.ENLIGHTENMENT	silent	55	B	40	数值-其他	Exhaust
+CARD.ENLIGHTENMENT	defect	55	B	40	数值-其他	Exhaust
+CARD.ENLIGHTENMENT	regent	55	B	40	数值-其他	Exhaust
+CARD.ENLIGHTENMENT	necrobinder	55	B	40	数值-其他	Exhaust
+CARD.ENTRENCH	ironclad	50	B	88	T1-降费	
+CARD.ENTRENCH	silent	50	B	88	T1-降费	
+CARD.ENTRENCH	defect	50	B	88	T1-降费	
+CARD.ENTRENCH	regent	50	B	88	T1-降费	
+CARD.ENTRENCH	necrobinder	50	B	88	T1-降费	
+CARD.EXTERMINATE	ironclad	40	C	43	数值-攻击	
+CARD.EXTERMINATE	silent	40	C	43	数值-攻击	
+CARD.EXTERMINATE	defect	40	C	43	数值-攻击	
+CARD.EXTERMINATE	regent	40	C	43	数值-攻击	
+CARD.EXTERMINATE	necrobinder	40	C	43	数值-攻击	
+CARD.FEEDING_FRENZY	ironclad	46	C	40	数值-其他	
+CARD.FEEDING_FRENZY	silent	46	C	40	数值-其他	
+CARD.FEEDING_FRENZY	defect	46	C	40	数值-其他	
+CARD.FEEDING_FRENZY	regent	46	C	40	数值-其他	
+CARD.FEEDING_FRENZY	necrobinder	46	C	40	数值-其他	
+CARD.HELLO_WORLD	ironclad	45	C	40	数值-其他	
+CARD.HELLO_WORLD	silent	45	C	40	数值-其他	
+CARD.HELLO_WORLD	defect	45	C	40	数值-其他	
+CARD.HELLO_WORLD	regent	45	C	40	数值-其他	
+CARD.HELLO_WORLD	necrobinder	45	C	40	数值-其他	
+CARD.MAD_SCIENCE	ironclad	95	S	42	数值-攻击	
+CARD.MAD_SCIENCE	silent	95	S	42	数值-攻击	
+CARD.MAD_SCIENCE	defect	95	S	42	数值-攻击	
+CARD.MAD_SCIENCE	regent	95	S	42	数值-攻击	
+CARD.MAD_SCIENCE	necrobinder	95	S	42	数值-攻击	
+CARD.MAUL	ironclad	64	B	43	数值-攻击	
+CARD.MAUL	silent	64	B	43	数值-攻击	
+CARD.MAUL	defect	64	B	43	数值-攻击	
+CARD.MAUL	regent	64	B	43	数值-攻击	
+CARD.MAUL	necrobinder	64	B	43	数值-攻击	
+CARD.METAMORPHOSIS	ironclad	55	B	40	数值-其他	Exhaust
+CARD.METAMORPHOSIS	silent	55	B	40	数值-其他	Exhaust
+CARD.METAMORPHOSIS	defect	55	B	40	数值-其他	Exhaust
+CARD.METAMORPHOSIS	regent	55	B	40	数值-其他	Exhaust
+CARD.METAMORPHOSIS	necrobinder	55	B	40	数值-其他	Exhaust
+CARD.NEOWS_FURY	ironclad	69	A	46	数值-攻击	Exhaust
+CARD.NEOWS_FURY	silent	69	A	46	数值-攻击	Exhaust
+CARD.NEOWS_FURY	defect	69	A	46	数值-攻击	Exhaust
+CARD.NEOWS_FURY	regent	69	A	46	数值-攻击	Exhaust
+CARD.NEOWS_FURY	necrobinder	69	A	46	数值-攻击	Exhaust
+CARD.OUTMANEUVER	ironclad	54	B	40	数值-其他	
+CARD.OUTMANEUVER	silent	54	B	40	数值-其他	
+CARD.OUTMANEUVER	defect	54	B	40	数值-其他	
+CARD.OUTMANEUVER	regent	54	B	40	数值-其他	
+CARD.OUTMANEUVER	necrobinder	54	B	40	数值-其他	
+CARD.PECK	ironclad	32	D	42	数值-攻击	
+CARD.PECK	silent	32	D	42	数值-攻击	
+CARD.PECK	defect	32	D	42	数值-攻击	
+CARD.PECK	regent	32	D	42	数值-攻击	
+CARD.PECK	necrobinder	32	D	42	数值-攻击	
+CARD.REBOUND	ironclad	77	A	45	数值-攻击	
+CARD.REBOUND	silent	77	A	45	数值-攻击	
+CARD.REBOUND	defect	77	A	45	数值-攻击	
+CARD.REBOUND	regent	77	A	45	数值-攻击	
+CARD.REBOUND	necrobinder	77	A	45	数值-攻击	
+CARD.RELAX	ironclad	75	A	54	数值-防御	Exhaust
+CARD.RELAX	silent	75	A	54	数值-防御	Exhaust
+CARD.RELAX	defect	75	A	54	数值-防御	Exhaust
+CARD.RELAX	regent	75	A	54	数值-防御	Exhaust
+CARD.RELAX	necrobinder	75	A	54	数值-防御	Exhaust
+CARD.RIP_AND_TEAR	ironclad	72	A	44	数值-攻击	
+CARD.RIP_AND_TEAR	silent	72	A	44	数值-攻击	
+CARD.RIP_AND_TEAR	defect	72	A	44	数值-攻击	
+CARD.RIP_AND_TEAR	regent	72	A	44	数值-攻击	
+CARD.RIP_AND_TEAR	necrobinder	72	A	44	数值-攻击	
+CARD.SQUASH	ironclad	68	A	44	数值-攻击	
+CARD.SQUASH	silent	68	A	44	数值-攻击	
+CARD.SQUASH	defect	68	A	44	数值-攻击	
+CARD.SQUASH	regent	68	A	44	数值-攻击	
+CARD.SQUASH	necrobinder	68	A	44	数值-攻击	
+CARD.STACK	ironclad	65	B	40	数值-其他	
+CARD.STACK	silent	65	B	40	数值-其他	
+CARD.STACK	defect	65	B	40	数值-其他	
+CARD.STACK	regent	65	B	40	数值-其他	
+CARD.STACK	necrobinder	65	B	40	数值-其他	
+CARD.TORIC_TOUGHNESS	ironclad	40	C	54	数值-防御	
+CARD.TORIC_TOUGHNESS	silent	40	C	54	数值-防御	
+CARD.TORIC_TOUGHNESS	defect	40	C	54	数值-防御	
+CARD.TORIC_TOUGHNESS	regent	40	C	54	数值-防御	
+CARD.TORIC_TOUGHNESS	necrobinder	40	C	54	数值-防御	
+CARD.WISH	ironclad	62	B	40	数值-其他	Exhaust
+CARD.WISH	silent	62	B	40	数值-其他	Exhaust
+CARD.WISH	defect	62	B	40	数值-其他	Exhaust
+CARD.WISH	regent	62	B	40	数值-其他	Exhaust
+CARD.WISH	necrobinder	62	B	40	数值-其他	Exhaust
+CARD.WHISTLE	ironclad	72	A	50	数值-攻击	Exhaust
+CARD.WHISTLE	silent	72	A	50	数值-攻击	Exhaust
+CARD.WHISTLE	defect	72	A	50	数值-攻击	Exhaust
+CARD.WHISTLE	regent	72	A	50	数值-攻击	Exhaust
+CARD.WHISTLE	necrobinder	72	A	50	数值-攻击	Exhaust
+CARD.BYRDONIS_EGG	ironclad	45	C	40	数值-其他	Unplayable
+CARD.BYRDONIS_EGG	silent	45	C	40	数值-其他	Unplayable
+CARD.BYRDONIS_EGG	defect	45	C	40	数值-其他	Unplayable
+CARD.BYRDONIS_EGG	regent	45	C	40	数值-其他	Unplayable
+CARD.BYRDONIS_EGG	necrobinder	45	C	40	数值-其他	Unplayable
+CARD.DOWSING	ironclad	45	C	40	数值-其他	Unplayable
+CARD.DOWSING	silent	45	C	40	数值-其他	Unplayable
+CARD.DOWSING	defect	45	C	40	数值-其他	Unplayable
+CARD.DOWSING	regent	45	C	40	数值-其他	Unplayable
+CARD.DOWSING	necrobinder	45	C	40	数值-其他	Unplayable
+CARD.LANTERN_KEY	ironclad	45	C	40	数值-其他	Unplayable
+CARD.LANTERN_KEY	silent	45	C	40	数值-其他	Unplayable
+CARD.LANTERN_KEY	defect	45	C	40	数值-其他	Unplayable
+CARD.LANTERN_KEY	regent	45	C	40	数值-其他	Unplayable
+CARD.LANTERN_KEY	necrobinder	45	C	40	数值-其他	Unplayable
+CARD.SPOILS_MAP	ironclad	45	C	40	数值-其他	Unplayable
+CARD.SPOILS_MAP	silent	45	C	40	数值-其他	Unplayable
+CARD.SPOILS_MAP	defect	45	C	40	数值-其他	Unplayable
+CARD.SPOILS_MAP	regent	45	C	40	数值-其他	Unplayable
+CARD.SPOILS_MAP	necrobinder	45	C	40	数值-其他	Unplayable
+CARD.BECKON	ironclad	39	C	40	数值-其他	
+CARD.BECKON	silent	39	C	40	数值-其他	
+CARD.BECKON	defect	39	C	40	数值-其他	
+CARD.BECKON	regent	39	C	40	数值-其他	
+CARD.BECKON	necrobinder	39	C	40	数值-其他	
+CARD.BURN	ironclad	50	B	42	数值-攻击	Unplayable
+CARD.BURN	silent	50	B	42	数值-攻击	Unplayable
+CARD.BURN	defect	50	B	42	数值-攻击	Unplayable
+CARD.BURN	regent	50	B	42	数值-攻击	Unplayable
+CARD.BURN	necrobinder	50	B	42	数值-攻击	Unplayable
+CARD.DAZED	ironclad	39	C	40	数值-其他	Ethereal,Unplayable
+CARD.DAZED	silent	39	C	40	数值-其他	Ethereal,Unplayable
+CARD.DAZED	defect	39	C	40	数值-其他	Ethereal,Unplayable
+CARD.DAZED	regent	39	C	40	数值-其他	Ethereal,Unplayable
+CARD.DAZED	necrobinder	39	C	40	数值-其他	Ethereal,Unplayable
+CARD.DEBRIS	ironclad	39	C	40	数值-其他	Exhaust
+CARD.DEBRIS	silent	39	C	40	数值-其他	Exhaust
+CARD.DEBRIS	defect	39	C	40	数值-其他	Exhaust
+CARD.DEBRIS	regent	39	C	40	数值-其他	Exhaust
+CARD.DEBRIS	necrobinder	39	C	40	数值-其他	Exhaust
+CARD.FRANTIC_ESCAPE	ironclad	39	C	40	数值-其他	
+CARD.FRANTIC_ESCAPE	silent	39	C	40	数值-其他	
+CARD.FRANTIC_ESCAPE	defect	39	C	40	数值-其他	
+CARD.FRANTIC_ESCAPE	regent	39	C	40	数值-其他	
+CARD.FRANTIC_ESCAPE	necrobinder	39	C	40	数值-其他	
+CARD.INFECTION	ironclad	50	B	42	数值-攻击	Unplayable
+CARD.INFECTION	silent	50	B	42	数值-攻击	Unplayable
+CARD.INFECTION	defect	50	B	42	数值-攻击	Unplayable
+CARD.INFECTION	regent	50	B	42	数值-攻击	Unplayable
+CARD.INFECTION	necrobinder	50	B	42	数值-攻击	Unplayable
+CARD.WITHER	ironclad	50	B	42	数值-攻击	Unplayable
+CARD.WITHER	silent	50	B	42	数值-攻击	Unplayable
+CARD.WITHER	defect	50	B	42	数值-攻击	Unplayable
+CARD.WITHER	regent	50	B	42	数值-攻击	Unplayable
+CARD.WITHER	necrobinder	50	B	42	数值-攻击	Unplayable
+CARD.SLIMED	ironclad	5	D	71	数值-抽牌	Exhaust
+CARD.SLIMED	silent	5	D	71	数值-抽牌	Exhaust
+CARD.SLIMED	defect	5	D	71	数值-抽牌	Exhaust
+CARD.SLIMED	regent	5	D	71	数值-抽牌	Exhaust
+CARD.SLIMED	necrobinder	5	D	71	数值-抽牌	Exhaust
+CARD.SOOT	ironclad	39	C	40	数值-其他	Unplayable
+CARD.SOOT	silent	39	C	40	数值-其他	Unplayable
+CARD.SOOT	defect	39	C	40	数值-其他	Unplayable
+CARD.SOOT	regent	39	C	40	数值-其他	Unplayable
+CARD.SOOT	necrobinder	39	C	40	数值-其他	Unplayable
+CARD.TOXIC	ironclad	38	C	42	数值-攻击	Exhaust
+CARD.TOXIC	silent	38	C	42	数值-攻击	Exhaust
+CARD.TOXIC	defect	38	C	42	数值-攻击	Exhaust
+CARD.TOXIC	regent	38	C	42	数值-攻击	Exhaust
+CARD.TOXIC	necrobinder	38	C	42	数值-攻击	Exhaust
+CARD.VOID	ironclad	69	A	40	数值-其他	Unplayable,Ethereal
+CARD.VOID	silent	69	A	40	数值-其他	Unplayable,Ethereal
+CARD.VOID	defect	69	A	40	数值-其他	Unplayable,Ethereal
+CARD.VOID	regent	69	A	40	数值-其他	Unplayable,Ethereal
+CARD.VOID	necrobinder	69	A	40	数值-其他	Unplayable,Ethereal
+CARD.WOUND	ironclad	39	C	40	数值-其他	Unplayable
+CARD.WOUND	silent	39	C	40	数值-其他	Unplayable
+CARD.WOUND	defect	39	C	40	数值-其他	Unplayable
+CARD.WOUND	regent	39	C	40	数值-其他	Unplayable
+CARD.WOUND	necrobinder	39	C	40	数值-其他	Unplayable
+CARD.DISINTEGRATION	ironclad	39	C	40	数值-其他	
+CARD.DISINTEGRATION	silent	39	C	40	数值-其他	
+CARD.DISINTEGRATION	defect	39	C	40	数值-其他	
+CARD.DISINTEGRATION	regent	39	C	40	数值-其他	
+CARD.DISINTEGRATION	necrobinder	39	C	40	数值-其他	
+CARD.FUEL	ironclad	51	B	85	T1-翻倍	Exhaust
+CARD.FUEL	silent	51	B	85	T1-翻倍	Exhaust
+CARD.FUEL	defect	51	B	85	T1-翻倍	Exhaust
+CARD.FUEL	regent	51	B	85	T1-翻倍	Exhaust
+CARD.FUEL	necrobinder	51	B	85	T1-翻倍	Exhaust
+CARD.GIANT_ROCK	ironclad	68	A	46	数值-攻击	
+CARD.GIANT_ROCK	silent	68	A	46	数值-攻击	
+CARD.GIANT_ROCK	defect	68	A	46	数值-攻击	
+CARD.GIANT_ROCK	regent	68	A	46	数值-攻击	
+CARD.GIANT_ROCK	necrobinder	68	A	46	数值-攻击	
+CARD.LUMINESCE	ironclad	51	B	40	数值-其他	Exhaust,Retain
+CARD.LUMINESCE	silent	51	B	40	数值-其他	Exhaust,Retain
+CARD.LUMINESCE	defect	51	B	40	数值-其他	Exhaust,Retain
+CARD.LUMINESCE	regent	51	B	40	数值-其他	Exhaust,Retain
+CARD.LUMINESCE	necrobinder	51	B	40	数值-其他	Exhaust,Retain
+CARD.MIND_ROT	ironclad	51	B	40	数值-其他	
+CARD.MIND_ROT	silent	51	B	40	数值-其他	
+CARD.MIND_ROT	defect	51	B	40	数值-其他	
+CARD.MIND_ROT	regent	51	B	40	数值-其他	
+CARD.MIND_ROT	necrobinder	51	B	40	数值-其他	
+CARD.MINION_DIVE_BOMB	ironclad	53	B	45	数值-攻击	Exhaust
+CARD.MINION_DIVE_BOMB	silent	53	B	45	数值-攻击	Exhaust
+CARD.MINION_DIVE_BOMB	defect	53	B	45	数值-攻击	Exhaust
+CARD.MINION_DIVE_BOMB	regent	53	B	45	数值-攻击	Exhaust
+CARD.MINION_DIVE_BOMB	necrobinder	53	B	45	数值-攻击	Exhaust
+CARD.MINION_SACRIFICE	ironclad	65	B	55	数值-防御	Exhaust
+CARD.MINION_SACRIFICE	silent	65	B	55	数值-防御	Exhaust
+CARD.MINION_SACRIFICE	defect	65	B	55	数值-防御	Exhaust
+CARD.MINION_SACRIFICE	regent	65	B	55	数值-防御	Exhaust
+CARD.MINION_SACRIFICE	necrobinder	65	B	55	数值-防御	Exhaust
+CARD.MINION_STRIKE	ironclad	65	B	45	数值-攻击	Exhaust
+CARD.MINION_STRIKE	silent	65	B	45	数值-攻击	Exhaust
+CARD.MINION_STRIKE	defect	65	B	45	数值-攻击	Exhaust
+CARD.MINION_STRIKE	regent	65	B	45	数值-攻击	Exhaust
+CARD.MINION_STRIKE	necrobinder	65	B	45	数值-攻击	Exhaust
+CARD.SHIV	ironclad	57	B	44	数值-攻击	Exhaust
+CARD.SHIV	silent	57	B	44	数值-攻击	Exhaust
+CARD.SHIV	defect	57	B	44	数值-攻击	Exhaust
+CARD.SHIV	regent	57	B	44	数值-攻击	Exhaust
+CARD.SHIV	necrobinder	57	B	44	数值-攻击	Exhaust
+CARD.SLOTH	ironclad	39	C	40	数值-其他	
+CARD.SLOTH	silent	39	C	40	数值-其他	
+CARD.SLOTH	defect	39	C	40	数值-其他	
+CARD.SLOTH	regent	39	C	40	数值-其他	
+CARD.SLOTH	necrobinder	39	C	40	数值-其他	
+CARD.SOUL	ironclad	54	B	40	数值-其他	Exhaust
+CARD.SOUL	silent	54	B	40	数值-其他	Exhaust
+CARD.SOUL	defect	54	B	40	数值-其他	Exhaust
+CARD.SOUL	regent	54	B	40	数值-其他	Exhaust
+CARD.SOUL	necrobinder	54	B	40	数值-其他	Exhaust
+CARD.SOVEREIGN_BLADE	ironclad	51	B	88	T1-降费	Retain
+CARD.SOVEREIGN_BLADE	silent	51	B	88	T1-降费	Retain
+CARD.SOVEREIGN_BLADE	defect	51	B	88	T1-降费	Retain
+CARD.SOVEREIGN_BLADE	regent	51	B	88	T1-降费	Retain
+CARD.SOVEREIGN_BLADE	necrobinder	51	B	88	T1-降费	Retain
+CARD.SWEEPING_GAZE	ironclad	42	C	40	数值-其他	Ethereal,Exhaust
+CARD.SWEEPING_GAZE	silent	42	C	40	数值-其他	Ethereal,Exhaust
+CARD.SWEEPING_GAZE	defect	42	C	40	数值-其他	Ethereal,Exhaust
+CARD.SWEEPING_GAZE	regent	42	C	40	数值-其他	Ethereal,Exhaust
+CARD.SWEEPING_GAZE	necrobinder	42	C	40	数值-其他	Ethereal,Exhaust
+CARD.WASTE_AWAY	ironclad	49	C	40	数值-其他	
+CARD.WASTE_AWAY	silent	49	C	40	数值-其他	
+CARD.WASTE_AWAY	defect	49	C	40	数值-其他	
+CARD.WASTE_AWAY	regent	49	C	40	数值-其他	
+CARD.WASTE_AWAY	necrobinder	49	C	40	数值-其他	

@@ -1,0 +1,12 @@
+﻿{
+  "id": "AgentSuite",
+  "name": "StS2 Agent Suite",
+  "version": "1.0.0",
+  "author": "local",
+  "description": "Agent 接管套件：开局/出牌/选牌/奖励/商店/地图/事件 + 知识库导出。三合一。",
+  "has_pck": false,
+  "has_dll": true,
+  "affects_gameplay": false,
+  "min_game_version": "0.111.0",
+  "dependencies": []
+}
