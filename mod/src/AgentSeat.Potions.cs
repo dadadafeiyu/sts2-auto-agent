@@ -175,8 +175,7 @@ public static partial class AgentSeatEntry
                 bool usable = PotionUsable(slots[i].Potion, out why);
                 sb.Append("{\"i\":").Append(slots[i].Index)
                   .Append(",\"name\":\"").Append(J(slots[i].Title)).Append('"');
-                if (!string.IsNullOrEmpty(slots[i].Desc))
-                    sb.Append(",\"desc\":\"").Append(J(slots[i].Desc)).Append('"');
+
                 if (!usable) sb.Append(",\"usable\":false");
                 sb.Append('}');
             }

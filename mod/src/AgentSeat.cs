@@ -539,13 +539,6 @@ public static partial class AgentSeatEntry
                     if (string.IsNullOrEmpty(nm) || amt == 0) continue;
                     if (n > 0) sb.Append(',');
                     sb.Append("{\"n\":\"").Append(J(nm)).Append("\",\"a\":").Append(amt);
-                    string desc = Loc2(Prop(pw, "DynamicDescription"));
-                    if (string.IsNullOrEmpty(desc)) desc = Loc2(Prop(pw, "Description"));
-                    if (!string.IsNullOrEmpty(desc))
-                    {
-                        if (desc.Length > 40) desc = desc.Substring(0, 40);
-                        sb.Append(",\"d\":\"").Append(J(desc)).Append('"');
-                    }
                     sb.Append('}');
                     n++;
                     if (n >= 12) break;
@@ -3443,7 +3436,8 @@ public static partial class AgentSeatEntry
             int dm, hi, bl; bool ex;
             CardNumbers(c, player, state, out dm, out hi, out bl, out ex);
 
-            // 短描述：知识库那份带数字（如"造成6点伤害"），优先用它；读不到才用游戏 Description（占位符会把数字洗掉）
+            // 短描述：知识库那份带数字；占位符 {Shivs:diff()} 用 vars 的真实数值填回去，
+            // 再把没有出现在描述里的 vars 追加到末尾（这样就不必单独发 vars 了）
             string descText = "";
             CardInfo cinfoD = FindCardInfo(S(Prop(c, "Title")), CharId());
             if (cinfoD != null) descText = cinfoD.Desc;
@@ -3458,13 +3452,36 @@ public static partial class AgentSeatEntry
             }
             if (!string.IsNullOrEmpty(descText))
             {
+                Dictionary<string, int> vs = VarsDict(c);
+                StringBuilder used = new StringBuilder();
+                // ① 占位符 → 真实数值
+                descText = Regex.Replace(descText, "\\{(\\w+):[^{}]*\\}", delegate(Match mm)
+                {
+                    string nm = mm.Groups[1].Value;
+                    int val;
+                    if (vs != null && vs.TryGetValue(nm, out val)) { used.Append(nm).Append(','); return val.ToString(); }
+                    return "";
+                });
+                // ② 描述里没出现过的 vars，追加到末尾
+                if (vs != null)
+                {
+                    StringBuilder extra = new StringBuilder();
+                    foreach (KeyValuePair<string, int> kv in vs)
+                    {
+                        if (used.ToString().IndexOf(kv.Key + ",", StringComparison.Ordinal) >= 0) continue;
+                        if (kv.Key == "Damage" || kv.Key == "Block") continue;
+                        if (descText.IndexOf(kv.Value.ToString(), StringComparison.Ordinal) >= 0) continue;
+                        if (extra.Length > 0) extra.Append(',');
+                        extra.Append(kv.Key).Append('=').Append(kv.Value);
+                    }
+                    if (extra.Length > 0) descText = descText + "（另有 " + extra + "）";
+                }
                 descText = Regex.Replace(descText, "\\{[^{}]*\\}", "");
                 descText = Regex.Replace(descText, "\\s+", " ").Trim();
-                if (descText.Length > 80) descText = descText.Substring(0, 80);
+                if (descText.Length > 90) descText = descText.Substring(0, 90);
                 sb.Append(",\"desc\":\"").Append(J(descText)).Append('"');
             }
             if (dm > 0) sb.Append(",\"dmg\":").Append(dm).Append(",\"hits\":").Append(hi);
-            sb.Append(VarsJson(c));
             try
             {
                 object up = Prop(c, "IsUpgraded");
@@ -4110,6 +4127,28 @@ public static partial class AgentSeatEntry
     // 玩家身上某个能力的层数（按中文名或 Id 关键字匹配）
     // 回合结束的毒伤：毒每次触发掉「当前层数」并 -1；触媒每层多触发一次
     //   触发次数 n = 1 + 触媒；总伤 = n*p - n(n-1)/2，且触发次数不超过毒层数
+    // 取一张牌的全部动态变量（Name → IntValue）
+    static Dictionary<string, int> VarsDict(object card)
+    {
+        Dictionary<string, int> d = new Dictionary<string, int>();
+        try
+        {
+            object dv = Prop(card, "DynamicVars");
+            if (dv == null) return d;
+            System.Collections.IEnumerable vals = Prop(dv, "Values") as System.Collections.IEnumerable;
+            if (vals == null) return d;
+            foreach (object v in vals)
+            {
+                if (v == null) continue;
+                string nm = Convert.ToString(Prop(v, "Name"));
+                if (string.IsNullOrEmpty(nm)) continue;
+                d[nm] = I(v, "IntValue");
+            }
+        }
+        catch { }
+        return d;
+    }
+
     static int PoisonEndTurnDamage(int poison, int catalyst)
     {
         if (poison <= 0) return 0;

@@ -281,13 +281,10 @@ async function handleDecide(raw) {
     1
   );
 
+
   const text = String(r?.message?.content || '');
   const finish = r?.raw?.choices?.[0]?.finish_reason || r?.message?.finish_reason || '';
   const reasoningTokens = r?.usage?.completion_tokens_details?.reasoning_tokens ?? 0;
-
-  stats.lastMs = Date.now() - t0;
-  stats.lastFinish = finish;
-  stats.lastReasoning = reasoningTokens;
 
   let answer;
   try {
@@ -310,6 +307,7 @@ async function handleDecide(raw) {
     finish + ' reasoning=' + reasoningTokens);
   return { id: req.id || 0, ...answer, ms: stats.lastMs };
 }
+
 
 function parseAnswer(text, kind, req) {
   const m = text.match(/\{[\s\S]*\}/);
@@ -646,7 +644,15 @@ function summarizeChoice(kind, req, answer) {
 
 
 // ── 面板数据（同源，供 /plugin-panel/<id>/@data/ 读取）──────────
-const PANEL_DATA_DIR = path.join(AGENT_DATA, 'plugin-data');
+// 面板数据必须放在宿主认的位置：<app>/data/plugin-data/sts2-decider
+// （插件目录 = <app>/resources/app/plugins/sts2-decider，往上 4 级就是 <app>）
+const PLUGIN_DIR = path.dirname(fileURLToPath(import.meta.url));
+let PANEL_DATA_DIR = process.env.STS2_PANEL_DIR || path.resolve(PLUGIN_DIR, '../../../../data/plugin-data', 'sts2-decider');
+try {
+  fs.mkdirSync(PANEL_DATA_DIR, { recursive: true });
+} catch {
+  PANEL_DATA_DIR = path.join(AGENT_DATA, 'plugin-data');
+}
 
 function dumpPanelData() {
   try {
